@@ -54,30 +54,44 @@ a:active {
     margin-left: 0.5em;
 }
 
-.social-networks {
+main {
     margin: 2em 0;
 }
 
-.social-networks ul {
-    margin: 4px;
+.links-group__title {
+    display: inline-block;
+    padding-right: .25em;
+}
+
+.links-group__title:after {
+    content: "\003A";
+}
+
+ul.links-group__list {
+    display: inline-block;
+    margin: 4px 4px 0 0;
     padding: 0;
 }
 
-.social-networks ul li {
+ul.links-group__list li {
     list-style: none;
     display: inline;
 }
 
-.social-networks ul li:after {
+ul.links-group__list li:after {
     content: "\00A0\00A0\2022\00A0\00A0";
 }
 
-.social-networks ul li:last-child:after {
+ul.links-group__list li:last-child:after {
     content: none;
 }
 
 footer .badges {
     margin: .5em 0;
+}
+
+footer .badges img {
+    border: 0;
 }
 
 footer .text {
