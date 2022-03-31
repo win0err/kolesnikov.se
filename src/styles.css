@@ -15,13 +15,6 @@ body {
     height: 100%;
 }
 
-.content {
-    padding: 2em 1em;
-    margin: auto;
-    width: 460px;
-    box-sizing: border-box;
-}
-
 a {
     color: white;
     text-decoration-color: rgba(255, 255, 255, .65);
@@ -33,6 +26,15 @@ a:hover {
 
 a:active {
     color: rgba(255, 255, 255, .85);
+}
+
+/* index */
+
+.content {
+    padding: 2em 1em;
+    margin: auto;
+    width: 460px;
+    box-sizing: border-box;
 }
 
 .header__avatar {
@@ -97,4 +99,53 @@ footer .badges img {
 footer .text {
     font-size: .75em;
     opacity: .75;
+}
+
+/* 404 */
+:root {
+    --avatar-size: 100px;
+    --move-x-animation-duration: 7s;
+    --move-y-animation-duration: 4s;
+}
+
+.flying-avatar {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+
+    border-radius: 100%;
+    box-sizing: border-box;
+
+    will-change: left, top;
+    position: absolute;
+
+    animation:
+        move-x var(--move-x-animation-duration) linear 0s infinite alternate,
+        move-y var(--move-y-animation-duration) linear 0s infinite alternate;
+}
+
+
+@keyframes move-x {
+    from { left: 0; } to { left: calc(100% - var(--avatar-size)); }
+}
+
+@keyframes move-y {
+    from { top: 0; } to { top: calc(100% - var(--avatar-size)); }
+}
+
+.not-found {
+    margin: auto;
+    padding-bottom: 4rem;
+
+    text-align: center;
+}
+
+.not-found__title {
+    font-size: 16rem;
+    line-height: 1;
+
+    margin: 0;
+}
+
+.not-found__subtitle {
+    font-size: 1.85rem;
 }

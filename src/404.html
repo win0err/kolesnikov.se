@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=460" />
+        <title>Sergei Kolesnikov's Web Corner</title>
+        <meta name="robots" content="noindex, follow" />
+        <link rel="preload" href="./styles.css" as="style" />
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    </head>
+
+    <body>
+        <img class="flying-avatar" src="./assets/avatar.jpg" alt="Sergei Kolesnikov's avatar" />
+        <div class="container">
+            <div class="not-found">
+                <h1 class="not-found__title">404</h1>
+                <span class="not-found__subtitle">
+                    <span id="easter-egg-target">Page not found.</span>
+                    <a href="/">Go back home?</a>
+                </span>
+            </div>
+        </div>
+
+        <script>
+            window.addEventListener('DOMContentLoaded', () => {
+                const targetElement = document.getElementById('easter-egg-target')
+                const originalText = document.getElementById('easter-egg-target').innerText
+
+                document.querySelector('.flying-avatar').onclick = () => {
+                    targetElement.innerText = 'You got me!'
+
+                    setTimeout(() => {
+                        targetElement.innerText = originalText
+                    }, 3000)
+                }
+            })
+        </script>
+    </body>
+</html>
