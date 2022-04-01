@@ -70,7 +70,7 @@ main {
 }
 
 ul.links-group__list {
-    display: inline-block;
+    display: inline-flex;
     margin: 4px 4px 0 0;
     padding: 0;
 }
@@ -114,6 +114,8 @@ footer .text {
 
     border-radius: 100%;
     box-sizing: border-box;
+
+    cursor: pointer;
 
     will-change: left, top;
     position: absolute;
