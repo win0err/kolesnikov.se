@@ -9,6 +9,8 @@ body {
     font-family: "Times";
     font-size: 16px;
     margin: 0;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
 }
 
 .container {
@@ -98,12 +100,11 @@ footer .badges img {
 }
 
 footer .text {
-    font-size: 12px;
-    opacity: .75;
+    font-size: 13px;
+    opacity: .85;
 }
 
-footer .mono {
-    font-size: 10px;
+.mono {
     font-family: "Courier New", monospace;
 }
 
@@ -148,12 +149,12 @@ footer .mono {
 }
 
 .not-found__title {
-    font-size: 16rem;
+    font-size: 14rem;
     line-height: 1;
 
     margin: 0;
 }
 
 .not-found__subtitle {
-    font-size: 1.85rem;
+    font-size: 1.55rem;
 }
