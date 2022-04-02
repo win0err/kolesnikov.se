@@ -146,6 +146,7 @@ footer .text {
     padding-bottom: 4rem;
 
     text-align: center;
+    user-select: none;
 }
 
 .not-found__title {

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=420" />
+        <meta name="viewport" content="width=840" />
         <title>Sergei Kolesnikov's Web Corner</title>
         <meta name="robots" content="noindex, follow" />
         <link rel="preload" href="/styles.css" as="style" />
@@ -32,7 +32,10 @@
                 let counter = 0
                 let delayedReset
 
-                const handler = () => {
+                const catchHandler = (e) => {
+                    e.preventDefault()
+                    e.stopPropagation()
+
                     counter++
                     targetElement.innerText = counter > 1
                         ? `You caught me ${counter} times!`
@@ -45,8 +48,8 @@
                     }, 2500)
                 }
 
-                avatar.onmousedown = handler
-                avatar.ontouchstart = handler
+                avatar.addEventListener('touchstart', catchHandler, false)
+                avatar.addEventListener('mousedown', catchHandler, false)
             })
         </script>
     </body>
