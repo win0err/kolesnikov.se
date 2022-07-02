@@ -1,0 +1,44 @@
+:root {
+    --link-color: #0007cc;
+    --link-visited-color: #7d0eb4;
+    --link-hover-color: #cc0000;
+
+    --border-color: #7a7a7a;
+    --code-color: inherit;
+
+    --text-color: #000;
+    --background: #fff;
+}
+
+._theme--sky {
+    --background: url('/assets/backgrounds/sky.png');
+}
+
+._theme--black {
+    --link-color: #fff;
+    --link-visited-color: #b3b3b3;
+
+    --background: #000;
+    --text-color: #fff;
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:visited {
+    color: var(--link-visited-color);
+}
+
+a:hover,
+a:visited:hover {
+    color: var(--link-hover-color);
+}
+
+a._dashed {
+    text-decoration-style: dashed;
+}
+
+._no-visited {
+    --link-visited-color: var(--link-color);
+}

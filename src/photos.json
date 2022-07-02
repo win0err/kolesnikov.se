@@ -1,0 +1,158 @@
+[
+    {
+        "images": [
+            {
+                "path": "vologda.jpg",
+                "alt": ""
+            },
+            {
+                "path": "kalyazin.jpg",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "path": "kodar-stars-1.jpg",
+                "alt": ""
+            },
+            {
+                "path": "kodar-stars-2.jpg",
+                "alt": ""
+            },
+            {
+                "path": "kodar-stars-3.jpg",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "path": "botanical-garden.jpg",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "path": "pine-tree-baikal.jpg",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "path": "aurora.jpg",
+                "alt": ""
+            },
+            {
+                "path": "nemetsky-reflections.jpg",
+                "alt": ""
+            },
+            {
+                "path": "titovka-trees.jpg",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "path": "spb-umbrella.jpg",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "path": "moscow-fog-1.jpg",
+                "alt": ""
+            },
+            {
+                "path": "moscow-fog-2.jpg",
+                "alt": ""
+            },
+            {
+                "path": "moscow-fog-3.jpg",
+                "alt": ""
+            },
+            {
+                "path": "moscow-fog-4.jpg",
+                "alt": ""
+            },
+            {
+                "path": "moscow-fog-5.jpg",
+                "alt": ""
+            },
+            {
+                "path": "moscow-fog-6.jpg",
+                "alt": ""
+            },
+            {
+                "path": "moscow-fog-7.jpg",
+                "alt": ""
+            },
+            {
+                "path": "moscow-fog-8.jpg",
+                "alt": ""
+            },
+            {
+                "path": "moscow-fog-9.jpg",
+                "alt": ""
+            },
+            {
+                "path": "moscow-fog-10.jpg",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "path": "watermelons.jpg",
+                "alt": ""
+            },
+            {
+                "path": "tree-and-white-wall.jpg",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "path": "sretensky-monastery.jpg",
+                "alt": ""
+            },
+            {
+                "path": "fish-1.jpg",
+                "alt": ""
+            },
+            {
+                "path": "fish-2.jpg",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "path": "plane-in-red.jpg",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "images": [
+            {
+                "path": "snowy-botanical-garden.jpg",
+                "alt": ""
+            }
+        ]
+    }
+]

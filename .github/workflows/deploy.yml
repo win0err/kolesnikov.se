@@ -6,6 +6,7 @@ on:
 
 jobs:
   deploy:
+    if: false  # temporary disable
     runs-on: ubuntu-latest
 
     steps:

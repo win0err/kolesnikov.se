@@ -1,0 +1,16 @@
+.guestbook-form {
+    clear: both;
+}
+
+.guestbook-form__table {
+    width: auto;
+}
+
+.guestbook-form__table tr {
+    border: none;
+}
+
+.guestbook-form__table td {
+    padding: 0 1rem .25rem 0;
+    vertical-align: top;
+}

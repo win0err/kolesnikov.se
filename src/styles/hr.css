@@ -1,0 +1,43 @@
+hr.styled {
+    border: none;
+}
+
+hr.styled--flowers {
+    background: url('/assets/rules/flowers.gif');
+    height: 25px;
+}
+
+hr.styled--bow {
+    background: url('/assets/rules/bow.gif');
+    height: 18px;
+}
+
+hr.styled--island {
+    background: url('/assets/rules/island.gif');
+    height: 32px;
+}
+
+hr.styled--offroad {
+    background: url('/assets/rules/offroad.gif');
+    height: 32px;
+}
+
+hr.styled--tap {
+    background: url('/assets/rules/tap.gif');
+    height: 23px;
+}
+
+hr.styled--forest {
+    background: url('/assets/rules/forest.gif');
+    height: 29px;
+}
+
+hr.styled--melting {
+    background: url('/assets/rules/melting.gif');
+    height: 9px;
+}
+
+hr.styled--warp-speed {
+    background: url('/assets/rules/warp_speed.gif');
+    height: 18px;
+}
