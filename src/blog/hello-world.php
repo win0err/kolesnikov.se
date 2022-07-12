@@ -13,7 +13,7 @@
                 <article class="blog-article">
                     <h1 class="blog-article__title">Hello World!</h1>
 
-                    <time class="blog-article__time" datetime="2022-07-12">Tue, 12 July 2022</time>
+                    <time class="blog-article__time" datetime="2022-07-12T03:09:00+03:00">Tue, 12 July 2022</time>
 
                     <p>
                         Let's be honest: this is not my first attempt at writing a blog.
