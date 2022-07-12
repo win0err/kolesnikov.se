@@ -40,7 +40,7 @@
                             For old GPG versions: <br />
                             <code>$ gpg --auto-key-locate clear,nodefault,wkd --locate-key sergei@kolesnikov.se</code>
                         </li>
-                    </li>
+                    </ul>
                 </details>
 
                 <?php
