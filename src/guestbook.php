@@ -58,6 +58,34 @@
                 <ol reversed>
                     <li>
                         <div>
+                            <strong><a href="https://mckinley.cc" target="_blank" rel="noindex nofollow ugc">McKinley</a></strong>
+                            wrote on <small><time datetime="2022-07-12T20:38:27+0000">12 July 2022, 20:38</time></small>
+                        </div>
+                        <div>
+                            <p>
+                                Found your site from twtxt, I like the (new) design. Looks kind of familiar, though... ;)
+                            </p>
+
+                            <p>
+                                When will we get the obligatory blog post about how the blog works?
+                                I would be interested to read it. Also, would you consider adding an RSS feed?
+                            </p>
+
+                            <div class="guestbook-reply">
+                                <strong>Sergei Kolesnikov</strong> replied:
+
+                                <p>I will definitely write an article on how this site works (spoiler: makefile) soon!</p>
+
+                                <p>
+                                    I plan to add an RSS when the Photography and Blog sections of the site will be finished.
+                                    I think there will be two or three RSS feeds available: blog, photos, and (maybe) news from the home page.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
                             <strong><a href="http://altavista.digital.com" target="_blank" rel="noindex nofollow ugc">Nirfse</a></strong>
                             wrote on <small><time datetime="2022-07-12T11:32:52+0000">12 July 2022, 11:32</time></small>
                         </div>
