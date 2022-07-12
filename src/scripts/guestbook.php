@@ -27,8 +27,6 @@ $form = array_map(
     $form,
 );
 
-fwrite(fopen('php://stderr', 'w'), var_export($form, true));
-
 if (!$form['captcha']) {
     http_response_code(400);
 
