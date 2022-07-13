@@ -58,6 +58,16 @@
                 <ol reversed>
                     <li>
                         <div>
+                            <strong><a href="https://twtxt.net/~screem" target="_blank" rel="noindex nofollow ugc">Screem</a></strong>
+                            wrote on <small><time datetime="2022-07-13T06:07:58+0000">13 July 2022, 06:07</time></small>
+                        </div>
+                        <div>
+                            <p>Loving the aesthetic of your site! Haven&#39;t seen a guestbook for a very long time either, a very familiar and welcome edition :D</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
                             <strong><a href="https://mckinley.cc" target="_blank" rel="noindex nofollow ugc">McKinley</a></strong>
                             wrote on <small><time datetime="2022-07-12T20:38:27+0000">12 July 2022, 20:38</time></small>
                         </div>
