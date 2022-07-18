@@ -59,18 +59,22 @@ dist/win0err.asc:
 
 dist/photography/full/%.jpg: photography/%.*
 	@mkdir -p "$(@D)"
-	convert -resize '1920x1920>' -quality 97 "$<" "$@"
+	convert -resize '1920x1920>' -quality 100 "$<" "$@"
+	jpegoptim --strip-all -m76 "$@"
 
 dist/photography/thumbs/%.jpg: photography/%.*
 	@mkdir -p "$(@D)"
-	convert -thumbnail '800x800>' -quality 97 "$<" "$@"
-	convert -thumbnail '1600x1600>' -quality 97 "$<" "$(patsubst %.jpg,%@2x.jpg, $@)"
+	convert -thumbnail '800x800>' -quality 100 "$<" "$@"
+	convert -thumbnail '1600x1600>' -quality 100 "$<" $(patsubst %.jpg,%@2x.jpg, $@)
+	jpegoptim --strip-all -m76 "$@" $(patsubst %.jpg,%@2x.jpg, $@)
 
 dist/assets/about.jpg: assets/about.jpg
-	convert -thumbnail '800x800>' -quality 97 "$<" "$@"
+	convert -thumbnail '800x800>' -quality 100 "$<" "$@"
+	jpegoptim --strip-all -m76 "$@"
 
 dist/assets/about@2x.jpg: assets/about.jpg
-	convert -thumbnail '1600x1600>' -quality 97 "$<" "$@"
+	convert -thumbnail '1600x1600>' -quality 100 "$<" "$@"
+	jpegoptim --strip-all -m76 "$@"
 
 dist/assets/%: assets/%
 	@mkdir -p $(dir $@)
