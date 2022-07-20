@@ -78,6 +78,18 @@
                     There are no advertisements on this site. This site is always under construction.
                 </p>
 
+                <p>
+                    This website is presented in different color schemes.
+                    <noscript>You need to have JavaScript enebled to use this feature.</noscript>
+
+                    <span class="theme-switchers" style="display: none;">
+                        Choose the color scheme that you like:
+                        <a href="#" data-theme="black" class="_dotted">Black</a> (default),
+                        <a href="#" data-theme="sky" class="_dotted">Sky</a>, or
+                        <a href="#" data-theme="space" class="_dotted">Space</a>.
+                    </span>
+                </p>
+
                 <h2>Webrings I've joined</h2>
 
                 <p>

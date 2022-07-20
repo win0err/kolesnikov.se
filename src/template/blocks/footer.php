@@ -31,6 +31,36 @@
 </footer>
 
 <script>
+    const applyCurrentTheme = () => {
+        const availableThemes = ['black', 'sky', 'space']
+        const theme = localStorage.getItem('theme')
+
+        if (theme && availableThemes.includes(theme)) {
+            document.body.classList.remove(...availableThemes.map(name => `_theme--${name}`))
+            document.body.classList.add(`_theme--${theme}`)
+        }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        const themeSwitcherElement = document.querySelector('.theme-switchers')
+        if (themeSwitcherElement) {
+            themeSwitcherElement.style.display = 'inline-block'
+
+            themeSwitcherElement.querySelectorAll('a').forEach((el) => {
+                el.addEventListener('click', (e) => {
+                    localStorage.setItem('theme', e.target.dataset.theme)
+                    applyCurrentTheme()
+
+                    e.preventDefault()
+                    return false
+                })
+            })
+        }
+
+        applyCurrentTheme()
+    });
+
+
     window.addEventListener('DOMContentLoaded', () => {
         const newGifSrc = '/assets/buttons/kate.gif'
         const targetChance = 98

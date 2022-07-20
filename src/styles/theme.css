@@ -22,6 +22,14 @@
     --text-color: #fff;
 }
 
+._theme--space {
+    --link-color: #fff;
+    --link-visited-color: #b3b3b3;
+
+    --background: url('/assets/backgrounds/space.jpg');
+    --text-color: #fff;
+}
+
 a {
     color: var(--link-color);
 }
@@ -35,8 +43,16 @@ a:visited:hover {
     color: var(--link-hover-color);
 }
 
-a._dashed {
+._dashed {
     text-decoration-style: dashed;
+}
+
+._dotted {
+    text-decoration-style: dotted;
+}
+
+._none {
+    text-decoration-style: none;
 }
 
 ._no-visited {
