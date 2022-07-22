@@ -106,11 +106,12 @@
                         <a href="https://hotlinewebring.club/" target="_blank" rel="nofollow">Hotline</a>
                         <a href="https://hotlinewebring.club/kolesnikov-se/next" target="_blank" rel="nofollow">→</a>
                     </li>
-                    <!-- <li>
-                        <a href="#">←</a>
+                    <li>
+                        <a href="https://geekring.net/site/197/previous" target="_blank" rel="nofollow">←</a>
                         <a href="https://geekring.net/" target="_blank" rel="nofollow">geekring</a>
-                        <a href="#">→</a>
-                    </li> -->
+                        <small>(<a href="https://geekring.net/site/197/random" title="Visit random website" target="_blank" rel="nofollow">?</a>)</small>
+                        <a href="https://geekring.net/site/197/next" target="_blank" rel="nofollow">→</a>
+                    </li>
                     <li>
                         <a href="https://webring.dinhe.net/prev/https://kolesnikov.se" target="_blank" rel="nofollow">←</a>
                         <a href="http://webring.dinhe.net" target="_blank" rel="nofollow">retronaut</a>
