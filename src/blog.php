@@ -32,7 +32,8 @@
 					    - How to start use PGP encryption
 					    - Building static site generator with make util
                     -->
-					<li><time datetime="2022-07-12">12/07</time> <a href="/blog/hello-world.html">Hello World!</a></li>
+					<li><time datetime="2022-09-23">23/09</time> <a href="/blog/there-is-life-here.html">There Is Life Here!</a></li>
+                    <li><time datetime="2022-07-12">12/07</time> <a href="/blog/hello-world.html">Hello World!</a></li>
 				</ul>
             </main>
 
