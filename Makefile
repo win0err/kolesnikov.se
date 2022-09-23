@@ -125,7 +125,7 @@ server:
 
 
 publish: all
-	rsync -avz --chown deploy:www-data dist/ deploy@kolesnikov.se:/var/www/kolesnikov.se/html
+	rsync -avz --exclude={scripts/game_of_life_state.json,scripts/pending_guestbook_messages.txt}  --chown deploy:www-data dist/ deploy@kolesnikov.se:/var/www/kolesnikov.se/html
 
 publish-photos: photography
 	rsync -avz --chown www-data dist/photography/ deploy@kolesnikov.se:/var/www/kolesnikov.se/html/photography
