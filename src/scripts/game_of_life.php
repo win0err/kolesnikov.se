@@ -12,21 +12,19 @@ function generate_next_generation(array $state, int $generation): array {
     // may be faster, but it's fast enough for my blog
     for ($y = 0; $y < HEIGHT; $y++) {
         for ($x = 0; $x < WIDTH; $x++) {
-            $n = @$state[($x-1) . ':' . ($y-1)]
-                + @$state[($x-1) . ':' . $y]
-                + @$state[($x-1) . ':' . ($y+1)]
-                + @$state[$x . ':' . ($y-1)]
-                + @$state[$x . ':' . ($y+1)]
-                + @$state[($x+1) . ':' . ($y-1)]
-                + @$state[($x+1) . ':' . $y]
-                + @$state[($x+1) . ':' . ($y+1)];
+            $alive_neighbours = @$state[$x-1][$y-1]
+                + @$state[$x-1][$y]
+                + @$state[$x-1][$y+1]
+                + @$state[$x][$y-1]
+                + @$state[$x][$y+1]
+                + @$state[$x+1][$y-1]
+                + @$state[$x+1][$y]
+                + @$state[$x+1][$y+1];
 
+            $is_cell_alive = $state[$x][$y];
 
-            $is_cell_alive = array_key_exists($x . ':' . $y, $state);
-
-            if ($n === 3 || ($n === 2 && $is_cell_alive)) {
-                $next_state[$x . ':' . $y] = 1;
-            }
+            $cell_next_state = $alive_neighbours === 3 || ($alive_neighbours === 2 && $is_cell_alive);
+            $next_state[$x][$y] = (int) $cell_next_state;
         }
     }
 
@@ -45,18 +43,22 @@ function create_image_from_state(array $state, int $generation): \GdImage {
     $dead_color = imagecolorallocate($gd, 0, 0, 0);
     // imagecolortransparent($gd, $dead_color);
 
-    $alive_count = count($state);
+    $alive_count = 0;
     $total_count = WIDTH*HEIGHT;
-    $text = "gen: $generation; alive: $alive_count/$total_count";
-    imagestring($gd, 1, $text_offset_x, $text_offset_y, $text, $text_color);
 
     imagefill($gd, 0, 0, $dead_color);
 
-    foreach (array_keys($state) as $k) {
-        [$x, $y] = explode(':', $k);
-
-        imagesetpixel($gd, $x, $y, $alive_color);
+    for ($y = 0; $y < HEIGHT; $y++) {
+        for ($x = 0; $x < WIDTH; $x++) {
+            if ($state[$x][$y]) {
+                imagesetpixel($gd, $x, $y, $alive_color);
+                $alive_count += 1;
+            }
+        }
     }
+
+    $text = "gen: $generation; alive: $alive_count/$total_count";
+    imagestring($gd, 1, $text_offset_x, $text_offset_y, $text, $text_color);
 
     return $gd;
 }
@@ -67,6 +69,7 @@ $generation = 1;
 $state = [];
 
 $fp = fopen(STATE_FILE_PATH, 'c+');
+chmod(STATE_FILE_PATH, 0664);
 
 if (flock($fp, LOCK_EX)) {
     $contents = false;
@@ -83,15 +86,13 @@ if (flock($fp, LOCK_EX)) {
     } else {
         for ($y = 0; $y < HEIGHT; $y++) {
             for ($x = 0; $x < WIDTH; $x++) {
-                if (rand(0, 1)) {
-                    $state[$x . ':' . $y] = 1;
-                }
+                $state[$x][$y] = rand(0, 1);
             }
         }
     }
 
     if (isset($_GET['x']) && isset($_GET['y'])) {
-        $state[$_GET['x'] . ':' . $_GET['y']] = 1;
+        $state[$_GET['x']][$_GET['y']] = 1;
     }
 
     $next = generate_next_generation($state, $generation);
