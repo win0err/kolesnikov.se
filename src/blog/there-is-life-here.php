@@ -3,6 +3,19 @@
     <head>
         <?php include __DIR__ . '/../template/blocks/meta.php'; ?>
         <title>There Is Life Here! — Sergei Kolesnikov's Blog</title>
+        <style type="text/css">
+            #game_of_life {
+                user-select: none;
+                -webkit-user-select: none;
+
+                image-rendering: pixelated;
+
+                cursor: pointer;
+
+                width: 800px;
+                height: 620px;
+            }
+        </style>
     </head>
 
     <body id="top" class="_theme--black">
@@ -20,9 +33,8 @@
                         Click on the image or refresh the page to see the next generation.
                     </p>
 
-                    <p style="user-select: none;">
+                    <p>
                         <img id="game_of_life" src="/scripts/game_of_life.php"
-                            style="image-rendering: pixelated; cursor: pointer; width: 800px; height: 620px;"
                             alt="Conway's game of life"
                             title="Click on the image or refresh the page to see the next generation" />
                     </p>
@@ -34,15 +46,15 @@
                         img.onclick = (e) => {
                             const urlParams = new URLSearchParams({
                                 t: new Date().getTime(),
-                                x: Math.floor(event.offsetX / 2),
-                                y: Math.floor(event.offsetY / 2),
+                                // to make a cell alive, you need to send the coordinates:
+                                // x: Math.floor(event.offsetX / 2),
+                                // y: Math.floor(event.offsetY / 2),
                             })
 
                             e.target.src = `${imgSrc}?${urlParams}`
                         }
                     </script>
                 </article>
-
 
                 <hr />
 
