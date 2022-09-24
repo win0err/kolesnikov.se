@@ -22,6 +22,7 @@
                 <h2>News</h2>
 
                 <ul>
+                    <li>There's <a href="/blog/there-is-life-here.html">life on my blog</a> now</li>
                     <li>
                         Hello, world! I finished with a new version of the site. It took about 3 months for me. <br />
                         If you find typos or grammatical inaccuracies on my website, please <a href="/contacts.html">contact me</a>.
