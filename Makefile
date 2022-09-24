@@ -1,5 +1,8 @@
 SHELL=/bin/bash -o pipefail
 
+convert_flags = -quality 100
+jpegoptim_flags = --all-progressive --strip-all -m86
+
 dist_dirs = dist/photography/full/ dist/photography/thumbs/ \
 			dist/scripts/ dist/assets/ \
 			dist/.well-known/openpgpkey/hu/
@@ -59,22 +62,22 @@ dist/win0err.asc:
 
 dist/photography/full/%.jpg: photography/%.*
 	@mkdir -p "$(@D)"
-	convert -resize '1920x1920>' -quality 100 "$<" "$@"
-	jpegoptim --all-progressive --strip-all -m76 "$@"
+	convert -resize '1920x1920>' $(convert_flags) "$<" "$@"
+	jpegoptim $(jpegoptim_flags) "$@"
 
 dist/photography/thumbs/%.jpg: photography/%.*
 	@mkdir -p "$(@D)"
-	convert -thumbnail '800x800>' -quality 100 "$<" "$@"
-	convert -thumbnail '1600x1600>' -quality 100 "$<" $(patsubst %.jpg,%@2x.jpg, $@)
-	jpegoptim --all-progressive --strip-all -m76 "$@" $(patsubst %.jpg,%@2x.jpg, $@)
+	convert -thumbnail '800x800>' $(convert_flags) "$<" "$@"
+	convert -thumbnail '1600x1600>' $(convert_flags) "$<" $(patsubst %.jpg,%@2x.jpg, $@)
+	jpegoptim $(jpegoptim_flags) "$@" $(patsubst %.jpg,%@2x.jpg, $@)
 
 dist/assets/about.jpg: assets/about.jpg
-	convert -thumbnail '800x800>' -quality 100 "$<" "$@"
-	jpegoptim --all-progressive --strip-all -m76 "$@"
+	convert -thumbnail '800x800>' $(convert_flags) "$<" "$@"
+	jpegoptim $(jpegoptim_flags) "$@"
 
 dist/assets/about@2x.jpg: assets/about.jpg
-	convert -thumbnail '1600x1600>' -quality 100 "$<" "$@"
-	jpegoptim --all-progressive --strip-all -m76 "$@"
+	convert -thumbnail '1600x1600>' $(convert_flags) "$<" "$@"
+	jpegoptim $(jpegoptim_flags) "$@"
 
 dist/assets/%: assets/%
 	@mkdir -p $(dir $@)
