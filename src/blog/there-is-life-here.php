@@ -52,7 +52,7 @@
                 </p>
                 <p>
                     Your e-mail address <strong>won't be shared</strong>.
-                    If you don't want your real name to be  published, sign the e-mail with the name you would like to use.
+                    If you don't want your real name to be published, sign the e-mail with the name you would like to use.
                     If you would like your name to link to a specific URL, please share that as well.
                 </p>
 
@@ -60,9 +60,14 @@
 
                 <p><small>Formatting options: <strong>bold</strong>, <i>italics</i> and plain text lists are allowed.</small></p>
 
-                <h2>Comments</h2>
+                <h2>Comments <small>(1)</small></h2>
 
-                <p>No comments yet. Be the first!</p>
+                <ol>
+                    <li>
+                        <strong>Shinyanskiy, Roman</strong>
+                        <p>Great work!</p>
+                    </li>
+                </ol>
 
                 <div style="text-align: center; margin: 2rem 0;">
                     <a href="/blog.html"><img src="/assets/backanim.gif" alt="Go back" width="50" /></a>
