@@ -69,7 +69,6 @@ $generation = 1;
 $state = [];
 
 $fp = fopen(STATE_FILE_PATH, 'c+');
-chmod(STATE_FILE_PATH, 0664);
 
 if (flock($fp, LOCK_EX)) {
     $contents = false;
