@@ -58,6 +58,16 @@
                 <ol reversed>
                     <li>
                         <div>
+                            <strong><a href="https://zachmanson.com" target="_blank" rel="noindex nofollow ugc">Zach</a></strong>
+                            wrote on <small><time datetime="2022-10-11T02:32:34+0000">11 October 2022, 02:32</time></small>
+                        </div>
+                        <div>
+                            <p>I thought the game of life post was a really interesting collaborative process!</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
                             <strong><a href="https://lolcat.ca" target="_blank" rel="noindex nofollow ugc">will</a></strong>
                             wrote on <small><time datetime="2022-08-18T02:03:28+0000">18 August 2022, 02:03</time></small>
                         </div>
