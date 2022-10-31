@@ -34,7 +34,7 @@
 
                 <h3>Software Development</h3>
 
-                <p>I'm currently working as a frontend developer at CloudBlue Connect, but I'm a former backend developer.</p>
+                <p>I'm a software engineer at <a href="https://any-cut.pro/en" target="_blank" rel="noopener noreferrer nofollow">AnyCut</a>.</p>
 
                 <h3>Academy</h3>
 
