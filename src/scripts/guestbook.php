@@ -39,8 +39,22 @@ if (!$form['name'] || !$form['message']) {
     exit('400 Bad Request. Please fill in all required fields');
 }
 
-$now = gmdate('Y-m-d H:i:s e', time());
+$time = time();
+$now = gmdate('Y-m-d H:i:s e', $time);
+$time_rfc3339 = gmdate('c', $time);
+$time_formatted = gmdate('j F Y, H:i', $time);
+
 $website = $form['website'] ?: '-';
+
+$nickname = $form['website']
+    ? "<a href=\"{$website}\" target=\"_blank\" rel=\"noindex nofollow ugc\">{$form['name']}</a>"
+    : $form['name'];
+
+$message_html = str_replace(
+    ['&#13;&#10;&#13;&#10;', '&#13;&#10;'],
+    ['</p><p>', '<br />'],
+    $form['message']
+);
 
 $message_info = <<<INFO
 Time: {$now}
@@ -49,10 +63,21 @@ Website: {$website}
 Message:
 {$form['message']}
 
+HTML Snippet:
+<li>
+    <div>
+        <strong>{$nickname}</strong>
+        wrote on <small><time datetime="{$time_rfc3339}">{$time_formatted}</time></small>
+    </div>
+    <div>
+        <!-- Don't forget to format code below -->
+        <p>{$message_html}</p>
+    </div>
+</li>
 INFO;
 
 $file = fopen('pending_guestbook_messages.txt', 'a+');
-fwrite($file, $message_info . PHP_EOL);
+fwrite($file, $message_info . "\n\n---\n\n");
 fclose($file);
 
 mail(
@@ -63,4 +88,4 @@ mail(
 );
 
 http_response_code(201);
-echo 'Thank you! Your message is pending approval. You may close this window and return back exploring my webpage :-)';
+echo "Thank you! Your message is pending approval.\nYou may close this window and return back exploring my website :-)";
