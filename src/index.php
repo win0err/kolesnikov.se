@@ -2,6 +2,18 @@
 <html lang="en">
     <head>
         <?php include 'template/blocks/meta.php'; ?>
+
+        <?php
+            $contacts = file_get_contents(__DIR__ . '/contacts.txt');
+            $matches = [];
+
+            preg_match_all('/\w+\:\/\/.+/m', $contacts, $matches, \PREG_SET_ORDER);
+
+            foreach ($matches as $m) {
+                echo '<link rel="me" href="' . $m[0] . '" />' . PHP_EOL;
+            }
+        ?>
+
         <title>Sergei Kolesnikov's home page</title>
     </head>
 

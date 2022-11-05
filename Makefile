@@ -96,6 +96,7 @@ dist/%.txt: src/%.txt
 src/photography.php: src/photos.json
 	touch "$@" -r "$<"
 
+dist/index.html: src/contacts.txt
 dist/contacts.html: dist/contacts.asc
 dist/%.html: src/%.php $(php_includes) dist/styles.css
 	@mkdir -p $(@D)
