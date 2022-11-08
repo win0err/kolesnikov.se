@@ -52,7 +52,7 @@ a:visited:hover {
 }
 
 ._none {
-    text-decoration-style: none;
+    text-decoration: none;
 }
 
 ._no-visited {
