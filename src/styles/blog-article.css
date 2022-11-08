@@ -5,3 +5,18 @@
 .blog-article__time {
     font-size: .8125rem;
 }
+
+.comment-form > div {
+    display: table-row;
+}
+
+.comment-form > div > * {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 1rem .25rem 0;
+}
+
+.back-button-holder {
+    text-align: center;
+    margin: 2rem 0;
+}

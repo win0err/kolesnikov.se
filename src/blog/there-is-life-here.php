@@ -58,30 +58,27 @@
 
                 <hr />
 
-                <h2>Leave a comment</h2>
-                <p>
-                    To make a comment, please send an email using the button below.
-                </p>
-                <p>
-                    Your e-mail address <strong>won't be shared</strong>.
-                    If you don't want your real name to be published, sign the e-mail with the name you would like to use.
-                    If you would like your name to link to a specific URL, please share that as well.
-                </p>
+                <div class="comment-section">
+                    <h2>Comments <small>(1)</small></h2>
 
-                <p><a target="_blank" href="mailto:sergei+comments@kolesnikov.se?subject=<?php echo rawurlencode('RE: There Is Life Here!'); ?>">Comment via email</a></p>
+                    <ol>
+                        <li>
+                            <div>
+                                <strong>Shinyanskiy, Roman</strong>
+                                wrote on <small><time datetime="2022-09-23T15:10:37+00:00">23 September 2022, 15:10</time></small>
+                            </div>
+                            <div>
+                                <p>Great work!</p>
+                            </div>
+                        </li>
+                    </ol>
 
-                <p><small>Formatting options: <strong>bold</strong>, <i>italics</i> and plain text lists are allowed.</small></p>
+                    <hr class="dashed" />
 
-                <h2>Comments <small>(1)</small></h2>
+                    <?php include __DIR__ . '/../template/blocks/comment-leave.php'; ?>
+                </div>
 
-                <ol>
-                    <li>
-                        <strong>Shinyanskiy, Roman</strong>
-                        <p>Great work!</p>
-                    </li>
-                </ol>
-
-                <div style="text-align: center; margin: 2rem 0;">
+                <div class="back-button-holder">
                     <a href="/blog.html"><img src="/assets/backanim.gif" alt="Go back" width="50" /></a>
                 </div>
             </main>

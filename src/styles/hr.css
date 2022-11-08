@@ -1,3 +1,7 @@
+hr.dashed {
+    border-style: dashed;
+}
+
 hr.styled {
     border: none;
 }

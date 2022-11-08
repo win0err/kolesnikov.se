@@ -1,18 +1,15 @@
-.guestbook-form {
+.guestbook-form-holder {
     clear: both;
 }
 
-.guestbook-form__table {
-    width: auto;
+.guestbook-form > div {
+    display: table-row;
 }
 
-.guestbook-form__table tr {
-    border: none;
-}
-
-.guestbook-form__table td {
-    padding: 0 1rem .25rem 0;
+.guestbook-form > div > * {
+    display: table-cell;
     vertical-align: top;
+    padding: 0 1rem .25rem 0;
 }
 
 .guestbook-reply {

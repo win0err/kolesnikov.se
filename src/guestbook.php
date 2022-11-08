@@ -18,38 +18,39 @@
                     Since you've visited my website, please sign the guestbook!
                 </p>
 
-                <div class="guestbook-form">
+                <div class="guestbook-form-holder">
                     <form action="/scripts/guestbook.php"
                         method="post"
                         target="_blank"
-                        accept-charset="utf-8">
-                        <table class="guestbook-form__table">
-                            <tbody>
-                                <tr>
-                                    <td>Your name:</td>
-                                    <td><input maxlength="50" name="name" size="30" type="text" required /></td>
-                                </tr>
-                                <tr>
-                                    <td>Your website (optional)</td>
-                                    <td><input maxlength="50" name="website" size="30" /></td>
-                                </tr>
-                                <tr>
-                                    <td>Your message:</td>
-                                    <td><textarea cols="30" maxlength="1000" name="message" rows="5" required></textarea></td>
-                                </tr>
-                                <tr>
-                                    <td>Spam protection:</td>
-                                    <td>
-                                        <input maxlength="11" name="captcha" size="30" type="text" required /><br />
-                                        <small>Type <b>abracadabra</b> in the field above ↑</small>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td><input type="submit" value="Submit" /></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        accept-charset="utf-8"
+                        class="comment-form">
+                        <div>
+                            <label for="name">Your name:</label>
+                            <input maxlength="50" id="name" name="name" size="30" type="text" required />
+                        </div>
+
+                        <div>
+                            <label for="website">Your website (optional):</label>
+                            <input maxlength="50" id="website" name="website" size="30" />
+                        </div>
+
+                        <div>
+                            <label for="message">Your message:</label>
+                            <textarea cols="30" maxlength="1000" id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <div>
+                            <label for="captcha">Spam protection:</label>
+                            <span>
+                                <input maxlength="11" id="captcha" name="captcha" size="30" type="text" required /><br />
+                                <small>Type <b>abracadabra</b> in the field above ↑</small>
+                            </span>
+                        </div>
+
+                        <div>
+                            <span></span>
+                            <input type="submit" value="Submit" />
+                        </div>
                     </form>
                 </div>
 
@@ -59,7 +60,7 @@
                     <li>
                         <div>
                             <strong><a href="https://zachmanson.com" target="_blank" rel="noindex nofollow ugc">Zach</a></strong>
-                            wrote on <small><time datetime="2022-10-11T02:32:34+0000">11 October 2022, 02:32</time></small>
+                            wrote on <small><time datetime="2022-10-11T02:32:34+00:00">11 October 2022, 02:32</time></small>
                         </div>
                         <div>
                             <p>I thought the game of life post was a really interesting collaborative process!</p>
@@ -69,7 +70,7 @@
                     <li>
                         <div>
                             <strong><a href="https://lolcat.ca" target="_blank" rel="noindex nofollow ugc">will</a></strong>
-                            wrote on <small><time datetime="2022-08-18T02:03:28+0000">18 August 2022, 02:03</time></small>
+                            wrote on <small><time datetime="2022-08-18T02:03:28+00:00">18 August 2022, 02:03</time></small>
                         </div>
                         <div>
                             <p>Really liking that &#34;alternative&#34; look for your site. love you xoxo</p>
@@ -79,7 +80,7 @@
                     <li>
                         <div>
                             <strong>Neri</strong>
-                            wrote on <small><time datetime="2022-07-22T09:03:57+0000">22 July 2022, 09:03</time></small>
+                            wrote on <small><time datetime="2022-07-22T09:03:57+00:00">22 July 2022, 09:03</time></small>
                         </div>
                         <div>
                             <p>I love your pics! :-)</p>
@@ -89,7 +90,7 @@
                     <li>
                         <div>
                             <strong>AlexK</strong>
-                            wrote on <small><time datetime="2022-07-13T08:49:51+0000">13 July 2022, 08:49</time></small>
+                            wrote on <small><time datetime="2022-07-13T08:49:51+00:00">13 July 2022, 08:49</time></small>
                         </div>
                         <div>
                             <p>Just 5.85KB transferred!</p>
@@ -101,7 +102,7 @@
                     <li>
                         <div>
                             <strong><a href="https://twtxt.net/~screem" target="_blank" rel="noindex nofollow ugc">Screem</a></strong>
-                            wrote on <small><time datetime="2022-07-13T06:07:58+0000">13 July 2022, 06:07</time></small>
+                            wrote on <small><time datetime="2022-07-13T06:07:58+00:00">13 July 2022, 06:07</time></small>
                         </div>
                         <div>
                             <p>Loving the aesthetic of your site! Haven&#39;t seen a guestbook for a very long time either, a very familiar and welcome edition :D</p>
@@ -111,7 +112,7 @@
                     <li>
                         <div>
                             <strong><a href="https://mckinley.cc" target="_blank" rel="noindex nofollow ugc">McKinley</a></strong>
-                            wrote on <small><time datetime="2022-07-12T20:38:27+0000">12 July 2022, 20:38</time></small>
+                            wrote on <small><time datetime="2022-07-12T20:38:27+00:00">12 July 2022, 20:38</time></small>
                         </div>
                         <div>
                             <p>
@@ -139,7 +140,7 @@
                     <li>
                         <div>
                             <strong><a href="http://altavista.digital.com" target="_blank" rel="noindex nofollow ugc">Nirfse</a></strong>
-                            wrote on <small><time datetime="2022-07-12T11:32:52+0000">12 July 2022, 11:32</time></small>
+                            wrote on <small><time datetime="2022-07-12T11:32:52+00:00">12 July 2022, 11:32</time></small>
                         </div>
                         <div>
                             <p>Hey, Sergei!</p>
