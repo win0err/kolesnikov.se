@@ -12,7 +12,7 @@
             <main>
                 <h1>Contacts</h1>
                 <p>
-                    <img style="float: left; margin: 0 1em 1em 0;" src="assets/email-clear.gif" alt="E-mail" />
+                    <img style="float: left; margin: 0 1em 1em 0;" src="/assets/email-clear.gif" alt="E-mail" />
                     Hello, web stranger! This is a list of my web contacts that I want to share. <br />
                     When you write to me, please use plaintext instead of HTML. I will usually replay in less than a week.
                 </p>

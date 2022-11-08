@@ -20,7 +20,7 @@
                 target="_blank"
                 referrerpolicy="unsafe-url"
                 rel="nofollow">HTML</a>
-            &
+            &amp;
             <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkolesnikov.se%2Fstyles.css"
                 target="_blank"
                 rel="nofollow">CSS</a>.

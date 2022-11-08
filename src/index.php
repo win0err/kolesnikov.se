@@ -49,7 +49,7 @@
                     <span>
                         <a href="https://t.me/win0err" rel="noopener noreferrer nofollow me">Telegram</a> +
                         <a href="https://t.me/kolesnikovlive" rel="noopener noreferrer nofollow">Kolesnikov Live Photography Channel</a><!--
-                        --><img height=14 src="assets/attention/flag.gif" alt="Important">
+                        --><img height=14 src="/assets/attention/flag.gif" alt="Important">
                     </span>
 
                     <a href="https://instagram.com/win0err" rel="noopener noreferrer nofollow me">Instagram</a>
@@ -63,7 +63,7 @@
                     <a href="https://matrix.to/#/@win0err:matrix.org" rel="noopener noreferrer nofollow">[matrix]</a><noscript>: @win0err:matrix.org</noscript>
                     <span>
                         <a href="/twtxt.txt">twtxt.txt file</a>
-                        <img height=14 src="assets/attention/new.gif" alt="New!">
+                        <img height=14 src="/assets/attention/new.gif" alt="New!">
                     </span>
                 </p>
 
