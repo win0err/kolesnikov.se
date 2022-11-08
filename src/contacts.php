@@ -46,7 +46,7 @@
                 <?php
 
                 $patterns = [
-                    '/[^\s]+@[^\s]+/m' => '<a href="mailto:$0" rel="noopener noreferrer nofollow">$0</a>',
+                    '/[^\s]+@[^\s]\.[^\s]+/m' => '<a href="mailto:$0" rel="noopener noreferrer nofollow">$0</a>',
                     '/\w+\:\/\/.+/m' => '<a href="$0" rel="noopener noreferrer nofollow me">$0</a>',
                 ];
 
