@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>https://kolesnikov.se/blog.atom</id>
+	<title>Sergei Kolesnikov's Blog</title>
+	<subtitle>I blog here on topics like engineering, photography, and travel.</subtitle>
+	<link rel="self" type="application/atom+xml" href="https://kolesnikov.se/blog.atom" />
+	<link rel="alternate" type="text/html" href="https://kolesnikov.se/blog.html" />
+	<icon>https://kolesnikov.se/assets/avatar.jpg</icon>
+	<author>
+		<name>Sergei Kolesnikov</name>
+		<uri>https://kolesnikov.se/</uri>
+	</author>
+
+	<updated>2022-09-23T17:42:00+03:00</updated>
+	<!-- id: UUID5(title), https://uuidonline.com/?version=5 -->
+	
+	<entry>
+		<id>urn:uuid:a69211d0-7711-5c53-bf4b-9b999ffa063e</id>
+		<title>There Is Life Here!</title>
+		<updated>2022-09-23T17:42:00+03:00</updated>
+		<published>2022-09-23T17:42:00+03:00</published>
+		<content type="html">
+			<![CDATA[
+				<p>
+					I've created my implementation of Conway's Game of Life. Well, there's life on my blog now :-) <br />
+					Click on the image or refresh the page to see the next generation.
+				</p>
+
+				<p>
+					<img id="game_of_life" src="https://kolesnikov.se/scripts/game_of_life.php"
+						alt="Conway's game of life"
+						title="Click on the image or refresh the page to see the next generation" />
+				</p>
+			]]>
+		</content>
+		<link rel="alternate" type="text/html" href="https://kolesnikov.se/blog/there-is-life-here.html" />
+	</entry>
+	
+	<entry>
+		<id>urn:uuid:617e159a-c982-57ae-ae47-6980852ebe31</id>
+		<title>Hello World!</title>
+		<updated>2022-07-12T03:09:00+03:00</updated>
+		<published>2022-07-12T03:09:00+03:00</published>
+		<content type="html">
+			<![CDATA[
+				<p>
+					Let's be honest: this is not my first attempt at writing a blog.
+					I like <a href="https://justinjackson.ca/words.html">words</a>.
+				</p>
+
+				<p>
+					I like to spend time reading blogs and exploring <i>personal</i> home pages.
+					Of course, I'm talking about sites with stories, helpful articles, or just interesting stuff.
+					Typical websites that promote a "personal brand"; sites full of trackers or ads; sites that don't
+					work without javascript for no reason – they all suck.
+				</p>
+
+				<p>
+					A site with homemade recipes? Interesting! A blog of a developer who creates compilers? Definitely interesting!
+					A site about bears? A website with a digitized collection of film photos from the 20th century that were found on eBay?
+					The blog of a man who decided to visit every country in the world? A collection of gifs that were popular in 2003?
+					Reviews of old hardware from the early 2000s, written by a guy from Sweden? I'd love to read it!
+					That's what the internet was created for.
+				</p>
+
+				<p>
+					I wish there were more websites on the Internet like above. I hope this will be one of them.
+					Wish me luck with this.
+				</p>
+			]]>
+		</content>
+		<link rel="alternate" type="text/html" href="https://kolesnikov.se/blog/hello-world.html" />
+	</entry>
+</feed>

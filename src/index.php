@@ -34,6 +34,7 @@
                 <h2>News</h2>
 
                 <ul>
+                    <li><a href="/blog.atom">RSS (Atom) Feed</a> of my <a href="/blog.html">blog</a> is now available and waiting for subscribers ;-)</li>
                     <li>Blog posts now have a comment form. Feel free to comment!</li>
                     <li>There's <a href="/blog/there-is-life-here.html">life on my blog</a> now</li>
                     <li>

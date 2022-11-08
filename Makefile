@@ -39,7 +39,7 @@ excluded_files = {scripts/game_of_life_state.json,scripts/pending_guestbook_mess
 creating_files = scripts/game_of_life_state.json scripts/pending_guestbook_messages.txt scripts/pending_comments.txt
 
 
-all: dist photography assets styles html php pgp wkd scripts
+all: dist photography assets styles html php pgp wkd scripts feeds
 
 dist: $(dist_dirs)
 photography: dist $(photos_thumbs) $(photos_full)
@@ -50,6 +50,7 @@ php: dist src/contacts.php $(php)
 pgp: dist dist/win0err.asc dist/contacts.asc dist/.well-known/security.txt
 wkd: dist dist/.well-known/openpgpkey/hu/$(zbase32_user) dist/.well-known/openpgpkey/policy
 scripts: dist $(scripts)
+feeds: dist dist/blog.atom
 
 $(dist_dirs):
 	mkdir -p "$@"
@@ -94,6 +95,10 @@ dist/favicon.ico: assets/favicon.ico
 
 dist/%.txt: src/%.txt
 	cp "$<" "$@"
+
+dist/%.atom: src/%.atom
+	cp "$<" "$@"
+
 
 
 src/photography.php: src/photos.json

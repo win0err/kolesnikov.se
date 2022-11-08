@@ -3,6 +3,7 @@
     <head>
         <?php include 'template/blocks/meta.php'; ?>
         <title>Sergei Kolesnikov's Blog</title>
+        <link rel="alternate" title="Blog Posts Atom Feed" type="application/atom+xml" href="/feed.atom" />
     </head>
 
     <body id="top" class="_theme--black">
@@ -19,7 +20,7 @@
 
                 <p class="va-middle">
                     <span>I blog here on topics like engineering, photography, and travel.</span>
-                    <!-- &nbsp;<img src="/assets/rss.gif" alt="RSS" /> -->
+                    <a href="/blog.atom"><img src="/assets/rss.gif" alt="RSS (Atom Feed)" style="vertical-align: middle;" /></a>
                 </p>
 
                 <hr />
