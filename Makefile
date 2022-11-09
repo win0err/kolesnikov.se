@@ -35,8 +35,7 @@ photos_thumbs = $(photos_src:photography/%=dist/photography/thumbs/%)
 pgp_user = 26062BDBE8E66DA9AB3E780CBAC68A790D8AD1F2
 zbase32_user = mdekzg4taonbkkeon37s9b5trq1h1u7x  # gpg --with-wkd-hash --list-public-keys
 
-excluded_files = {scripts/game_of_life_state.json,scripts/pending_guestbook_messages.txt,scripts/pending_comments.txt,.DS_Store}
-creating_files = scripts/game_of_life_state.json scripts/pending_guestbook_messages.txt scripts/pending_comments.txt
+state_files = {scripts/game_of_life_state.json,scripts/pending_guestbook_messages.txt,scripts/pending_comments.txt}
 
 
 all: dist photography assets styles html php pgp wkd scripts feeds
@@ -138,14 +137,15 @@ server:
 
 publish: all
 	rsync -avz \
-		--exclude=$(excluded_files) \
+		--exclude=$(state_files) \
+		--exclude=".DS_Store" \
 		--chown deploy:www-data \
 		dist/ deploy@kolesnikov.se:/var/www/kolesnikov.se/html && \
 	ssh deploy@kolesnikov.se '\
 		cd /var/www/kolesnikov.se/html && \
-		touch $(creating_files) && \
-		chmod 666 $(creating_files) && \
-		chown deploy:www-data $(creating_files)'
+		touch $(state_files) && \
+		chmod 666 $(state_files) && \
+		chown deploy:www-data $(state_files)'
 
 publish-photos: photography
 	rsync -avz --chown www-data dist/photography/ deploy@kolesnikov.se:/var/www/kolesnikov.se/html/photography
