@@ -57,6 +57,17 @@
                 <h2>Messages</h2>
 
                 <ol reversed>
+
+                    <li>
+                        <div>
+                            <strong>Denis</strong>
+                            wrote on <small><time datetime="2022-11-10T11:28:54+00:00">10 November 2022, 11:28</time></small>
+                        </div>
+                        <div>
+                            <p>With Best Regards!</p>
+                        </div>
+                    </li>
+
                     <li>
                         <div>
                             <strong><a href="https://zachmanson.com" target="_blank" rel="noindex nofollow ugc">Zach</a></strong>
