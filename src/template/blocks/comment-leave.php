@@ -33,8 +33,8 @@
 		</div>
 
 		<div>
-			<span></span>
-			<input type="submit" value="Submit" />
+			<div></div>
+			<div><input type="submit" value="Submit" /></div>
 		</div>
 	</form>
 </div>
