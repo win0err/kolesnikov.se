@@ -1,23 +1,23 @@
 .guestbook-form-holder {
-    clear: both;
+	clear: both;
 }
 
 .guestbook-form > div {
-    display: table-row;
+	display: table-row;
 }
 
 .guestbook-form > div > * {
-    display: table-cell;
-    vertical-align: top;
-    padding: 0 1rem .25rem 0;
+	display: table-cell;
+	vertical-align: top;
+	padding: 0 1rem .25rem 0;
 }
 
 .guestbook-reply {
-    padding-left: 1rem;
-    margin-bottom: 1rem;
-    border-left: 3px solid var(--border-color);
+	padding-left: 1rem;
+	margin-bottom: 1rem;
+	border-left: 3px solid var(--border-color);
 }
 
 .guestbook-reply p:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }

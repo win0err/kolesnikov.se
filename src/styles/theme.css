@@ -1,60 +1,60 @@
 :root {
-    --link-color: #0007cc;
-    --link-visited-color: #7d0eb4;
-    --link-hover-color: #cc0000;
+	--link-color: #0007cc;
+	--link-visited-color: #7d0eb4;
+	--link-hover-color: #cc0000;
 
-    --border-color: #7a7a7a;
-    --code-color: inherit;
+	--border-color: #7a7a7a;
+	--code-color: inherit;
 
-    --text-color: #000;
-    --background: #fff;
+	--text-color: #000;
+	--background: #fff;
 }
 
 ._theme--sky {
-    --background: url('/assets/backgrounds/sky.png');
+	--background: url('/assets/backgrounds/sky.png');
 }
 
 ._theme--black {
-    --link-color: #fff;
-    --link-visited-color: #b3b3b3;
+	--link-color: #fff;
+	--link-visited-color: #b3b3b3;
 
-    --background: #000;
-    --text-color: #fff;
+	--background: #000;
+	--text-color: #fff;
 }
 
 ._theme--space {
-    --link-color: #fff;
-    --link-visited-color: #b3b3b3;
+	--link-color: #fff;
+	--link-visited-color: #b3b3b3;
 
-    --background: url('/assets/backgrounds/space.jpg');
-    --text-color: #fff;
+	--background: url('/assets/backgrounds/space.jpg');
+	--text-color: #fff;
 }
 
 a {
-    color: var(--link-color);
+	color: var(--link-color);
 }
 
 a:visited {
-    color: var(--link-visited-color);
+	color: var(--link-visited-color);
 }
 
 a:hover,
 a:visited:hover {
-    color: var(--link-hover-color);
+	color: var(--link-hover-color);
 }
 
 ._dashed {
-    text-decoration-style: dashed;
+	text-decoration-style: dashed;
 }
 
 ._dotted {
-    text-decoration-style: dotted;
+	text-decoration-style: dotted;
 }
 
 ._none {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 ._no-visited {
-    --link-visited-color: var(--link-color);
+	--link-visited-color: var(--link-color);
 }

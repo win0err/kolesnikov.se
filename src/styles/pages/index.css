@@ -1,15 +1,15 @@
 .how-to-reach-links>a,
 .how-to-reach-links>span {
-    margin-right: 1em;
+	margin-right: 1em;
 }
 
 ul.webrings {
-    display: inline;
-    list-style: none;
-    padding: 0;
+	display: inline;
+	list-style: none;
+	padding: 0;
 }
 
 .webrings li {
-    display: inline;
-    margin-right: .5rem;
+	display: inline;
+	margin-right: .5rem;
 }

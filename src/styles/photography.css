@@ -1,10 +1,10 @@
 .photography > article + hr {
-    border: none;
+	border: none;
 }
 
 .photography > article + hr::after {
-    content: '\2053';
-    display: block;
-    text-align: center;
-    opacity: .75;
+	content: '\2053';
+	display: block;
+	text-align: center;
+	opacity: .75;
 }

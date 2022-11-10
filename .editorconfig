@@ -1,0 +1,14 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[{.projectile,.keep}]
+insert_final_newline = false
+
+[*.{html,js,css,json,php}]
+charset = utf-8
+indent_style = tab
+indent_size = 4

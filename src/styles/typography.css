@@ -1,12 +1,12 @@
 :root {
-    --font-family-monospace: Consolas, Menlo, Monaco, monospace;
-    --font-family-serif: Times, serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, monospace;
+	--font-family-serif: Times, serif;
 }
 
 body {
-    font-size: 16px;
-    line-height: 1.25;
-    font-family: var(--font-family-serif);
+	font-size: 16px;
+	line-height: 1.25;
+	font-family: var(--font-family-serif);
 }
 
 h1,
@@ -15,24 +15,24 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 1.5rem 0 1rem;
+	margin: 1.5rem 0 1rem;
 }
 
 ul li,
 ol li {
-    margin-top: .5rem;
+	margin-top: .5rem;
 }
 
 
 pre,
 code,
 .monospace {
-    font-family: var(--font-family-monospace);
-    color: var(--code-color);
+	font-family: var(--font-family-monospace);
+	color: var(--code-color);
 }
 
 code,
 .monospace {
-    white-space: pre-wrap;
-    font-size: .8em;
+	white-space: pre-wrap;
+	font-size: .8em;
 }
