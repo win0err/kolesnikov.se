@@ -140,7 +140,7 @@ publish: all
 		--exclude=$(state_files) \
 		--exclude=".DS_Store" \
 		--chown deploy:www-data \
-		dist/ deploy@kolesnikov.se:/var/www/kolesnikov.se/html && \
+		dist/ deploy@kolesnikov.se:/var/www/kolesnikov.se/html
 	ssh deploy@kolesnikov.se '\
 		cd /var/www/kolesnikov.se/html && \
 		touch $(state_files) && \
