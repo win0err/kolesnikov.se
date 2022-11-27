@@ -20,5 +20,6 @@ echo <<<HEAD
 	<link crossorigin="anonymous" media="all" integrity="{$stylesCssSri}" rel="stylesheet" href="/styles.css?{$stylesCssSri}" />
 	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 	<link rel="author" type="text/plain" href="/humans.txt" />
+	<link rel="pgpkey" href="/win0err.asc" />
 
 HEAD;
