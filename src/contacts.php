@@ -19,7 +19,7 @@
 
 				<details>
 					<summary>
-						My public key is &lsaquo;<a href="/win0err.asc" class="monospace">2606 2BDB E8E6 6DA9 AB3E  780C BAC6 8A79 0D8A D1F2</a>&rsaquo;.
+						My public key is &lsaquo;<a href="/win0err.asc" rel="pgpkey" class="monospace">2606 2BDB E8E6 6DA9 AB3E  780C BAC6 8A79 0D8A D1F2</a>&rsaquo;.
 					</summary>
 
 					<p>You can download and import the key any way you prefer:</p>
