@@ -8,6 +8,7 @@ IRC: /msg win0err hello on irc.libera.chat or irc.gnome.org
 
 twtxt.txt file: https://kolesnikov.se/twtxt.txt
 Mastodon: https://mastodon.online/@win0err
+Pixelfed: https://pixelfed.social/win0err
 
 Instagram: https://instagram.com/win0err
 Facebook: https://facebook.com/win0err
