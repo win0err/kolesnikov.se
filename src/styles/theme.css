@@ -30,6 +30,26 @@
 	--text-color: #fff;
 }
 
+._theme--winter {
+	--link-color: #fff;
+	--link-visited-color: #cdccf0;
+
+	--background: url('/assets/winter/christmas-lights-2.gif') repeat-x, url('/assets/backgrounds/winter.gif');
+	--text-color: #fff;
+}
+._theme--winter .header {
+	margin-top: 24px; /* height of /assets/winter/christmas-lights-2.gif*/
+}
+._theme--winter .footer {
+	align-items: center;
+	margin-top: -.5rem;
+}
+._theme--winter main h1,
+._theme--winter main h2 {
+	background: url('/assets/winter/nano-tree.gif') left center no-repeat;
+	padding-left: 36px;
+}
+
 a {
 	color: var(--link-color);
 }

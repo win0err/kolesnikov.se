@@ -1,6 +1,7 @@
 <footer class="footer _no-visited">
 	<div class="footer__left">
-		<img src="/assets/cat.gif" alt="White cat">
+		<!-- img src="/assets/cat.gif" alt="White cat" -->
+		<img src="/assets/winter/christmas-tree.gif" alt="Christmas tree">
 	</div>
 
 	<div class="footer__right">
@@ -31,8 +32,14 @@
 </footer>
 
 <script>
+	window.addEventListener('DOMContentLoaded', () => {
+		document.body.classList.remove('_theme--black')
+		document.body.classList.add('_theme--winter')
+	})
+
+	/*
 	const applyCurrentTheme = () => {
-		const availableThemes = ['black', 'sky', 'space']
+		const availableThemes = ['black', 'winter', 'sky', 'space']
 		const theme = localStorage.getItem('theme')
 
 		if (theme && availableThemes.includes(theme)) {
@@ -46,7 +53,7 @@
 		if (themeSwitcherElement) {
 			themeSwitcherElement.style.display = 'inline-block'
 
-			themeSwitcherElement.querySelectorAll('a').forEach((el) => {
+			document.querySelectorAll('a[data-theme]').forEach((el) => {
 				el.addEventListener('click', (e) => {
 					localStorage.setItem('theme', e.target.dataset.theme)
 					applyCurrentTheme()
@@ -58,8 +65,8 @@
 		}
 
 		applyCurrentTheme()
-	});
-
+	})
+	*/
 
 	window.addEventListener('DOMContentLoaded', () => {
 		const newGifSrc = '/assets/buttons/kate.gif'

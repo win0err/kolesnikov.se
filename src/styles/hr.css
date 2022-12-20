@@ -45,3 +45,9 @@ hr.styled--warp-speed {
 	background: url('/assets/rules/warp_speed.gif');
 	height: 18px;
 }
+
+hr.styled--winter {
+	background: url('/assets/winter/christmas-lights.gif');
+	background-position-x: 3px;
+	height: 27px;
+}

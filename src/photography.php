@@ -35,7 +35,7 @@
 					return <<< GALLERY
 					<article>
 						<div class="gallery gallery--{$count}">
-							${rendered_images}
+							{$rendered_images}
 						</div>
 					</article>
 

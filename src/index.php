@@ -34,6 +34,8 @@
 				<h2>News</h2>
 
 				<ul>
+					<li>I've added a bit of New Year's spirit to the site. <img height="14" src="/assets/attention/new2.gif" alt="New!">
+						<br />Please leave a message in <a href="/guestbook.html">the guestbook</a> if you like the New Year's decorations on the website.</li>
 					<li><a href="/blog.atom">RSS (Atom) Feed</a> of my <a href="/blog.html">blog</a> is now available and waiting for subscribers ;-)</li>
 					<li>Blog posts now have a comment form. Feel free to comment!</li>
 					<li>There's <a href="/blog/there-is-life-here.html">life on my blog</a> now</li>
@@ -54,13 +56,14 @@
 						--><img height=14 src="/assets/attention/flag.gif" alt="Important">
 					</span>
 
-					<a href="https://instagram.com/win0err" rel="noopener noreferrer nofollow me">Instagram</a>
+					<a href="https://instagram.com/win0err" rel="noopener noreferrer nofollow me">Instagram</a>					
+					<a href="https://pixelfed.social/win0err" rel="noopener noreferrer nofollow me">Pixelfed</a>
 
-					<a href="https://twitter.com/win0err" rel="noopener noreferrer nofollow me">Twitter</a>
-					<a href="https://www.facebook.com/win0err" rel="noopener noreferrer nofollow me">Facebook</a>
+					<br />
+
+					<a href="https://mastodon.online/@win0err" rel="noopener noreferrer nofollow me">Mastodon</a>
 
 					<a href="https://github.com/win0err" rel="noopener noreferrer nofollow me">GitHub</a>
-					<a href="https://www.linkedin.com/in/sergei-kolesnikov/" rel="noopener noreferrer nofollow me">LinkedIn</a>
 
 					<a href="https://matrix.to/#/@win0err:matrix.org" rel="noopener noreferrer nofollow">[matrix]</a><noscript>: @win0err:matrix.org</noscript>
 					<span>
@@ -93,17 +96,19 @@
 					There are no advertisements on this site. This site is always under construction.
 				</p>
 
-				<p>
+				<!-- new year -->
+				<!-- p>
 					This website is presented in different color schemes.
-					<noscript>You need to have JavaScript enebled to use this feature.</noscript>
+					<noscript>You need to have JavaScript enabled to use this feature.</noscript>
 
 					<span class="theme-switchers" style="display: none;">
 						Choose the color scheme that you like:
 						<a href="#" data-theme="black" class="_dotted">Black</a> (default),
+						<a href="#" data-theme="winter" class="_dotted">Winter</a>,
 						<a href="#" data-theme="sky" class="_dotted">Sky</a>, or
 						<a href="#" data-theme="space" class="_dotted">Space</a>.
 					</span>
-				</p>
+				</p -->
 
 				<h2>Webrings I've joined</h2>
 
@@ -136,7 +141,7 @@
 				</ul>
 			</main>
 
-			<hr />
+			<hr class="styled styled--winter" />
 			<?php include 'template/blocks/footer.php'; ?>
 		</div>
 	</body>
