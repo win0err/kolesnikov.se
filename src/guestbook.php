@@ -57,7 +57,29 @@
 				<h2>Messages</h2>
 
 				<ol reversed>
+					<li>
+						<div>
+							<strong>Lyse</strong>
+							wrote on <small><time datetime="2022-12-20T09:35:28+00:00">20 December 2022, 09:35</time></small>
+						</div>
+						<div>
+							<p>Hey mate,</p>
+							<p>you have some absolutely amazing photos, I love them! I just had to block the background GIFs, they hurt my eyes very badly.</p>
+							<p>I&#39;m looking forward to more pictures and a writeup on the technical side of how your site is generated. :-)</p>
+							<p>Cheers<br />Lyse</p>
+						</div>
 
+						<div class="guestbook-reply">
+							<strong>Sergei Kolesnikov</strong> replied:
+
+							<p>Thank you! That's very nice to hear!</p>
+
+							<p>
+								That's the reason why those background GIFs were added to the website :D
+								<br /> I'll remove them in mid-January. 
+							</p>
+						</div>
+					</li>
 					<li>
 						<div>
 							<strong>Denis</strong>
