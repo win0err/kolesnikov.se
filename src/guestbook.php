@@ -59,6 +59,15 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong><a href="https://maxl.neocities.org" target="_blank" rel="noindex nofollow ugc">KOCATKA</a></strong>
+							wrote on <small><time datetime="2023-01-03T09:17:01+00:00">3 January 2023, 09:17</time></small>
+						</div>
+						<div>
+							<p>Your photos are amazing, and site is beautiful!</p>
+						</div>
+					</li>
+					<li>
+						<div>
 							<strong>Lyse</strong>
 							wrote on <small><time datetime="2022-12-20T09:35:28+00:00">20 December 2022, 09:35</time></small>
 						</div>
@@ -76,7 +85,7 @@
 
 							<p>
 								That's the reason why those background GIFs were added to the website :D
-								<br /> I'll remove them in mid-January. 
+								<br /> I'll remove them in mid-January.
 							</p>
 						</div>
 					</li>
