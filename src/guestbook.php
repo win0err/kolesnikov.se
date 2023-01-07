@@ -59,6 +59,23 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>Ms. Sassy</strong>
+							wrote on <small><time datetime="2023-01-07T08:30:08+00:00">7 January 2023, 08:30</time></small>
+						</div>
+
+						<div>
+							<p>Hello! I am typing on an old laptop from 2005 using puppy linux. Still works! :)</p>
+						</div>
+
+						<div class="guestbook-reply">
+							<strong>Sergei Kolesnikov</strong> replied:
+
+							<p>I'm glad to hear that!</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong><a href="https://maxl.neocities.org" target="_blank" rel="noindex nofollow ugc">KOCATKA</a></strong>
 							wrote on <small><time datetime="2023-01-03T09:17:01+00:00">3 January 2023, 09:17</time></small>
 						</div>
