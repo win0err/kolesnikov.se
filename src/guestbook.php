@@ -59,6 +59,16 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong><a href="https://chengdulittlea.com" target="_blank" rel="noindex nofollow ugc">yiming</a></strong>
+							wrote on <small><time datetime="2023-01-17T16:41:28+00:00">17 January 2023, 16:41</time></small>
+						</div>
+						<div>
+							<p>Hi! Your pictures looks awesome!! And the entire website is so classic, love it!</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>Ms. Sassy</strong>
 							wrote on <small><time datetime="2023-01-07T08:30:08+00:00">7 January 2023, 08:30</time></small>
 						</div>
