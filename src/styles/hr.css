@@ -46,7 +46,9 @@ hr.styled--warp-speed {
 	height: 18px;
 }
 
-hr.styled--winter {
+hr.styled--winter,
+._theme--winter hr.unstyled {
+	border: none;
 	background: url('/assets/winter/christmas-lights.gif');
 	background-position-x: 3px;
 	height: 27px;

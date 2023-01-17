@@ -1,7 +1,7 @@
 <footer class="footer _no-visited">
 	<div class="footer__left">
-		<!-- img src="/assets/cat.gif" alt="White cat" -->
-		<img src="/assets/winter/christmas-tree.gif" alt="Christmas tree">
+		<img src="/assets/cat.gif" alt="White cat">
+		<!-- img src="/assets/winter/christmas-tree.gif" alt="Christmas tree" -->
 	</div>
 
 	<div class="footer__right">
@@ -32,14 +32,8 @@
 </footer>
 
 <script>
-	window.addEventListener('DOMContentLoaded', () => {
-		document.body.classList.remove('_theme--black')
-		document.body.classList.add('_theme--winter')
-	})
-
-	/*
 	const applyCurrentTheme = () => {
-		const availableThemes = ['black', 'winter', 'sky', 'space']
+		const availableThemes = ['black', /* 'winter', */ 'sky', 'space']
 		const theme = localStorage.getItem('theme')
 
 		if (theme && availableThemes.includes(theme)) {
@@ -66,7 +60,6 @@
 
 		applyCurrentTheme()
 	})
-	*/
 
 	window.addEventListener('DOMContentLoaded', () => {
 		const newGifSrc = '/assets/buttons/kate.gif'
