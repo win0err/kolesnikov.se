@@ -63,7 +63,7 @@
 
 				<p>
 					I use two laptops for my work.
-					The first one is an HP Envy 15-j002er (Intel Core i7-4700MQ, 12 GB RAM, 1 TB SSD) with Fedora Linux installed.
+					The first one is a Lenovo Thinkpad X1 Carbon Gen 10 (Intel Core i7-1280P, 32 GB RAM, 2 TB SSD) with Fedora Linux installed, which replaced my 10-year-old HP Envy 15-j002er (Intel Core i7-4700MQ, 12 GB RAM, 1 TB SSD).
 					The second one is a MacBook Pro 15" 2018 (Intel Core i7-8850H, 16 GB RAM, 500 GB SSD).
 				</p>
 
