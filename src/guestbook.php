@@ -59,6 +59,23 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong><a href="https://lu.tiny-universes.net" target="_blank" rel="noindex nofollow ugc">Lu</a></strong>
+							wrote on <small><time datetime="2023-07-09T14:50:04+00:00">9 July 2023, 14:50</time></small>
+						</div>
+						<div>
+							<p>hello sergei!! your photographs are incredible, I love the city shots &#38; the composition of the plane.</p>
+							<p>keeping the space background as an option was a clever workaround, I&#39;m glad you didn&#39;t remove them! it&#39;s the official background of the world wide web after all :)</p>
+						</div>
+
+						<div class="guestbook-reply">
+							<strong>Sergei Kolesnikov</strong> replied:
+
+							<p>ฅ^⇀ﻌ↼^ฅ</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>bee</strong>
 							wrote on <small><time datetime="2023-05-26T22:32:22+00:00">26 May 2023, 22:32</time></small>
 						</div>
