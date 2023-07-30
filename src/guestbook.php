@@ -59,6 +59,16 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>val</strong>
+							wrote on <small><time datetime="2023-07-29T15:49:53+00:00">29 July 2023, 15:49</time></small>
+						</div>
+						<div>
+							<p>Hi! Just found this place, you have some incredible photos and I wish you the absolute best from Michigan, US! &#60;3</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong><a href="https://lu.tiny-universes.net" target="_blank" rel="noindex nofollow ugc">Lu</a></strong>
 							wrote on <small><time datetime="2023-07-09T14:50:04+00:00">9 July 2023, 14:50</time></small>
 						</div>
