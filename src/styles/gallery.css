@@ -1,97 +1,82 @@
-:root {
-	--gallery-gap: 4px;
-}
-
 .gallery {
-	font-size: 0;
-	margin: 0 calc(-1 * var(--gallery-gap));
+	gap: 4px;
+	display: grid;
 }
 
-.gallery>a {
-	display: inline-block;
+.gallery * {
+	vertical-align: top; /* remove extra gaps because of whitespaces */
 }
 
-.gallery>* {
-	font-size: 1rem;
-	padding: var(--gallery-gap);
-	box-sizing: border-box;
+.gallery--2b {
+	grid-template-columns: repeat(2, 1fr);
 }
 
-.gallery--1>*,
-.gallery--2>* {
-	width: 100%;
+.gallery--3 {
+	grid-template-columns: repeat(2, 1fr);
 }
 
-.gallery--2b>* {
-	width: 50%;
+.gallery--3 :nth-child(1) {
+	grid-column: span 2;
 }
 
-.gallery--3>*:nth-child(1) {
-	width: 100%;
+.gallery--4 {
+	grid-template-columns: repeat(2, 1fr);
 }
 
-.gallery--3>* {
-	width: 50%;
+.gallery--5 {
+	grid-template: repeat(3, auto) / repeat(2, 1fr);
 }
 
-.gallery--4>*:nth-child(1) {
-	width: 100%;
+.gallery--5 :nth-child(1) {
+	grid-column: span 2;
 }
 
-.gallery--4>* {
-	width: calc(100%/3);
+.gallery--6 {
+	grid-template: repeat(3, auto) / repeat(6, 1fr);
 }
 
-.gallery--5>*:nth-child(1) {
-	width: 100%;
+.gallery--6 > * {
+	grid-column: span 2;
 }
 
-.gallery--5>* {
-	width: 50%;
+.gallery--6 :nth-child(1) {
+	grid-column: span 6;
 }
 
-
-.gallery--6>*:nth-child(1) {
-	width: 100%;
+.gallery--6 :is(:nth-child(2),	:nth-child(3)) {
+	grid-column: span 3;
 }
 
-.gallery--6>*:nth-child(2),
-.gallery--6>*:nth-child(3) {
-	width: 50%;
+.gallery--7 {
+	grid-template-columns: repeat(3, 1fr);
 }
 
-.gallery--6>*:nth-child(4),
-.gallery--6>*:nth-child(5),
-.gallery--6>*:nth-child(6) {
-	width: calc(100%/3);
+.gallery--7 :nth-child(1) {
+	grid-column: span 3;
 }
 
-.gallery--7>*:nth-child(1) {
-	width: 100%;
+.gallery--8 {
+	grid-template-columns: repeat(2, 1fr);
 }
 
-.gallery--7>* {
-	width: calc(100%/3);
+.gallery--9 {
+	grid-template: repeat(3, auto) / repeat(6, 1fr);
 }
 
-.gallery--8>* {
-	width: 50%;
+.gallery--9 > * {
+	grid-column: span 3;
 }
 
-.gallery--9>* {
-	width: 50%;
+.gallery--9 :nth-child(7),
+.gallery--9 :nth-child(8),
+.gallery--9 :nth-child(9) {
+	grid-column: span 2;
 }
 
-.gallery--9>*:nth-child(7),
-.gallery--9>*:nth-child(8),
-.gallery--9>*:nth-child(9) {
-	width: calc(100%/3);
+.gallery--10 {
+	grid-template-columns: repeat(3, 1fr);
 }
 
-.gallery--10>*:nth-child(1) {
-	width: 100%;
-}
-
-.gallery--10>* {
-	width: calc(100%/3);
+.gallery--10 :nth-child(1) {
+	grid-column: span 3;
 }
