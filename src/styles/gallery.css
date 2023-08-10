@@ -3,8 +3,8 @@
 	display: grid;
 }
 
-.gallery * {
-	vertical-align: top; /* remove extra gaps because of whitespaces */
+.gallery img {
+	display: block; /* remove extra gaps because of whitespaces */
 }
 
 .gallery--2b {
