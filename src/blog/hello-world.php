@@ -44,9 +44,21 @@
 				<hr />
 
 				<div class="comment-section">
-					<h2>Comments</h2>
+					<h2>Comments <small>(1)</small></h2>
 
-					<p>No comments yet. Be the first!</p>
+					<!--p>No comments yet. Be the first!</p-->
+
+					<ol>
+						<li>
+							<div>
+								<strong>Some Guy</strong>
+								wrote on <small><time datetime="2023-08-29T14:39:55+00:00">29 August 2023, 14:39</time></small>
+							</div>
+							<div>
+								<p>Wow, that&#39;s very cool.</p>
+							</div>
+						</li>
+					</ol>
 
 					<hr class="dashed" />
 
