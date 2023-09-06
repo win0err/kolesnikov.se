@@ -4,9 +4,13 @@
 			{
 				"path": "vologda.jpg",
 				"alt": ""
-			},
+			}
+		]
+	},
+	{
+		"images": [
 			{
-				"path": "kalyazin.jpg",
+				"path": "morning-in-istra.jpg",
 				"alt": ""
 			}
 		]

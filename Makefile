@@ -70,16 +70,16 @@ dist/photography/full/%.jpg: photography/%.*
 
 dist/photography/thumbs/%.jpg: photography/%.*
 	@mkdir -p "$(@D)"
-	convert -thumbnail '800x800>' $(convert_flags) "$<" "$@"
-	convert -thumbnail '1600x1600>' $(convert_flags) "$<" $(patsubst %.jpg,%@2x.jpg, $@)
+	convert -thumbnail '800x>' $(convert_flags) "$<" "$@"
+	convert -thumbnail '1600x>' $(convert_flags) "$<" $(patsubst %.jpg,%@2x.jpg, $@)
 	jpegoptim $(jpegoptim_flags) "$@" $(patsubst %.jpg,%@2x.jpg, $@)
 
 dist/assets/about.jpg: assets/about.jpg
-	convert -thumbnail '800x800>' $(convert_flags) "$<" "$@"
+	convert -thumbnail '800x>' $(convert_flags) "$<" "$@"
 	jpegoptim $(jpegoptim_flags) "$@"
 
 dist/assets/about@2x.jpg: assets/about.jpg
-	convert -thumbnail '1600x1600>' $(convert_flags) "$<" "$@"
+	convert -thumbnail '1600x>' $(convert_flags) "$<" "$@"
 	jpegoptim $(jpegoptim_flags) "$@"
 
 dist/assets/%: assets/%
