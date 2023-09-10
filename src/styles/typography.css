@@ -18,8 +18,8 @@ h6 {
 	margin: 1.5rem 0 1rem;
 }
 
-ul li,
-ol li {
+ul li ~ li,
+ol li ~ li {
 	margin-top: .5rem;
 }
 

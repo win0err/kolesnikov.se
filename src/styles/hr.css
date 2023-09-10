@@ -4,6 +4,7 @@ hr.dashed {
 
 hr.styled {
 	border: none;
+	background-position: 0;
 }
 
 hr.styled--flowers {
@@ -14,6 +15,7 @@ hr.styled--flowers {
 hr.styled--bow {
 	background: url('/assets/rules/bow.gif');
 	height: 18px;
+	background-position: 50%;
 }
 
 hr.styled--island {
@@ -24,6 +26,7 @@ hr.styled--island {
 hr.styled--offroad {
 	background: url('/assets/rules/offroad.gif');
 	height: 32px;
+	background-position: 50%;
 }
 
 hr.styled--tap {

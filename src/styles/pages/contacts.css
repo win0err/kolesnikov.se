@@ -1,8 +1,9 @@
 .pgp-signed-contacts {
 	font-family: var(--font-family-monospace);
-	white-space: pre;
+	white-space: pre-wrap;
 	font-size: 14px;
 	margin-top: 1.5rem;
+	overflow-x: auto;
 }
 
 .pgp-signed-contacts a:not(:hover) {

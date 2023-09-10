@@ -11,12 +11,11 @@ $pages = [
 	'contacts' => 'Contacts',
 ];
 
-$print_menu = fn(array $items): string => array_reduce(
+$print_menu = fn (array $items): string => array_reduce(
 	array_keys($items),
-	fn ($result, $slug) => $result . (
-		$file === $slug
-			? '<li>' . $items[$slug] . '</li>'
-			: '<li><a href="/' . ($slug !== 'index' ? $slug . '.html' : '') . '">' . $items[$slug] . '</a></li>'
+	fn ($result, $slug) => $result . ($file === $slug
+		? '<li>' . $items[$slug] . '</li>'
+		: '<li><a href="/' . ($slug !== 'index' ? $slug . '.html' : '') . '">' . $items[$slug] . '</a></li>'
 	),
 	'',
 );
@@ -27,10 +26,8 @@ if ($file === 'index') {
 	echo <<< HEADER
 	<header class="header header--big">
 		<img class="header__avatar" src="/assets/avatar.jpg" alt="Sergei Kolesnikov" />
-		<div>
-			<h1 class="header__title">Welcome to Sergei&nbsp;Kolesnikov's personal home page!</h1>
-			<nav class="header__menu"><ul>{$print_menu($pages)}</ul></nav>
-		</div>
+		<h1 class="header__title">Welcome to Sergei&nbsp;Kolesnikov's personal home page!</h1>
+		<nav class="header__menu"><ul>{$print_menu($pages)}</ul></nav>
 	</header>
 	HEADER;
 } else {

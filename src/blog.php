@@ -25,21 +25,18 @@
 
 				<hr />
 
-				<h2>2022</h2>
+				<section class="blog-posts-by-year">
+					<h2>2022</h2>
 
-				<ul style="list-style-type: none; padding-left: 2rem;">
-					<!--
-						- Setting PGP's Web Key Directory on your domain
-						- How to start use PGP encryption
-						- Building static site generator with make util
-					-->
-					<li>
-						<time datetime="2022-09-23">23/09</time>
-						<a href="/blog/there-is-life-here.html">There Is Life Here!</a>
-						<img height=14 src="/assets/attention/star-small.gif" alt="Hot!">
-					</li>
-					<li><time datetime="2022-07-12">12/07</time> <a href="/blog/hello-world.html">Hello World!</a></li>
-				</ul>
+					<ul class="blog-posts-by-year__list">
+						<li>
+							<time datetime="2022-09-23">23/09</time>
+							<a href="/blog/there-is-life-here.html">There Is Life Here!</a>
+							<img height=14 src="/assets/attention/star-small.gif" alt="Hot!">
+						</li>
+						<li><time datetime="2022-07-12">12/07</time> <a href="/blog/hello-world.html">Hello World!</a></li>
+					</ul>
+				</section>
 			</main>
 
 			<hr class="styled styled--island" />

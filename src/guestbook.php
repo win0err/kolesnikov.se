@@ -15,7 +15,7 @@
 				<p>
 					<img style="float: left; margin: 0 1em 1em 0; height: 2em;" src="assets/guestbook.gif" alt="Guestbook" />
 					Privet, websurfer! <br />
-					Since you've visited my website, please sign the guestbook!
+					Since you've visited my website, please sign the&nbsp;guestbook!
 				</p>
 
 				<div class="guestbook-form-holder">

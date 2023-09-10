@@ -16,7 +16,7 @@ $stylesCssSri = generate_sri(__DIR__ . '/../../../dist/styles.css');
 
 echo <<<HEAD
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=800" /> <!-- Best Viewed on 800×600 -->
+	<meta name="viewport" content="width=device-width, viewport-fit=cover" />
 	<link crossorigin="anonymous" media="all" integrity="{$stylesCssSri}" rel="stylesheet" href="/styles.css?{$stylesCssSri}" />
 	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 	<link rel="author" type="text/plain" href="/humans.txt" />

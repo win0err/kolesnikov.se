@@ -12,4 +12,5 @@ ul.webrings {
 .webrings li {
 	display: inline;
 	margin-right: .5rem;
+	white-space: nowrap;
 }

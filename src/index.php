@@ -31,9 +31,16 @@
 					This is my personal corner of the web. I blog here on topics like engineering, photography, and travel.<br />
 				</p>
 
-				<h2>News</h2>
+				<h2>News & Updates</h2>
 
 				<ul>
+					<li>
+						I've adjusted the layout of the website, making it responsive,
+						but nevertheless, it's still <i>best viewed on 800×600</i>.
+						<br />
+						Bonus content — Panther color scheme!
+					</li>
+					<li>I've added <a href="/photography.html">a bunch of new photos</a></li>
 					<li>
 						I've added a bit of New Year's spirit to the site.
 						Please leave a message in <a href="/guestbook.html">the guestbook</a> if you like the New Year's
@@ -108,6 +115,8 @@
 						Choose the color scheme that you like:
 						<a href="#" data-theme="black" class="_dotted">Black</a> (default),
 						<!-- <a href="#" data-theme="winter" class="_dotted">Winter</a>, -->
+						<span><a href="#" data-theme="panther" class="_dotted">Panther</a>
+							<img height=14 src="/assets/attention/hot.gif" alt="Hot!"></span>,
 						<a href="#" data-theme="sky" class="_dotted">Sky</a>, or
 						<a href="#" data-theme="space" class="_dotted">Space</a>.
 					</span>

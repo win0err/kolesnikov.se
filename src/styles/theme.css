@@ -26,8 +26,17 @@
 	--link-color: #fff;
 	--link-visited-color: #b3b3b3;
 
-	--background: url('/assets/backgrounds/space.jpg');
+	--background: url('/assets/backgrounds/stardown.gif');
 	--text-color: #fff;
+}
+
+._theme--panther {
+	--link-color: #A90FB3;
+	--link-hover-color: #0686E0;
+	--link-visited-color: #8C5E93;
+
+	--background: url('/assets/backgrounds/bkgpstlpatrn1.jpg');
+	--text-color: #570466;
 }
 
 ._theme--winter {
