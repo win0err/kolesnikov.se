@@ -59,6 +59,16 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>Sarkhan</strong>
+							wrote on <small><time datetime="2023-09-10T17:10:12+00:00">10 September 2023, 17:10</time></small>
+						</div>
+						<div>
+							<p>What an awesome oldschool website!<br />Amazed at life game and beautiful photos]</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>val</strong>
 							wrote on <small><time datetime="2023-07-29T15:49:53+00:00">29 July 2023, 15:49</time></small>
 						</div>
