@@ -72,7 +72,7 @@ HTML Snippet:
 		wrote on <small><time datetime="{$time_rfc3339}">{$time_formatted}</time></small>
 	</div>
 	<div>
-		<!-- Don't forget to format code below -->
+		<!-- Don't forget to format the code below -->
 		<p>{$message_html}</p>
 	</div>
 </li>
@@ -90,4 +90,4 @@ mail(
 );
 
 http_response_code(201);
-echo "Thank you! Your message is pending approval.\nYou may close this window and return back exploring my website :-)";
+echo "Thank you! Your comment is pending approval.\nYou may close this window and return back exploring my website :-)";

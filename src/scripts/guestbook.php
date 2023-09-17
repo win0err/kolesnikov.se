@@ -70,7 +70,7 @@ HTML Snippet:
 		wrote on <small><time datetime="{$time_rfc3339}">{$time_formatted}</time></small>
 	</div>
 	<div>
-		<!-- Don't forget to format code below -->
+		<!-- Don't forget to format the code below -->
 		<p>{$message_html}</p>
 	</div>
 </li>
