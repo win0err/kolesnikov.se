@@ -59,6 +59,16 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong><a href="https://seraphix.neocities.org/" target="_blank" rel="noindex nofollow ugc">seraph</a></strong>
+							wrote on <small><time datetime="2023-09-17T04:32:13+00:00">17 September 2023, 04:32</time></small>
+						</div>
+						<div>
+							<p>your site is so neat!!</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>Sarkhan</strong>
 							wrote on <small><time datetime="2023-09-10T17:10:12+00:00">10 September 2023, 17:10</time></small>
 						</div>
