@@ -47,6 +47,7 @@ hr.styled--melting {
 hr.styled--warp-speed {
 	background: url('/assets/rules/warp_speed.gif');
 	height: 18px;
+	background-position: 100%;
 }
 
 hr.styled--winter,
