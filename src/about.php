@@ -34,13 +34,12 @@
 
 				<h3>Software Development</h3>
 
-				<p>I'm a software engineer at <a href="https://any-cut.pro/en" target="_blank" rel="noopener noreferrer nofollow">AnyCut</a>.</p>
+				<p>I'm a software engineer at <a href="https://any-cut.pro/en" target="_blank" rel="noopener noreferrer nofollow">AnyCut</a>; details on my <a href="/resume.html">résumé page</a>.</p>
 
 				<h3>Academy</h3>
 
 				<p>
-					I did my bachelor's and master's degrees in System & Software Engineering at the MIREA — ­Russian Technological University.
-					Furthermore, I am a PhD student at the same university.
+					I did my bachelor's and master's degrees in System & Software Engineering at the MIREA — Russian Technological University. Furthermore, I am a doctoral candidate in computer science and have a lecturer/researcher qualification.
 				</p>
 
 				<p>My research interests are:</p>
@@ -51,13 +50,8 @@
 				</ul>
 
 				<p>
-					I worked as a teaching assistant for MIREA — Russian Technological University, Department of Software and Standardization of Information Technologies (Courses: Object-Oriented Programming in Java, Software Development Technologies).
+					I worked as a teaching assistant at MIREA — Russian Technological University, Department of Software and Standardization of Information Technologies (Courses: Object-Oriented Programming in Java, Software Development Technologies).
 				</p>
-
-				<!--
-					<h3>Other activities</h3>
-					<p>Msk Vue.js Meetup-2019 (Moscow, Russia), Functional Programming with Vue.js and Vuex. Strengths and most effective application points.</p>
-				-->
 
 				<h3>Software & Hardware I use</h3>
 

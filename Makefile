@@ -11,7 +11,7 @@ images_full_dir := dist/images/full/
 images_thumbs_dir := dist/images/thumbs/
 
 dist_dirs := $(images_full_dir) $(images_thumbs_dir) \
-			dist/blog/ dist/scripts/ dist/assets/ \
+			dist/blog/ dist/scripts/ dist/assets/ dist/resume/ \
 			dist/.well-known/openpgpkey/hu/
 
 php := $(patsubst src/%.php,dist/%.html,$(wildcard src/*.php src/blog/*.php))
@@ -33,10 +33,15 @@ images_src := $(wildcard src/photography/*.jpg src/blog/*/*.jpg)
 images_full := $(images_src:src/%=dist/images/full/%)
 images_thumbs := $(images_src:src/%=dist/images/thumbs/%)
 
+resume_deps := src/resume/config.tex src/resume/userpic.jpg
+resume_texs := $(filter-out $(resume_deps),$(wildcard src/resume/*.tex))
+resume_pdfs := $(resume_texs:src/%.tex=dist/%.pdf)
+
+
 state_files := {scripts/game_of_life_state.json,scripts/pending_guestbook_messages.txt,scripts/pending_comments.txt}
 
 
-all: dist images assets styles php pgp wkd scripts feeds
+all: dist images assets styles php pgp wkd scripts feeds resume
 
 dist: $(dist_dirs)
 images: dist $(images_thumbs) $(images_full)
@@ -47,6 +52,7 @@ pgp: dist dist/win0err.asc dist/contacts.asc dist/.well-known/security.txt
 wkd: dist dist/.well-known/openpgpkey/hu/$(zbase32_user) dist/.well-known/openpgpkey/policy
 scripts: dist $(scripts)
 feeds: dist dist/blog.atom dist/news.atom
+resume: dist $(resume_pdfs)
 
 
 $(dist_dirs):
@@ -123,6 +129,14 @@ dist/.well-known/security.txt: src/.well-known/security.txt
 	gpg --yes --output "$@" --local-user $(pgp_user) --clearsign "$<"
 
 
+$(resume_pdfs): $(resume_deps)
+
+dist/%.pdf: src/%.tex
+	latexmk -quiet -f -cd -xelatex -interaction=nonstopmode $<
+	latexmk -quiet -c -cd $<
+	mv $(@:dist/%=src/%) $@
+
+
 clean-all:
 	rm -rf dist/
 
@@ -158,4 +172,4 @@ publish-images: all
 publish: all publish-content publish-images
 
 
-.PHONY: all clean-all clean images assets styles php wkd pgp dist scripts feeds server publish-content publish-images publish
+.PHONY: all clean-all clean images assets styles php wkd pgp resume dist scripts feeds server publish-content publish-images publish

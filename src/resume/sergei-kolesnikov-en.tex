@@ -1,0 +1,210 @@
+% -*- indent-tabs-mode: t; tab-width: 4 -*-
+\documentclass[10pt]{article}
+
+\input{config.tex}
+\setmainlanguage[variant=uk]{english}
+
+\begin{document}
+
+\begin{floatingfigure}[r]{3cm}
+	\vspace{-.5\baselineskip}
+	\includegraphics[width=3cm]{userpic}
+\end{floatingfigure}
+
+\title{Sergei Kolesnikov}
+\vspace{-.5\baselineskip}
+
+\begin{horizontalitemize}
+	\item \href{mailto:sergei@kolesnikov.se}{sergei@kolesnikov.se}
+	\item \href{https://t.me/win0err}{@win0err}
+	\item \href{https://kolesnikov.se/contacts.html}{kolesnikov.se/contacts.html}
+\end{horizontalitemize}
+
+\begin{summary}
+	\summaryitem{Date of birth}{\DTMdisplaydate{1994}{11}{8}{-1}}
+	\summaryitem{Languages}{Russian \textit{(native)}, English \textit{(B1)}}
+\end{summary}
+
+% ---------
+
+\vspace{-2\baselineskip}
+\section{Summary}
+
+I'm a software engineer from Moscow, Russia. I develop web applications and services.
+I started my career as a backend developer, but then focused on frontend development because I'm passionate about creating user interfaces.
+I am a follower of the UNIX philosophy: I prefer to create simple things and add complexity only where it is necessary.
+I~learn quickly, care about detail, and love computer science.
+
+% ---------
+
+\section{Experience}
+
+\job
+	{Oct 2022}{Present}
+	{AnyCut}
+	{https://anycut.pro/en/}
+	{Moscow, Russia}
+	{Senior Software Engineer}
+	{
+	  Launched an online service for calculating laser cutting costs.
+
+	  \begin{supercompactitemize}
+	  	\item Gathered and analysed business requirements
+		\item Designed and developed a client SPA, embeddable widget, and UI component library
+		\item Designed REST API, participated in system design and code review
+		\item Developed unit and end-to-end tests
+		\item Designed UI
+	  \end{supercompactitemize}
+
+	  \textit{Technologies:} JavaScript/TypeScript, Vue 3, Pinia, Playwright, i18n
+	}
+
+\job
+	{Feb 2019}{Oct 2022}
+	{Ingram Micro Cloud (CloudBlue)}
+	{https://www.cloudblue.com/}
+	{Moscow, Russia}
+	{Software Engineer $\rightarrow$ Senior Software Engineer}
+	{
+	  Designed, planned and developed features for \href{https://connect.cloudblue.com/community/}{CloudBlue Connect}, a SaaS platform for the distribution of cloud services.
+
+	  \begin{supercompactitemize}
+	  	\item Designed and developed the frontend parts of the notification, branding, and validation services, and contributed to other parts of the product
+	  	\item Developed a library of UI components
+	  	\item Developed unit and end-to-end tests, introduced automatic testing of email templates
+	  	\item Reviewed code
+	  	\item Onboarded frontend developers and wrote guidelines
+	  \end{supercompactitemize}
+
+	  \textbf{Miscellaneous}
+
+	  \begin{supercompactitemize}
+		\item Gave a talk at the ``MSK Vue.js'' meetup on ``\href{https://www.youtube.com/watch?v=Rz_RynHNZKg}{Functional programming with Vue and Vuex. Strengths. The most effective application points}'' \textit{(in Russian)}
+		\item Wrote an article ``\href{https://habr.com/ru/company/odin_ingram_micro/blog/526094/}{Organization of generic modules in Vuex}'' for the corporate blog \textit{(in Russian)}
+	  \end{supercompactitemize}
+
+	  \textit{Technologies:} JavaScript, Vue 2, Vuex, WebSocket, Cypress
+	}
+
+\job
+	{Nov 2017}{Feb 2019}
+	{Tendertech}
+	{https://tendertech.ru/}
+	{Moscow, Russia}
+	{Software Engineer}
+	{
+	  Designed and developed an internal CRM system for the bank guarantee issuing service.
+
+	  \begin{supercompactitemize}
+		\item \textit{Backend:} designed and developed a CRM system, integrated with email services, and implemented an algorithm to distribute incoming requests between salespeople
+		\item \textit{Frontend:} developed system's web interface and migrated it to React + Redux stack
+		\item Reviewed backend and frontend code, integrated static code analyzers
+	  \end{supercompactitemize}
+
+	  \textit{Technologies:} Go, PHP, Slim, MySQL, PostgreSQL; JavaScript, React, Redux
+	}
+
+% ---------
+
+\section{Teaching Experience}
+
+\job
+	{Feb 2021}{Jun 2021}
+	{MIREA --- Russian Technological University}
+	{https://english.mirea.ru/}
+	{Moscow, Russia}
+	{Ph.D. Student (teaching practice)}
+	{
+	  Led laboratory classes for undergraduate students on ``\textit{Software Application Development Technologies}'': taught them how to work with Docker, Docker Compose, and Ansible.
+	}
+
+\job
+	{Sep 2019}{Jun 2020}
+	{MIREA --- Russian Technological University}
+	{https://english.mirea.ru/}
+	{Moscow, Russia}
+	{Teaching Assistant}
+	{
+	  Led practical and laboratory classes for undergraduate students, and prepared materials and assignments for the classes and exams.
+
+	  \begin{supercompactitemize}
+	  	\item \textit{Object-Oriented Programming.} Teaching the basics of Java and OOP.
+	  	\item \textit{Software Development Technologies.} Teaching collaborative SPA development in JavaScript + React, building applications with Webpack, unit testing, and applying CI/CD practices using GitHub Actions integration as an example (testing and deploying the application to Heroku).
+	  \end{supercompactitemize}
+	}
+
+% ---------
+
+\section{Education}
+
+\education
+	{2019}{2023}
+	{MIREA --- Russian Technological University}
+	{https://english.mirea.ru/}
+	{}
+	{Lecturer/Researcher qualification}
+
+\education
+	{2017}{2019}
+	{MIREA --- Russian Technological University}
+	{https://english.mirea.ru/}
+	{}
+	{Master of Science in Computer Science, \textit{with honours}}
+
+\education
+	{2013}{2017}
+	{MIREA --- Russian Technological University}
+	{https://english.mirea.ru/}
+	{}
+	{Bachelor of Science in Computer Science}
+
+% ---------
+
+\section{Projects}
+
+\begin{compactitemize}
+	\item \textbf{\href{https://kolesnikov.se/}{kolesnikov.se}}. Personal website with a blog and photos inspired by 90s web design
+	\item \textbf{\href{https://github.com/cloudblue/material-svg}{Material SVG}}. Automatically updated Material Design icon set available as an NPM package
+	\item \textbf{\href{https://github.com/win0err/gnome-runcat}{RunCat}}. A GNOME Shell extension that shows CPU usage by the cat's running speed
+	\item \textbf{\href{https://github.com/win0err/twtwt}{twtwt}}. A CLI client for twtxt: decentralized, minimalist microblogging service for hackers
+	\item \textbf{Velobike Statistics}. A project to collect statistics on Moscow city bike sharing usage
+\end{compactitemize}
+
+Contributed to various open source projects, such as:
+\href{https://github.com/browserslist/browserslist/pulls?q=author:win0err}{Browserslist},
+\href{https://github.com/ai/nanospy/pulls?q=author:win0err}{Nano Spy},
+\href{https://github.com/jshmrtn/vue3-gettext/pulls?q=author:win0err}{Vue 3 Gettext},
+\href{https://github.com/buckket/twtxt/pulls?q=author:win0err}{twtxt},
+\href{https://github.com/tfeldmann/organize/pulls?q=author:win0err}{organize} and \href{https://github.com/lstrojny/functional-php/pulls?q=author:win0err}{Functional PHP}.
+
+% ---------
+
+\section{Technical Skills}
+
+\begin{compactitemize}
+	\item \textbf{Programming Languages:} JavaScript/TypeScript --- main languages, also write in Go, Python, PHP and C
+	\item \textbf{Web Development:} HTML, CSS (SASS, PostCSS), Vue and React frameworks
+	\item \textbf{DBMS:} MySQL/MariaDB, PostgreSQL, SQLite, Redis
+	\item \textbf{Tools:} UNIX-like ОС (Linux/BDS/macOS), Git, \LaTeX, make, Vite, Webpack, Podman/Docker
+\end{compactitemize}
+
+% ---------
+
+\section{Hobbies}
+
+Programming, photography, gadgets and travel.
+
+% ---------
+
+%% \section{References}
+
+%% Available upon request.
+
+% ---------
+
+\bottominfo{
+	Last updated on \filemodprintdate{\jobname}.
+	The latest version of this resume is available on \url{https://kolesnikov.se/resume/\jobname.pdf}
+}
+
+\end{document}

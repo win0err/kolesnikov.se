@@ -1,0 +1,84 @@
+.resume main li {
+	list-style-image: url('/assets/lists/metalic_purple.gif');
+	image-rendering: pixelated;
+}
+
+.resume-record {
+	margin-bottom: 1.5rem;
+}
+
+.resume-record__dates {
+	white-space: nowrap;
+}
+
+.resume-record__title {
+	margin-right: .5em;
+}
+
+.resume-record ul li {
+	margin: .5rem 0;
+	list-style-image: none;
+	list-style-type: square;
+}
+
+.resume main a,
+.resume main a:visited {
+	color: inherit;
+}
+
+.resume main a:hover {
+	color: var(--link-hover-color);
+}
+
+ul.resume-contacts {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin-top: -.75em;
+}
+
+ul.resume-contacts li {
+	list-style: none;
+	margin: 0;
+}
+
+ul.resume-contacts a:not(:hover, :active) {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul.resume-contacts :not(:last-child)::after {
+	content: "\b7";
+	margin: 0 .5em;
+}
+
+aside.other-formats {
+	float: right;
+	font-size: .875rem;
+	border-left: 1px solid;
+	margin: 0 0 1em 1.5em;
+	padding: 0 0 0 1.5em;
+}
+
+@media screen and (max-width: 480px) {
+	aside.other-formats {
+		float: none;
+		border: none;
+		padding: 1em 0;
+		margin: 0;
+	}
+}
+
+.other-formats__title {
+	margin: 0 0 .25em;
+}
+
+.other-formats__links {
+	margin: .25em 0;
+}
+
+.other-formats__links a img {
+	vertical-align: middle;
+	height: 14px;
+	padding-right: 2px;
+}

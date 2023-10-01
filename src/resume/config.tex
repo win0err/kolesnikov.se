@@ -1,0 +1,142 @@
+% -*- indent-tabs-mode: t; tab-width: 4 -*-
+\usepackage[a4paper, hmargin=20mm, vmargin=20mm, top=20mm]{geometry}
+
+
+%% Language settings
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage{polyglossia}
+\setotherlanguages{english,british,russian}
+
+
+%% Show dates
+\usepackage[useregional]{datetime2}
+\DTMlangsetup[en-GB]{ord=raise}  % ^{th}
+
+
+%% File modification date
+\usepackage{filemod}
+\renewcommand*{\thefilemoddate}[3]{\DTMdisplaydate{#1}{#2}{#3}{-1}}
+
+
+%% Fonts
+\usepackage{fontspec}
+\setmonofont{LiberationMono}[Scale=0.87]
+\setmainfont{LiberationSerif}
+\setsansfont{LiberationSans}
+
+
+%% Conditional commands
+\usepackage{ifthen, xifthen}  % \ifthenelse, \isempty tests
+
+
+%% Colored links
+\usepackage[dvipsnames]{xcolor}
+\definecolor{darkblue}{HTML}{00008B}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, urlcolor=darkblue}
+\urlstyle{same}
+
+
+%% Graphics
+\usepackage{graphicx} % Incude images
+\usepackage{floatflt} % Floating positioning
+
+
+%% Horizontal lists
+\usepackage[inline]{enumitem}
+
+
+%% Settings
+\setcounter{secnumdepth}{0} % Suppress section numbering
+\setlength\parindent{0pt} % Stop paragraph indentation
+
+
+% ---------
+
+
+%% Title
+\renewcommand{\title}[1]{ {\huge{\textbf{#1}}}}
+
+
+%% Horizontal list separated by bullet
+\newenvironment{horizontalitemize}
+{ \begin{itemize*}[
+	label={},
+	afterlabel={},
+	itemjoin={{\enskip\textbullet{}\enskip}}
+] }
+{ \end{itemize*} }
+
+
+%% Compact unordered list
+\newenvironment{compactitemize}
+{ \begin{itemize}[parsep=0pt,label={---}] }
+{ \end{itemize} }
+
+
+%% Super compact unordered list
+\newenvironment{supercompactitemize}
+{ \begin{itemize}[
+  nosep,
+  after=\vspace{.5\baselineskip},
+  before=\vspace{.25\baselineskip},
+  itemsep=.15em,
+  parsep=0pt,
+  label={---}
+] }
+{ \end{itemize} }
+
+
+%% Job entry
+\newcommand{\job}[7]{
+	\filbreak % no page break
+
+	\begin{tabbing}
+		\hspace{2cm}  \= \kill
+		\textbf{#1--} \> \href{#4}{#3}, #5 \\  % from-- Link To Employer, Office Location
+		\textbf{#2}	  \>\+ \textit{#6}	   \\  % to		Position
+
+					  \begin{minipage}{\the\dimexpr\textwidth-2cm\relax}
+						\vspace{2mm}
+					  	#7 % Job Description
+					  \end{minipage}
+	\end{tabbing}
+
+	\vspace{-.25\baselineskip}
+}
+
+
+%% Education entry
+\newcommand{\education}[6]{
+	\begin{tabbing}
+		\hspace{2cm} \= \kill
+		\bf{#1--#2}	\> \href{#4}{#3}\ifthenelse{\not\isempty{#5}}{, #5}{} \\ % from--to Link To University[, Faculty]
+					\> #6 % Degree
+	\end{tabbing}
+}
+
+
+%% Table-like summary
+% environment
+\newenvironment{summary}
+{
+	\begin{tabbing}
+	\hspace{3cm} \= \kill
+}
+{ \end{tabbing} }
+
+% command
+\newcommand{\summaryitem}[2]{
+	\textit{#1:} \> #2\\
+}
+
+
+%% Bottom information about last update
+\newcommand{\bottominfo}[1]{
+	\par\vfill{
+		\footnotesize\color{gray}
+		#1
+	}
+}

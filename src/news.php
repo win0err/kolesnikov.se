@@ -22,13 +22,13 @@
 
 				<h2>2024</h2>
 
-				<ul reversed>
+				<ul>
 					<li>I've posted 19 photos taken in <a href="/blog/summer-and-autumn-2023.html">the summer and autumn 2023</a>.</li>
 				</ul>
 
 				<h2>2023</h2>
 
-				<ul reversed>
+				<ul>
 					<li>I've published <a href="/blog/spring-in-moscow-2023.html">a new post with photos</a> of spring 2023 in Moscow.</li>
 					<li>Winter is here! This means the website has been <a href="/#themes">decorated</a> for the New Year!</li>
 					<li>
@@ -47,7 +47,7 @@
 
 				<h2>2022</h2>
 
-				<ul reversed>
+				<ul>
 					<li>
 						I've added a bit of New Year's spirit to the site.
 						Please leave a message in <a href="/guestbook.html">the guestbook</a> if you like the New Year's

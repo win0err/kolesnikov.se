@@ -100,3 +100,13 @@ a:visited:hover {
 ._no-visited {
 	--link-visited-color: var(--link-color);
 }
+
+a.external-link::after{
+	display: inline-block;
+	content: '';
+	width: 12px;
+	height: 12px;
+	background: url(/assets/wikipedia_external_link.png) no-repeat;
+	image-rendering: pixelated;
+	margin-left: 3px;
+}
