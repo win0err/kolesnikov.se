@@ -59,19 +59,9 @@
 				<hr />
 
 				<div class="comment-section">
-					<h2>Comments <small>(1)</small></h2>
+					<h2>Comments <small>(2)</small></h2>
 
 					<ol>
-						<li>
-							<div>
-								<strong><a href="https://maxl.neocities.org" target="_blank" rel="noindex nofollow ugc">KOCATKA</a></strong>
-								wrote on <small><time datetime="2023-01-03T09:15:15+00:00">3 January 2023, 09:15</time></small>
-							</div>
-							<div>
-								<p>Very cool!</p>
-							</div>
-						</li>
-
 						<li>
 							<div>
 								<strong>Shinyanskiy, Roman</strong>
@@ -79,6 +69,16 @@
 							</div>
 							<div>
 								<p>Great work!</p>
+							</div>
+						</li>
+
+						<li>
+							<div>
+								<strong><a href="https://maxl.neocities.org" target="_blank" rel="noindex nofollow ugc">KOCATKA</a></strong>
+								wrote on <small><time datetime="2023-01-03T09:15:15+00:00">3 January 2023, 09:15</time></small>
+							</div>
+							<div>
+								<p>Very cool!</p>
 							</div>
 						</li>
 					</ol>
