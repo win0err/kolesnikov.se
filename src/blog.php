@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<?php include 'template/blocks/meta.php'; ?>
+		<?php require '_template/meta.php'; ?>
 		<title>Sergei Kolesnikov's Blog</title>
 		<link rel="alternate" title="Blog Posts Atom Feed" type="application/atom+xml" href="/feed.atom" />
 	</head>
 
 	<body id="top" class="_theme--black">
 		<div class="container">
-			<?php include 'template/blocks/header.php'; ?>
+			<?php require '_template/header.php'; ?>
 
 			<main>
 				<h1>Blog</h1>
@@ -41,7 +41,7 @@
 
 			<hr class="styled styled--island" />
 
-			<?php include 'template/blocks/footer.php'; ?>
+			<?php require '_template/footer.php'; ?>
 		</div>
 	</body>
 </html>

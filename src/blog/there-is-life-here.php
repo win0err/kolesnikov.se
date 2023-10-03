@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<?php include __DIR__ . '/../template/blocks/meta.php'; ?>
+		<?php require __DIR__ . '/../_template/meta.php'; ?>
 		<title>There Is Life Here! — Sergei Kolesnikov's Blog</title>
 		<style type="text/css">
 			#game_of_life {
@@ -20,7 +20,7 @@
 
 	<body id="top" class="_theme--black">
 		<div class="container">
-			<?php include __DIR__ . '/../template/blocks/header.php'; ?>
+			<?php require __DIR__ . '/../_template/header.php'; ?>
 
 			<main>
 				<article class="blog-article">
@@ -85,7 +85,7 @@
 
 					<hr class="dashed" />
 
-					<?php include __DIR__ . '/../template/blocks/comment-leave.php'; ?>
+					<?php require __DIR__ . '/../_template/comment-form.php'; ?>
 				</div>
 
 				<div class="back-button-holder">
@@ -95,7 +95,7 @@
 
 			<hr />
 
-			<?php include __DIR__ . '/../template/blocks/footer.php'; ?>
+			<?php require __DIR__ . '/../_template/footer.php'; ?>
 		</div>
 	</body>
 </html>

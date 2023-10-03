@@ -12,7 +12,7 @@ function generate_sri(string $path) {
 }
 
 // Generate subresource integrity for styles
-$stylesCssSri = generate_sri(__DIR__ . '/../../../dist/styles.css');
+$stylesCssSri = generate_sri(__DIR__ . '/../../dist/styles.css');
 
 echo <<<HEAD
 	<meta charset="utf-8">

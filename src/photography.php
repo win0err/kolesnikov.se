@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<?php include 'template/blocks/meta.php'; ?>
+		<?php require '_template/meta.php'; ?>
 		<title>Photos by Sergei Kolesnikov</title>
 	</head>
 
 	<body id="top" class="_theme--black">
 		<div class="container">
-			<?php include 'template/blocks/header.php'; ?>
+			<?php require '_template/header.php'; ?>
+			<?php require '_template/utils.php'; ?>
 
 			<main class="photography">
 				<h1>Photography</h1>
@@ -23,12 +24,7 @@
 
 					$rendered_images = array_reduce(
 						$gallery->images,
-						fn ($html, $image) => $html . '
-							<a href="/photography/full/' . $image->path . '">
-								<img src="/photography/thumbs/' . $image->path . '"
-									srcset="/photography/thumbs/' . str_replace('.jpg', '@2x.jpg', $image->path) . ' 2x"
-									alt="' . $image->alt . '" />
-							</a>',
+						fn ($html, $image) => $html . get_image_html('photography/' . $image->path, $image->alt ?? ''),
 						'',
 					);
 
@@ -43,7 +39,7 @@
 				}
 
 				$photos = json_decode(
-					file_get_contents(__DIR__ . '/photos.json'),
+					file_get_contents(__DIR__ . '/photography/meta.json'),
 					flags: \JSON_THROW_ON_ERROR,
 				);
 				$galleries = array_map('render_gallery', $photos);
@@ -55,7 +51,7 @@
 
 			<hr class="styled styled--forest" />
 
-			<?php include 'template/blocks/footer.php'; ?>
+			<?php require '_template/footer.php'; ?>
 		</div>
 	</body>
 </html>

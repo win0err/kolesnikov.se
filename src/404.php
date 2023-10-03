@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<?php include 'template/blocks/meta.php'; ?>
+		<?php require '_template/meta.php'; ?>
 		<meta name="robots" content="noindex, follow" />
 		<title>404 — Not Found</title>
 	</head>

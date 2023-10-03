@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<?php include 'template/blocks/meta.php'; ?>
+		<?php require '_template/meta.php'; ?>
 
 		<?php
 			$contacts = file_get_contents(__DIR__ . '/contacts.txt');
@@ -19,7 +19,7 @@
 
 	<body id="top" class="_theme--black">
 		<div class="container">
-			<?php include 'template/blocks/header.php'; ?>
+			<?php require '_template/header.php'; ?>
 
 			<main>
 				<p>
@@ -154,7 +154,7 @@
 			</main>
 
 			<hr class="unstyled" />
-			<?php include 'template/blocks/footer.php'; ?>
+			<?php require '_template/footer.php'; ?>
 		</div>
 	</body>
 </html>

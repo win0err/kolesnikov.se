@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php include __DIR__ . '/../template/blocks/meta.php'; ?>
+        <?php require __DIR__ . '/../_template/meta.php'; ?>
         <title>Hello World! — Sergei Kolesnikov's Blog</title>
     </head>
 
     <body id="top" class="_theme--black">
         <div class="container">
-            <?php include __DIR__ . '/../template/blocks/header.php'; ?>
+            <?php require __DIR__ . '/../_template/header.php'; ?>
 
             <main>
                 <article>
@@ -37,41 +37,39 @@
 
                 <hr />
 
-                <h2>Leave a comment</h2>
+                <div class="comment-section">
+                    <h2>Comments</h2>
+                    <!-- <h2>Comments <small>(N)</small></h2> -->
 
-                <p>
-                    To make a comment, please send an email using the button below.
-                </p>
+                    <p>No comments yet. Be the first!</p>
 
-                <p>
-                    Your e-mail address <strong>won't be shared</strong>.
-                    If you don't want your real name to be published, sign the e-mail with the name you would like to use.
-                    If you would like your name to link to a specific URL, please share that as well.
-                </p>
+                    <!--
+                        <ol>
+                            <li>
+							    <div>
+								    <strong>nickname</strong>
+								    wrote on <small><time datetime="___">12 January 1970, 17:57</time></small>
+							    </div>
+							    <div>
+								    <p>Some comment</p>
+							    </div>
+						    </li>
+                        </ol>
+                    -->
 
-                <p><a target="_blank" href="mailto:sergei+comments@kolesnikov.se?subject=<?php echo urlencode('RE: Hello World!'); ?>">Comment via email</a></p>
+					<hr class="dashed" />
 
-                <p><small>Formatting options: <strong>bold</strong>, <i>italics</i> and plain text lists are allowed.</small></p>
+					<?php require __DIR__ . '/../_template/comment-form.php'; ?>
+				</div>
 
-                <h2>Comments <small>(2)</small></h2>
-
-                <ol>
-                    <li>
-                        <strong>Name</strong>
-                        <p>Comment</p>
-                    </li>
-                </ol>
-
-                <!-- <p>No comments yet. Be the first!</p> -->
-
-                <div style="text-align: center; margin: 2rem 0;">
-                    <a href="/blog.html"><img src="/assets/backanim.gif" alt="Go back" width="50" /></a>
-                </div>
+                <div class="back-button-holder">
+					<a href="/blog.html"><img src="/assets/backanim.gif" alt="Go back" width="50" /></a>
+				</div>
             </main>
 
             <hr />
 
-            <?php include __DIR__ . '/../template/blocks/footer.php'; ?>
+            <?php require __DIR__ . '/../_template/footer.php'; ?>
         </div>
     </body>
 </html>

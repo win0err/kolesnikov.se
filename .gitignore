@@ -5,5 +5,5 @@ dist/
 .env
 .DS_Store
 
-photography/*
-!photography/.keep
+src/photography/*.jpg
+src/blog/**/*.jpg

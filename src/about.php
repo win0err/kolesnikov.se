@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<?php include 'template/blocks/meta.php'; ?>
+		<?php require '_template/meta.php'; ?>
 		<title>About Sergei Kolesnikov</title>
 	</head>
 
 	<body id="top" class="_theme--black">
 		<div class="container">
-			<?php include 'template/blocks/header.php'; ?>
+			<?php require '_template/header.php'; ?>
 
 			<main>
 				<h1>Who is <!-- John Galt -->Sergei Kolesnikov?</h1>
@@ -86,7 +86,7 @@
 
 			<hr class="styled styled--offroad" />
 
-			<?php include 'template/blocks/footer.php'; ?>
+			<?php require '_template/footer.php'; ?>
 		</div>
 	</body>
 </html>

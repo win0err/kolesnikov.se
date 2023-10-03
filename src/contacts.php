@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<?php include 'template/blocks/meta.php'; ?>
+		<?php require '_template/meta.php'; ?>
 		<title>Sergei Kolesnikov's contacts</title>
 	</head>
 
 	<body id="top" class="_theme--black">
 		<div class="container">
-			<?php include 'template/blocks/header.php'; ?>
+			<?php require '_template/header.php'; ?>
 
 			<main>
 				<h1>Contacts</h1>
@@ -67,7 +67,7 @@
 
 			<hr class="styled styled--tap" />
 
-			<?php include 'template/blocks/footer.php'; ?>
+			<?php require '_template/footer.php'; ?>
 		</div>
 	</body>
 </html>
