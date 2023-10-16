@@ -1,8 +1,8 @@
-.photography > article + hr {
+.photography > section + hr {
 	border: none;
 }
 
-.photography > article + hr::after {
+.photography > section + hr::after {
 	content: '\2053';
 	display: block;
 	text-align: center;

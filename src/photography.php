@@ -29,11 +29,11 @@
 					);
 
 					return <<< GALLERY
-					<article>
+					<section>
 						<div class="gallery gallery--{$count}">
 							{$rendered_images}
 						</div>
-					</article>
+					</section>
 
 					GALLERY;
 				}
