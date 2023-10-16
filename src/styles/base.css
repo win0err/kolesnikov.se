@@ -55,3 +55,8 @@ figure {
 figcaption {
 	padding: 0.5em 1em;
 }
+
+.image-pixelated,
+img[src$=".gif"]:not(.image-smooth) {
+	image-rendering: crisp-edges;
+}

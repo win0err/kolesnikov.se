@@ -4,6 +4,7 @@ hr.dashed {
 
 hr.styled {
 	border: none;
+	image-rendering: crisp-edges;
 	background-position: 0;
 }
 

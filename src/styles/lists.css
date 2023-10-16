@@ -1,3 +1,4 @@
 ul.styled--gold-star {
 	list-style-image: url('/assets/lists/list-gold-star.png');
+	image-rendering: crisp-edges;
 }
