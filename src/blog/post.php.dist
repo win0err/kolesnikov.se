@@ -10,8 +10,17 @@
             <?php require __DIR__ . '/../_template/header.php'; ?>
 
             <main>
-                <article>
-                    <h1>Hello World!</h1>
+                <!--
+                    1. Add a link on /blog.html
+                    2. Title: <h1 />, <title />
+                    3. Check publication dates
+                    4. RSS
+                  -->
+
+                <article class="blog-article">
+					<h1 class="blog-article__title">Hello World!</h1>
+
+					<time class="blog-article__time" datetime="2022-07-12T03:09:00+03:00">Tue, 12 July 2022</time>
 
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas. Nibh sit amet commodo nulla. Gravida arcu ac tortor dignissim convallis aenean et tortor at. Pretium fusce id velit ut tortor pretium viverra. At volutpat diam ut venenatis tellus in metus vulputate. Non arcu risus quis varius quam. Mauris in aliquam sem fringilla. Auctor urna nunc id cursus metus aliquam eleifend mi in. Pellentesque id nibh tortor id aliquet lectus. Integer vitae justo eget magna fermentum iaculis eu non. Condimentum lacinia quis vel eros donec ac odio. Amet facilisis magna etiam tempor orci. Lorem ipsum dolor sit amet consectetur adipiscing elit. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Netus et malesuada fames ac. Urna porttitor rhoncus dolor purus non enim praesent. Mauris ultrices eros in cursus turpis massa tincidunt. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien.
