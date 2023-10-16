@@ -133,6 +133,7 @@ server:
 
 publish-content: all
 	rsync -avz \
+		--checksum \
 		--exclude="images/" \
 		--exclude=$(state_files) \
 		--exclude=".DS_Store" \
@@ -146,6 +147,7 @@ publish-content: all
 
 publish-images: all
 	rsync -avz \
+		--checksum \
 		--exclude=".DS_Store" \
 		--chown deploy:www-data \
 		dist/images/ deploy@kolesnikov.se:/var/www/kolesnikov.se/html/images
