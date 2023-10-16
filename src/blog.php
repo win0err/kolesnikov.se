@@ -4,6 +4,21 @@
 		<?php require '_template/meta.php'; ?>
 		<title>Sergei Kolesnikov's Blog</title>
 		<link rel="alternate" title="Blog Posts Atom Feed" type="application/atom+xml" href="/feed.atom" />
+
+		<link rel="preload" as="image" href="/assets/camera-flash-static.gif" />
+		<link rel="preload" as="image" href="/assets/camera-flash-animated.gif" />
+
+		<style type="text/css">
+			.blog-posts-by-year__list img {
+				max-height: 16px;
+				vertical-align: middle;
+				padding-bottom: 3px;
+			}
+
+			.blog-posts-by-year__list li:hover .photography-post-icon {
+				content: url("/assets/camera-flash-animated.gif");
+			}
+		</style>
 	</head>
 
 	<body id="top" class="_theme--black">
@@ -26,15 +41,30 @@
 				<hr />
 
 				<section class="blog-posts-by-year">
+					<h2>2023</h2>
+
+					<ul class="blog-posts-by-year__list">
+						<li>
+							<time datetime="2023-10-16">16/10</time>
+							<a href="/blog/moscow-jan-feb-2023.html">Moscow in January and February</a>
+							<img src="/assets/camera-flash-static.gif" class="photography-post-icon"
+								 alt="Camera icon" title="Photography" />
+						</li>
+					</ul>
+
 					<h2>2022</h2>
 
 					<ul class="blog-posts-by-year__list">
 						<li>
 							<time datetime="2022-09-23">23/09</time>
 							<a href="/blog/there-is-life-here.html">There Is Life Here!</a>
-							<img height=14 src="/assets/attention/star-small.gif" alt="Hot!">
+							<img src="/assets/attention/star-small.gif" alt="Hot!" />
 						</li>
-						<li><time datetime="2022-07-12">12/07</time> <a href="/blog/hello-world.html">Hello World!</a></li>
+
+						<li>
+							<time datetime="2022-07-12">12/07</time>
+							<a href="/blog/hello-world.html">Hello World!</a>
+						</li>
 					</ul>
 				</section>
 			</main>

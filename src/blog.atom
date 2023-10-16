@@ -11,8 +11,32 @@
 		<uri>https://kolesnikov.se/</uri>
 	</author>
 
-	<updated>2022-09-23T17:42:00+03:00</updated>
+	<!-- Don't forget to update -->
+	<updated>2023-10-16T15:51:00+03:00</updated>
+
 	<!-- id: UUID5(title), https://uuidonline.com/?version=5 -->
+
+	<entry>
+		<!-- UUID(Moscow in January and February + moscow-jan-feb-2023) -->
+		<id>urn:uuid:2e64367d-f916-511c-9735-e97e0d2fdfad</id>
+		<title>Moscow in January and February</title>
+		<updated>2023-10-16T15:51:00+03:00</updated>
+		<published>2023-10-16T15:51:00+03:00</published>
+		<content type="html">
+			<![CDATA[
+				 <p>
+					Hello Internet!
+					I take many pictures on both film and digital cameras.
+					The best shots are published on my <a href="/photography.html">photography page</a>.
+					However, a lot of the photos I take remain unpublished or scattered across various social networks.
+					I decided to publish these shots on my blog. You may consider them as sketches of my life.
+				</p>
+
+				<p><a href="https://kolesnikov.se/blog/moscow-jan-feb-2023.html">View photos →</a></p>
+			]]>
+		</content>
+		<link rel="alternate" type="text/html" href="https://kolesnikov.se/blog/moscow-jan-feb-2023.html" />
+	</entry>
 
 	<entry>
 		<id>urn:uuid:a69211d0-7711-5c53-bf4b-9b999ffa063e</id>

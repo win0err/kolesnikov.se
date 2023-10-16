@@ -35,6 +35,11 @@
 
 				<ul>
 					<li>
+						I've started a new category on my <a href="/blog.html">blog</a> with photo posts.
+						Entries in this category are marked with a camera icon.<br />
+						The first publication is “<a href="/blog/moscow-jan-feb-2023.html">Moscow in January and February</a>”.
+					</li>
+					<li>
 						I've adjusted the layout of the website, making it responsive,
 						but nevertheless, it's still <i>best viewed on 800×600</i>.
 						<br />
