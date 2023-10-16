@@ -47,7 +47,7 @@
 						<li>
 							<time datetime="2023-10-16">16/10</time>
 							<a href="/blog/moscow-jan-feb-2023.html">Moscow in January and February</a>
-							<img src="/assets/camera-flash-static.gif" class="photography-post-icon"
+							<img src="/assets/camera-flash-static.gif" class="photography-post-icon image-smooth"
 								 alt="Camera icon" title="Photography" />
 						</li>
 					</ul>
