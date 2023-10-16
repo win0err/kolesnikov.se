@@ -8,12 +8,10 @@
 				user-select: none;
 				-webkit-user-select: none;
 
+				width: 800px;
 				image-rendering: pixelated;
 
 				cursor: pointer;
-
-				width: 800px;
-				height: 620px;
 			}
 		</style>
 	</head>
