@@ -57,7 +57,7 @@
 				<hr />
 
 				<div class="comment-section">
-					<h2>Comments <small>(2)</small></h2>
+					<h2>Comments <small>(3)</small></h2>
 
 					<ol>
 						<li>
@@ -77,6 +77,16 @@
 							</div>
 							<div>
 								<p>Very cool!</p>
+							</div>
+						</li>
+
+						<li>
+							<div>
+								<strong>Parallax</strong>
+								wrote on <small><time datetime="2023-11-14T22:50:05+00:00">14 November 2023, 22:50</time></small>
+							</div>
+							<div>
+								<p>I like it!</p>
 							</div>
 						</li>
 					</ol>
