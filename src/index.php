@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<?php require '_template/meta.php'; ?>
+		<?php require '_template/is_winter.php'; ?>
 
 		<?php
 			$contacts = file_get_contents(__DIR__ . '/contacts.txt');
@@ -34,6 +35,7 @@
 				<h2>News & Updates</h2>
 
 				<ul>
+					<li>Winter is here! That means the website has been <a href="#themes">decorated</a> for the New Year!</li>
 					<li>
 						I've started a new category on my <a href="/blog.html">blog</a> with photo posts.
 						Entries in this category are marked with a camera icon.<br />
@@ -56,8 +58,7 @@
 					<li>Blog posts now have a comment form. Feel free to comment!</li>
 					<li>There's <a href="/blog/there-is-life-here.html">life on my blog</a> now</li>
 					<li>
-						Hello, world! I finished with a new version of the site. It took about 3 months for me. <br />
-						If you find typos or grammatical inaccuracies on my website, please <a href="/contacts.html">contact me</a>.
+						Hello, world! I finished with a new version of the site. It took about 3 months for me.
 					</li>
 				</ul>
 
@@ -113,15 +114,27 @@
 				</p>
 
 				<p>
+					If you find typos or grammatical inaccuracies on my website, please <a href="/contacts.html">contact me</a>.
+				</p>
+
+				<h4 id="themes">Website appearance</h4>
+
+				<p>
 					This website is presented in different color schemes.
 					<noscript>You need to have JavaScript enabled to use this feature.</noscript>
 
 					<span class="theme-switchers" style="display: none;">
 						Choose the color scheme that you like:
 						<a href="#" data-theme="black" class="_dotted">Black</a> (default),
-						<!-- <a href="#" data-theme="winter" class="_dotted">Winter</a>, -->
-						<span><a href="#" data-theme="panther" class="_dotted">Panther</a>
-							<img height=14 src="/assets/attention/hot.gif" alt="Hot!"></span>,
+						<?php
+							if (IS_WINTER) {
+								echo<<<HTML
+									<span><a href="#" data-theme="winter" class="_dotted">Winter</a>
+										<img height=14 src="/assets/attention/new3.gif" alt="New!"></span>,
+								HTML;
+							}
+						?>
+						<a href="#" data-theme="panther" class="_dotted">Panther</a>,
 						<a href="#" data-theme="sky" class="_dotted">Sky</a>, or
 						<a href="#" data-theme="space" class="_dotted">Space</a>.
 					</span>
@@ -158,7 +171,8 @@
 				</ul>
 			</main>
 
-			<hr class="unstyled" />
+			<hr class="<?php echo IS_WINTER ? 'styled styled--winter' : 'unstyled' ?>" />
+
 			<?php require '_template/footer.php'; ?>
 		</div>
 	</body>

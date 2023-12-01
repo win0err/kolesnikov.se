@@ -1,3 +1,5 @@
+<?php if (!defined('IS_WINTER')) require __DIR__ . '/is_winter.php'; ?>
+
 <footer class="footer _no-visited">
 	<div class="footer__buttons">
 		<img src="/assets/buttons/linux-powered.gif" alt="Linux Powered" />
@@ -20,14 +22,29 @@
 	</div>
 
 	<div class="footer__image">
-		<img src="/assets/cat.gif" alt="White cat" />
-		<!-- img src="/assets/winter/christmas-tree.gif" alt="Christmas tree" -->
+		<?php
+		echo IS_WINTER
+			? '<img src="/assets/winter/christmas-tree.gif" alt="Christmas tree" />'
+			: '<img src="/assets/cat.gif" alt="White cat" />';
+		?>
 	</div>
 </footer>
 
+
 <script>
+	<?php
+		if (IS_WINTER) echo <<<JS
+		window.addEventListener('DOMContentLoaded', () => {
+			document.body.classList.remove('_theme--black')
+			document.body.classList.add('_theme--winter')
+		})
+		JS;
+	?>
+
 	const applyCurrentTheme = () => {
-		const availableThemes = ['black', /* 'winter', */ 'sky', 'space', 'panther']
+		const availableThemes = ['black', 'sky', 'space', 'panther']
+		<?php if (IS_WINTER) echo 'availableThemes.push(\'winter\')'; ?>
+
 		const theme = localStorage.getItem('theme')
 
 		if (theme && availableThemes.includes(theme)) {

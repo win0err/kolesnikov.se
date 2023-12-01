@@ -43,7 +43,7 @@
 	--link-color: #fff;
 	--link-visited-color: #cdccf0;
 
-	--background: url('/assets/winter/christmas-lights-2.gif') repeat-x, url('/assets/backgrounds/winter.gif');
+	--background: url('/assets/winter/christmas-lights-2.gif') repeat-x, url('/assets/backgrounds/snowbg.gif');
 	--text-color: #fff;
 }
 ._theme--winter .header {
