@@ -45,23 +45,8 @@
 
                 <div class="comment-section">
                     <h2>Comments</h2>
-                    <!-- <h2>Comments <small>(N)</small></h2> -->
 
                     <p>No comments yet. Be the first!</p>
-
-                    <!--
-                        <ol>
-                            <li>
-							    <div>
-								    <strong>nickname</strong>
-								    wrote on <small><time datetime="___">12 January 1970, 17:57</time></small>
-							    </div>
-							    <div>
-								    <p>Some comment</p>
-							    </div>
-						    </li>
-                        </ol>
-                    -->
 
 					<hr class="dashed" />
 
