@@ -45,6 +45,12 @@
 
 					<ul class="blog-posts-by-year__list">
 						<li>
+							<time datetime="2023-12-09">09/12</time>
+							<a href="/blog/spring-in-moscow-2023.html">Spring in Moscow</a>
+							<img src="/assets/camera-flash-static.gif" class="photography-post-icon image-smooth"
+								 alt="Camera icon" title="Photography" />
+						</li>
+						<li>
 							<time datetime="2023-10-16">16/10</time>
 							<a href="/blog/moscow-jan-feb-2023.html">Moscow in January and February</a>
 							<img src="/assets/camera-flash-static.gif" class="photography-post-icon image-smooth"

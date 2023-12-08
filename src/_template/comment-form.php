@@ -1,5 +1,5 @@
 <div>
-	<h2>Leave a comment <img src="/assets/comment.gif" style="vertical-align: top; margin-top: 3px;" /></h2>
+	<h2>Leave a comment <img src="/assets/comment.gif" style="vertical-align: top; margin-top: 3px;" alt="Message bubble" /></h2>
 
 	<form action="/scripts/comment.php"
 		method="post"
