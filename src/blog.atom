@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://kolesnikov.se/">
 	<id>https://kolesnikov.se/blog.atom</id>
 	<title>Sergei Kolesnikov's Blog</title>
 	<subtitle>I blog here on topics like engineering, photography, and travel.</subtitle>

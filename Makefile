@@ -46,7 +46,7 @@ php: dist $(php)
 pgp: dist dist/win0err.asc dist/contacts.asc dist/.well-known/security.txt
 wkd: dist dist/.well-known/openpgpkey/hu/$(zbase32_user) dist/.well-known/openpgpkey/policy
 scripts: dist $(scripts)
-feeds: dist dist/blog.atom
+feeds: dist dist/blog.atom dist/news.atom
 
 
 $(dist_dirs):

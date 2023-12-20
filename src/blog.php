@@ -3,7 +3,7 @@
 	<head>
 		<?php require '_template/meta.php'; ?>
 		<title>Sergei Kolesnikov's Blog</title>
-		<link rel="alternate" title="Blog Posts Atom Feed" type="application/atom+xml" href="/feed.atom" />
+		<link rel="alternate" title="RSS (Atom Feed) — Blog posts" type="application/atom+xml" href="/blog.atom" />
 
 		<link rel="preload" as="image" href="/assets/camera-flash-static.gif" />
 		<link rel="preload" as="image" href="/assets/camera-flash-animated.gif" />
@@ -35,7 +35,7 @@
 
 				<p class="va-middle">
 					<span>I blog here on topics like engineering, photography, and travel.</span>
-					<a href="/blog.atom"><img src="/assets/rss.gif" alt="RSS (Atom Feed)" style="vertical-align: middle;" /></a>
+					<a href="/blog.atom"><img src="/assets/rss.gif" alt="RSS (Atom Feed)" title="RSS (Atom Feed) — Blog posts" style="vertical-align: middle;" /></a>
 				</p>
 
 				<hr />

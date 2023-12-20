@@ -3,6 +3,8 @@
 	<head>
 		<?php require '_template/meta.php'; ?>
 		<title>Sergei Kolesnikov's website news and updates</title>
+		<link rel="alternate" title="RSS (Atom Feed) — Website news and updates"
+			  type="application/atom+xml" href="/news.atom" />
 	</head>
 
 	<body id="top" class="_theme--black">
@@ -10,13 +12,19 @@
 			<?php require '_template/header.php'; ?>
 
 			<main>
-				<h1>News & updates</h1>
+				<h1>
+					News & updates
+					<a href="/news.atom"><img alt="RSS (Atom Feed)"
+											  title="RSS (Atom Feed) — Website news and updates"
+											  style="vertical-align: middle;"
+											  src="/assets/rss.gif"></a>
+				</h1>
 
 				<h2>2023</h2>
 
 				<ul reversed>
 					<li>I've published <a href="/blog/spring-in-moscow-2023.html">a new post with photos</a> of spring 2023 in Moscow.</li>
-					<li>Winter is here! This means the website has been <a href="#themes">decorated</a> for the New Year!</li>
+					<li>Winter is here! This means the website has been <a href="/#themes">decorated</a> for the New Year!</li>
 					<li>
 						I've started a new category on my <a href="/blog.html">blog</a> with photo posts.
 						Entries in this category are marked with a camera icon.<br />
@@ -44,7 +52,7 @@
 					<li>Blog posts now have a comment form. Feel free to comment!</li>
 					<li>There's <a href="/blog/there-is-life-here.html">life on my blog</a> now</li>
 					<li>
-						Hello, world! I finished with a new version of the site. It took about 3 months for me.
+						Hello, world! I finished with a new version of the site. It took about 3 months for me
 					</li>
 				</ul>
 			</main>

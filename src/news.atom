@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://kolesnikov.se/">
+	<id>https://kolesnikov.se/news.atom</id>
+	<title>Sergei Kolesnikov's website news and updates</title>
+	<subtitle>News and update announcements</subtitle>
+	<link rel="self" type="application/atom+xml" href="https://kolesnikov.se/news.atom" />
+	<link rel="alternate" type="text/html" href="https://kolesnikov.se/news.html" />
+	<icon>https://kolesnikov.se/assets/avatar.jpg</icon>
+	<author>
+		<name>Sergei Kolesnikov</name>
+		<uri>https://kolesnikov.se/</uri>
+	</author>
+
+	<!-- Don't forget to update -->
+	<updated>2023-12-20T04:00:00+03:00</updated>
+
+
+	<entry>
+		<id>urn:uuid:82fb4971-7689-5763-90b2-70906c9c0997</id>
+		<title>Website Update #10</title>
+		<published>2023-12-08T03:24:36+03:00</published>
+		<updated>2023-12-08T03:24:36+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 I've published <a href="https://kolesnikov.se/blog/spring-in-moscow-2023.html">a new post with photos</a> of spring 2023 in Moscow.
+					 </p>
+			]]>
+		</content>
+	</entry>
+
+	<entry>
+		<id>urn:uuid:465182d3-27ab-52ff-ac3a-2dcd7e24d080</id>
+		<title>Website Update #9</title>
+		<published>2023-12-01T03:10:06+03:00</published>
+		<updated>2023-12-01T03:10:06+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 Winter is here! This means the website has been <a href="https://kolesnikov.se/#themes">decorated</a> for the New Year!
+					 </p>
+			]]>
+		</content>
+	</entry>
+
+	<entry>
+		<id>urn:uuid:fba081c4-a923-585b-8644-fa4286ff5306</id>
+		<title>Website Update #8</title>
+		<published>2023-10-16T16:00:31+03:00</published>
+		<updated>2023-10-16T16:00:31+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 I've started a new category on my <a href="https://kolesnikov.se/blog.html">blog</a> with photo posts.
+					 Entries in this category are marked with a camera icon.<br />
+					 The first publication is “<a href="https://kolesnikov.se/blog/moscow-jan-feb-2023.html">Moscow in January and February</a>”.
+					 </p>
+			]]>
+		</content>
+	</entry>
+
+	<entry>
+		<id>urn:uuid:14f0370b-57de-55e6-aabe-2589dfe4b68b</id>
+		<title>Website Update #7</title>
+		<published>2023-09-10T20:56:16+03:00</published>
+		<updated>2023-09-10T20:56:16+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 I've adjusted the layout of the website, making it responsive, but nevertheless, it's still <i>best viewed on 800×600</i>.
+						<br />
+						Bonus content — Panther color scheme!
+					 </p>
+			]]>
+		</content>
+	</entry>
+
+	<entry>
+		<id>urn:uuid:ce6bd4db-e461-59dd-a037-3c60478bf24f</id>
+		<title>Website Update #6</title>
+		<published>2023-09-07T00:50:18+03:00</published>
+		<updated>2023-09-07T00:50:18+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 I've added <a href="https://kolesnikov.se/photography.html">a bunch of new photos</a>
+					 </p>
+			]]>
+		</content>
+	</entry>
+
+	<entry>
+		<id>urn:uuid:880a5554-496f-5d0a-bdff-8b83cbda60fc</id>
+		<title>Website Update #5</title>
+		<published>2022-12-20T05:36:04+03:00</published>
+		<updated>2023-01-17T23:46:23+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 I've added a bit of New Year's spirit to the site. Please leave a message in <a href="https://kolesnikov.se/guestbook.html">the guestbook</a> if you like the New Year's  decorations on the website. Update: Removed until December 2023 ;-)
+					 </p>
+			]]>
+		</content>
+	</entry>
+
+	<entry>
+		<id>urn:uuid:f35bd856-902c-5c68-aa2d-5427fe795325</id>
+		<title>Website Update #4</title>
+		<published>2022-11-09T01:42:02+03:00</published>
+		<updated>2022-11-09T01:42:02+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 <a href="https://kolesnikov.se/blog.atom">RSS (Atom) Feed</a> of my <a href="https://kolesnikov.se/blog.html">blog</a> is now available and waiting for subscribers ;-)
+					 </p>
+			]]>
+		</content>
+	</entry>
+
+	<entry>
+		<id>urn:uuid:9da15868-0e52-5852-869b-2dd018c4989f</id>
+		<title>Website Update #3</title>
+		<published>2022-11-08T13:24:55+03:00</published>
+		<updated>2022-11-08T13:24:55+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 Blog posts now have a comment form. Feel free to comment!
+					 </p>
+			]]>
+		</content>
+	</entry>
+
+	<entry>
+		<id>urn:uuid:881b8f0a-7a6c-506a-af9c-3eafe2068b59</id>
+		<title>Website Update #2</title>
+		<published>2022-09-24T13:26:54+03:00</published>
+		<updated>2022-09-24T13:26:54+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 There's <a href="https://kolesnikov.se/blog/there-is-life-here.html">life on my blog</a> now.
+					 </p>
+			]]>
+		</content>
+	</entry>
+
+	<entry>
+		<id>urn:uuid:27f0df29-9306-5dd7-a6cf-bd6c5d8ddb2d</id>
+		<title>Website Update #1</title>
+		<published>2022-07-02T13:24:57+03:00</published>
+		<updated>2022-07-02T13:24:57+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 Hello, world! I finished with a new version of the site. It took about 3 months for me
+					 </p>
+			]]>
+		</content>
+	</entry>
+</feed>
