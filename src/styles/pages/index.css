@@ -11,6 +11,14 @@ ul.webrings {
 
 .webrings li {
 	display: inline;
-	margin-right: .5rem;
+	margin-right: .75rem;
 	white-space: nowrap;
+}
+
+.xxiivv-icon {
+	display: inline;
+	height: 1rem;
+	vertical-align: middle;
+	margin-bottom: 3px;
+	margin-right: 2px;
 }

@@ -146,7 +146,7 @@
 				<span>This site is a part of the following webrings:&nbsp;</span>
 				<ul class="webrings _no-visited">
 					<!-- <li><a href="#">←</a>&nbsp;<a href="https://fediring.net">Fediring</a>&nbsp;<a href="#">→</a></li> -->
-					<!-- <li><a href="#">←</a>&nbsp;<a href="https://webring.xxiivv.com/">XXIIVV</a>&nbsp;<a href="#">→</a></li> -->
+					<li><a href="https://webring.xxiivv.com/#win0err" target="_blank" rel="nofollow"><svg viewBox="0 0 300 300" fill="none" stroke="currentColor" stroke-linecap="square" stroke-width="20" class="xxiivv-icon" xmlns="http://www.w3.org/2000/svg"><path d="M201.962 210a60 60 0 10-103.924-60l-50 86.603"/><path d="M98.038 210a60 60 0 10103.924-60l-50-86.603"/><path d="M150 120a60 60 0 100 120h100"/></svg>XXIIVV</a></li>
 					<li>
 						<a href="https://hotlinewebring.club/kolesnikov-se/previous" target="_blank" rel="nofollow">←</a>
 						<a href="https://hotlinewebring.club/" target="_blank" rel="nofollow">Hotline</a>
