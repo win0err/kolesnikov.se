@@ -44,9 +44,19 @@
                 <hr />
 
                 <div class="comment-section">
-                    <h2>Comments</h2>
+                    <h2>Comments <small>(1)</small></h2>
 
-                    <p>No comments yet. Be the first!</p>
+                    <ol>
+                        <li>
+	                        <div>
+		                        <strong>misha</strong>
+		                        wrote on <small><time datetime="2023-12-30T15:30:03+00:00">30 December 2023, 15:30</time></small>
+	                        </div>
+	                        <div>
+		                        <p>Very beautiful photos, you have a good eye!!</p>
+	                        </div>
+                        </li>
+                    </ol>
 
 					<hr class="dashed" />
 
