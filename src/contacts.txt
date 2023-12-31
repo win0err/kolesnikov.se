@@ -3,7 +3,7 @@ Email: sergei@kolesnikov.se
 PGP: 2606 2BDB E8E6 6DA9 AB3E  780C BAC6 8A79 0D8A D1F2 (fingerprint)
 
 Telegram: https://t.me/win0err
-IRC: /msg win0err hello on irc.libera.chat or irc.gnome.org
+IRC: /msg win0err hello on irc.libera.chat
 [matrix]: @win0err:matrix.org
 
 twtxt.txt file: https://kolesnikov.se/twtxt.txt
