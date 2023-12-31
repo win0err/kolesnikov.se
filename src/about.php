@@ -29,7 +29,7 @@
 
 				<p>
 					I usually write code in JavaScript and Go, but I also use Python&nbsp;3, C (not C++), PHP, and more.
-					Most of my projects can be found on GitHub (like <a href="https://github.com/win0err/gnome-runcat">RunCat for GNOME Shell</a>, <a href="https://github.com/win0err/aphrodite-terminal-theme">Aphrodite Terminal Theme</a>, etc.).
+					Most of my projects can be found on GitHub (like <a href="https://github.com/win0err/gnome-runcat">RunCat for GNOME Shell</a>, <a href="https://github.com/win0err/twtwt">twtwt</a>, <a href="https://github.com/win0err/aphrodite-terminal-theme">Aphrodite Terminal Theme</a>, etc.).
 				</p>
 
 				<h3>Software Development</h3>
@@ -51,7 +51,7 @@
 				</ul>
 
 				<p>
-					I worked as a teaching assistant for MIREA — ­Russian Technological University, Department of Software and Standardization of Information Technologies (Courses: Object-Oriented Programming in Java, Software Development Technologies).
+					I worked as a teaching assistant for MIREA — Russian Technological University, Department of Software and Standardization of Information Technologies (Courses: Object-Oriented Programming in Java, Software Development Technologies).
 				</p>
 
 				<!--
@@ -68,7 +68,7 @@
 				</p>
 
 				<p>
-					My monitor is 29" LG UltraWide 29WP60G-B, which is connected to both laptops. I really recommend you to try ultra-wide monitors!
+					My monitor is 29" LG UltraWide 29WP60G-B, which is connected to both laptops. I really recommend you to try ultra-wide monitors! Sometimes I connect my laptop to a 19-inch LaCie Electron Blue IV CRT monitor.
 				</p>
 
 				<p>
