@@ -41,6 +41,17 @@
 				<hr />
 
 				<section class="blog-posts-by-year">
+					<h2>2024</h2>
+
+					<ul class="blog-posts-by-year__list">
+						<li>
+							<time datetime="2024-01-04">04/01</time>
+							<a href="/blog/summer-and-autumn-2023.html">Summer and Autumn 2023</a>
+							<img src="/assets/camera-flash-static.gif" class="photography-post-icon image-smooth"
+								 alt="Camera icon" title="Photography" />
+						</li>
+					</ul>
+
 					<h2>2023</h2>
 
 					<ul class="blog-posts-by-year__list">

@@ -12,8 +12,22 @@
 	</author>
 
 	<!-- Don't forget to update -->
-	<updated>2023-12-20T04:00:00+03:00</updated>
+	<updated>2024-01-04T04:00:00+03:00</updated>
 
+
+	<entry>
+		<id>urn:uuid:1cd5a612-768d-5b08-96d7-c3e9523dfd1b</id>
+		<title>Website Update #11</title>
+		<published>2024-01-04T04:00:00+03:00</published>
+		<updated>2024-01-04T04:00:00+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 I've posted 19 photos taken in <a href="https://kolesnikov.se/blog/summer-and-autumn-2023.html">the summer and autumn 2023</a>.
+					 </p>
+			]]>
+		</content>
+	</entry>
 
 	<entry>
 		<id>urn:uuid:82fb4971-7689-5763-90b2-70906c9c0997</id>

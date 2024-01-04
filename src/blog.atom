@@ -12,12 +12,33 @@
 	</author>
 
 	<!-- Don't forget to update -->
-	<updated>2023-12-08T03:15:00+03:00</updated>
+	<updated>2024-01-04T04:00:00+03:00</updated>
 
 	<!-- id: UUID5(title + slug), https://uuidonline.com/?version=5 -->
 
 	<entry>
-		<!-- UUID(Spring in Moscow + spring-in-moscow-2023) -->
+		<!-- UUID(Summer and Autumn 2023 + summer-and-autumn-2023) -->
+		<id>urn:uuid:3439c1ad-ca0f-5aa3-b32d-81dfd3512868</id>
+		<title>Summer and Autumn 2023</title>
+		<updated>2024-01-04T04:00:00+03:00</updated>
+		<published>2024-01-04T04:00:00+03:00</published>
+		<content type="html">
+			<![CDATA[
+				<p>
+					<a href="https://kolesnikov.se/blog/summer-and-autumn-2023.html">
+						<img src="https://kolesnikov.se/images/thumbs/blog/summer-and-autumn-2023/19-moscow-city.jpg"
+							srcset="https://kolesnikov.se/images/thumbs/blog/summer-and-autumn-2023/19-moscow-city@2x.jpg 2x"
+							alt="" />
+					</a>
+				</p>
+
+				<p><a href="https://kolesnikov.se/blog/summer-and-autumn-2023.html">View photos →</a></p>
+			]]>
+		</content>
+		<link rel="alternate" type="text/html" href="https://kolesnikov.se/blog/summer-and-autumn-2023.html" />
+	</entry>
+
+	<entry>
 		<id>urn:uuid:7c33a971-fdbd-5ffb-9e48-7ef5fc2646f1</id>
 		<title>Spring in Moscow</title>
 		<updated>2023-12-08T03:15:00+03:00</updated>

@@ -41,6 +41,7 @@
 				</h2>
 
 				<ul>
+					<li>I've posted 19 photos taken in <a href="/blog/summer-and-autumn-2023.html">the summer and autumn 2023</a>.</li>
 					<li>I've published <a href="/blog/spring-in-moscow-2023.html">a new post with photos</a> of spring 2023 in Moscow.</li>
 					<li>Winter is here! This means the website has been <a href="/#themes">decorated</a> for the New Year!</li>
 					<li>
@@ -54,7 +55,6 @@
 						<br />
 						Bonus content — Panther color scheme!
 					</li>
-					<li>I've added <a href="/photography.html">a bunch of new photos</a></li>
 				</ul>
 				<p><a href="/news.html">Older news…</a></p>
 

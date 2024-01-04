@@ -20,6 +20,12 @@
 											  src="/assets/rss.gif"></a>
 				</h1>
 
+				<h2>2024</h2>
+
+				<ul reversed>
+					<li>I've posted 19 photos taken in <a href="/blog/summer-and-autumn-2023.html">the summer and autumn 2023</a>.</li>
+				</ul>
+
 				<h2>2023</h2>
 
 				<ul reversed>
