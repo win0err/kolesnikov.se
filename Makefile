@@ -123,8 +123,11 @@ dist/.well-known/security.txt: src/.well-known/security.txt
 	gpg --yes --output "$@" --local-user $(pgp_user) --clearsign "$<"
 
 
-clean:
+clean-all:
 	rm -rf dist/
+
+clean: $(filter-out dist/images,$(wildcard dist/* dist/.well-known))
+	rm -rf $^
 
 
 server:
@@ -155,4 +158,4 @@ publish-images: all
 publish: all publish-content publish-images
 
 
-.PHONY: all clean images assets styles php wkd pgp dist scripts feeds server publish-content publish-images publish
+.PHONY: all clean-all clean images assets styles php wkd pgp dist scripts feeds server publish-content publish-images publish
