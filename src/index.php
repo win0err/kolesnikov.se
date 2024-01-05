@@ -29,7 +29,7 @@
 				</p>
 
 				<p>
-					This is my personal corner of the web. I blog here on topics like engineering, photography, and travel.<br />
+					This is my personal corner of the web. I blog here on topics like engineering, photography, and travel.
 				</p>
 
 				<h2>
@@ -100,17 +100,30 @@
 				<h2>About this website</h2>
 
 				<p>
-					This website is intended to work on older computers, some of which cannot support the HTTPS protocol, either due to new algorithms or CPU/RAM limitations.
-					Therefore, both HTTP and HTTPS are supported. Feel free to use any of them.
+					I’m happy to see people are accessing my page from all over the world!
 				</p>
 
 				<p>
-					This website is 100% cookie-free. There are some small client-side scripts, but this website works perfect with JavaScript turned off.
-					There are no advertisements on this site. This site is always under construction.
+					I try to follow Tim Berners-Lee’s “<a href="https://www.w3.org/Provider/Style/URI.html" target="_blank" rel="nofollow">Cool URIs don’t change</a>” rule.
+					If you’ve found a broken link, typo, or grammatical inaccuracy on my website, please <a href="/contacts.html">contact me</a> in any convenient way.
 				</p>
 
 				<p>
-					If you find typos or grammatical inaccuracies on my website, please <a href="/contacts.html">contact me</a>.
+					This website is intended to work on older computers, some of which cannot support the HTTPS protocol,
+					either due to new algorithms or CPU/RAM limitations.
+					Therefore, <i>both HTTP and HTTPS are supported</i>. Feel free to use any of them.
+				</p>
+
+				<p>
+					This website is designed not to be bloated. It’s a static HTML/CSS site that uses system fonts.
+					Additionally, all images are compressed before publishing.
+					There are some small client-side scripts, but this website works perfectly with JavaScript turned off.
+					There are no advertisements here. This website is 100% cookie-free.
+				</p>
+
+				<p>
+					This site is always under construction.
+					Browse it with your favorite browser or terminal program!
 				</p>
 
 				<h4 id="themes">Website appearance</h4>
