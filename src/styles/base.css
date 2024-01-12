@@ -6,6 +6,7 @@
 img {
 	height: auto;
 	max-width: 100%;
+	border: none;
 }
 
 summary {
@@ -59,6 +60,7 @@ figcaption {
 }
 
 .image-pixelated,
-img[src$=".gif"]:not(.image-smooth) {
+img[src$=".gif"]:not(.image-smooth),
+img[src$=".png"]:not(.image-smooth) {
 	image-rendering: crisp-edges;
 }
