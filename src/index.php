@@ -16,6 +16,12 @@
 		?>
 
 		<title>Sergei Kolesnikov's home page</title>
+
+		<link rel="alternate" title="RSS (Atom Feed) — Website news and updates"
+			type="application/atom+xml" href="/news.atom" />
+
+		<link rel="alternate" title="RSS (Atom Feed) — Blog posts"
+			type="application/atom+xml" href="/blog.atom" />
 	</head>
 
 	<body id="top" class="_theme--black">
@@ -104,7 +110,7 @@
 				</p>
 
 				<p>
-					I try to follow Tim Berners-Lee’s “<a href="https://www.w3.org/Provider/Style/URI.html" target="_blank" rel="nofollow">Cool URIs don’t change</a>” rule.
+					I try to follow Tim Berners-Lee’s “<a href="https://www.w3.org/Provider/Style/URI.html" target="_blank" rel="noopener noreferrer nofollow">Cool URIs don’t change</a>” rule.
 					If you’ve found a broken link, typo, or grammatical inaccuracy on my website, please <a href="/contacts.html">contact me</a> in any convenient way.
 				</p>
 
