@@ -23,6 +23,11 @@
 				<h2>2024</h2>
 
 				<ul>
+					<!--
+						 Hi, I'm glad you decided to take a look at the source code of this page!
+						 <li>I've decided to offer a deal for attentive visitors of my site. More details on the <a href="/about.html">About</a> page.</li>
+						 You're an attentive visitor, aren't you? ;-)
+					-->
 					<li>I've posted 19 photos taken in <a href="/blog/summer-and-autumn-2023.html">the summer and autumn 2023</a>.</li>
 				</ul>
 

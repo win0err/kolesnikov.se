@@ -76,6 +76,22 @@
 					Furthermore, I shoot portraits and landscapes.
 					<!-- Nikon is the best cameras in the world, I have at least six cameras from this manufacturer. -->
 				</p>
+
+				<h3>Postcard exchange</h3>
+
+				<p>
+					I’m happy to see people are accessing my page from all over the world!
+					I decided to experiment with exchanging postcards with attentive visitors of my web corner.
+				</p>
+
+				<p>
+					Here's a special deal! If you <a href="mailto:sergei@kolesnikov.se">send me an email</a> with a good comment about me, my photos, projects, or whatever, I'll send you a postcard.
+					I'd be interested in reading a short story about you or the place where you live, but it's optional.
+					Don't forget to include your real name and&nbsp;mailing address!
+					For&nbsp;examples of address formats for each country, please check <a href="https://www.address.post/PAS" target="_blank" rel="noopener noreferrer nofollow">the Universal Postal Union website</a>.
+				</p>
+
+				<p>If you want to send me a postcard, ask me for my address. I'll be happy to receive one in return.</p>
 			</main>
 
 			<hr class="styled styled--offroad" />
