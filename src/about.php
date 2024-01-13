@@ -77,7 +77,7 @@
 					<!-- Nikon is the best cameras in the world, I have at least six cameras from this manufacturer. -->
 				</p>
 
-				<h3>Postcard exchange</h3>
+				<h3 id="postcard-exchange">Postcard exchange</h3>
 
 				<p>
 					I’m happy to see people are accessing my page from all over the world!
