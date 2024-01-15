@@ -94,7 +94,7 @@
 						<ul>
 							<li>
 								Led the frontend development of notification, branding, and validation services.
-								Introduced highly a customisable email system as a part of the notification service and implemented automatic testing of email templates;
+								Introduced a highly customizable email system as a part of the notification service and implemented automatic testing of email templates;
 							</li>
 
 							<li>Implemented core components of the UI library, stabilised and speeded up end-to-end test runs, and contributed to other parts of the product;</li>
