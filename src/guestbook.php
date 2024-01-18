@@ -59,6 +59,16 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong><a href="https://euaaaio.ru" target="_blank" rel="noindex nofollow ugc">Ed</a></strong>
+							wrote on <small><time datetime="2024-01-18T15:47:18+00:00">18 January 2024, 15:47</time></small>
+						</div>
+						<div>
+							<p>Came here by invitation. Didn&#39;t expect anything, but absolutely fell in love with this holiday, New Year&#39;s Eve vibes.</p><p>🫶🏻</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>a</strong>
 							wrote on <small><time datetime="2023-10-08T02:53:44+00:00">8 October 2023, 02:53</time></small>
 						</div>
