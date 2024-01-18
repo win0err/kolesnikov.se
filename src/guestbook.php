@@ -56,11 +56,16 @@
 
 				<h2>Messages</h2>
 
+				<?php
+					require_once '_template/tz.php';
+					require_once '_template/utils.php';
+				?>
+
 				<ol reversed>
 					<li>
 						<div>
 							<strong><a href="https://euaaaio.ru" target="_blank" rel="noindex nofollow ugc">Ed</a></strong>
-							wrote on <small><time datetime="2024-01-18T15:47:18+00:00">18 January 2024, 15:47</time></small>
+							wrote on <small><?php echo get_time_tag("2024-01-18T15:47:18+00:00"); ?></small>
 						</div>
 						<div>
 							<p>Came here by invitation. Didn&#39;t expect anything, but absolutely fell in love with this holiday, New Year&#39;s Eve vibes.</p><p>🫶🏻</p>
@@ -70,7 +75,7 @@
 					<li>
 						<div>
 							<strong>a</strong>
-							wrote on <small><time datetime="2023-10-08T02:53:44+00:00">8 October 2023, 02:53</time></small>
+							wrote on <small><?php echo get_time_tag("2023-10-08T02:53:44+00:00"); ?></small>
 						</div>
 						<div>
 							<p>heh</p>
@@ -80,7 +85,7 @@
 					<li>
 						<div>
 							<strong><a href="https://seraphix.neocities.org/" target="_blank" rel="noindex nofollow ugc">seraph</a></strong>
-							wrote on <small><time datetime="2023-09-17T04:32:13+00:00">17 September 2023, 04:32</time></small>
+							wrote on <small><?php echo get_time_tag("2023-09-17T04:32:13+00:00"); ?></small>
 						</div>
 						<div>
 							<p>your site is so neat!!</p>
@@ -90,7 +95,7 @@
 					<li>
 						<div>
 							<strong>Sarkhan</strong>
-							wrote on <small><time datetime="2023-09-10T17:10:12+00:00">10 September 2023, 17:10</time></small>
+							wrote on <small><?php echo get_time_tag("2023-09-10T17:10:12+00:00"); ?></small>
 						</div>
 						<div>
 							<p>What an awesome oldschool website!<br />Amazed at life game and beautiful photos]</p>
@@ -100,7 +105,7 @@
 					<li>
 						<div>
 							<strong>val</strong>
-							wrote on <small><time datetime="2023-07-29T15:49:53+00:00">29 July 2023, 15:49</time></small>
+							wrote on <small><?php echo get_time_tag("2023-07-29T15:49:53+00:00"); ?></small>
 						</div>
 						<div>
 							<p>Hi! Just found this place, you have some incredible photos and I wish you the absolute best from Michigan, US! &#60;3</p>
@@ -110,7 +115,7 @@
 					<li>
 						<div>
 							<strong><a href="https://lu.tiny-universes.net" target="_blank" rel="noindex nofollow ugc">Lu</a></strong>
-							wrote on <small><time datetime="2023-07-09T14:50:04+00:00">9 July 2023, 14:50</time></small>
+							wrote on <small><?php echo get_time_tag("2023-07-09T14:50:04+00:00"); ?></small>
 						</div>
 						<div>
 							<p>hello sergei!! your photographs are incredible, I love the city shots &#38; the composition of the plane.</p>
@@ -127,7 +132,7 @@
 					<li>
 						<div>
 							<strong>bee</strong>
-							wrote on <small><time datetime="2023-05-26T22:32:22+00:00">26 May 2023, 22:32</time></small>
+							wrote on <small><?php echo get_time_tag("2023-05-26T22:32:22+00:00"); ?></small>
 						</div>
 						<div>
 							<p>^-^</p>
@@ -137,7 +142,7 @@
 					<li>
 						<div>
 							<strong>bex</strong>
-							wrote on <small><time datetime="2023-03-10T02:35:45+00:00">10 March 2023, 02:35</time></small>
+							wrote on <small><?php echo get_time_tag("2023-03-10T02:35:45+00:00"); ?></small>
 						</div>
 						<div>
 							<p>Your photos are gorgeous, keep it up! :)</p>
@@ -147,7 +152,7 @@
 					<li>
 						<div>
 							<strong><a href="https://alotfunstuff.net" target="_blank" rel="noindex nofollow ugc">Alex</a></strong>
-							wrote on <small><time datetime="2023-03-05T11:36:39+00:00">5 March 2023, 11:36</time></small>
+							wrote on <small><?php echo get_time_tag("2023-03-05T11:36:39+00:00"); ?></small>
 						</div>
 						<div>
 							<p>well what a nice website!</p>
@@ -157,7 +162,7 @@
 					<li>
 						<div>
 							<strong><a href="https://chengdulittlea.com" target="_blank" rel="noindex nofollow ugc">yiming</a></strong>
-							wrote on <small><time datetime="2023-01-17T16:41:28+00:00">17 January 2023, 16:41</time></small>
+							wrote on <small><?php echo get_time_tag("2023-01-17T16:41:28+00:00"); ?></small>
 						</div>
 						<div>
 							<p>Hi! Your pictures looks awesome!! And the entire website is so classic, love it!</p>
@@ -167,7 +172,7 @@
 					<li>
 						<div>
 							<strong>Ms. Sassy</strong>
-							wrote on <small><time datetime="2023-01-07T08:30:08+00:00">7 January 2023, 08:30</time></small>
+							wrote on <small><?php echo get_time_tag("2023-01-07T08:30:08+00:00"); ?></small>
 						</div>
 
 						<div>
@@ -184,7 +189,7 @@
 					<li>
 						<div>
 							<strong><a href="https://maxl.neocities.org" target="_blank" rel="noindex nofollow ugc">KOCATKA</a></strong>
-							wrote on <small><time datetime="2023-01-03T09:17:01+00:00">3 January 2023, 09:17</time></small>
+							wrote on <small><?php echo get_time_tag("2023-01-03T09:17:01+00:00"); ?></small>
 						</div>
 						<div>
 							<p>Your photos are amazing, and site is beautiful!</p>
@@ -193,7 +198,7 @@
 					<li>
 						<div>
 							<strong>Lyse</strong>
-							wrote on <small><time datetime="2022-12-20T09:35:28+00:00">20 December 2022, 09:35</time></small>
+							wrote on <small><?php echo get_time_tag("2022-12-20T09:35:28+00:00"); ?></small>
 						</div>
 						<div>
 							<p>Hey mate,</p>
@@ -216,7 +221,7 @@
 					<li>
 						<div>
 							<strong>Denis</strong>
-							wrote on <small><time datetime="2022-11-10T11:28:54+00:00">10 November 2022, 11:28</time></small>
+							wrote on <small><?php echo get_time_tag("2022-11-10T11:28:54+00:00"); ?></small>
 						</div>
 						<div>
 							<p>With Best Regards!</p>
@@ -226,7 +231,7 @@
 					<li>
 						<div>
 							<strong><a href="https://zachmanson.com" target="_blank" rel="noindex nofollow ugc">Zach</a></strong>
-							wrote on <small><time datetime="2022-10-11T02:32:34+00:00">11 October 2022, 02:32</time></small>
+							wrote on <small><?php echo get_time_tag("2022-10-11T02:32:34+00:00"); ?></small>
 						</div>
 						<div>
 							<p>I thought the game of life post was a really interesting collaborative process!</p>
@@ -236,7 +241,7 @@
 					<li>
 						<div>
 							<strong><a href="https://lolcat.ca" target="_blank" rel="noindex nofollow ugc">will</a></strong>
-							wrote on <small><time datetime="2022-08-18T02:03:28+00:00">18 August 2022, 02:03</time></small>
+							wrote on <small><?php echo get_time_tag("2022-08-18T02:03:28+00:00"); ?></small>
 						</div>
 						<div>
 							<p>Really liking that &#34;alternative&#34; look for your site. love you xoxo</p>
@@ -246,7 +251,7 @@
 					<li>
 						<div>
 							<strong>Neri</strong>
-							wrote on <small><time datetime="2022-07-22T09:03:57+00:00">22 July 2022, 09:03</time></small>
+							wrote on <small><?php echo get_time_tag("2022-07-22T09:03:57+00:00"); ?></small>
 						</div>
 						<div>
 							<p>I love your pics! :-)</p>
@@ -256,7 +261,7 @@
 					<li>
 						<div>
 							<strong>AlexK</strong>
-							wrote on <small><time datetime="2022-07-13T08:49:51+00:00">13 July 2022, 08:49</time></small>
+							wrote on <small><?php echo get_time_tag("2022-07-13T08:49:51+00:00"); ?></small>
 						</div>
 						<div>
 							<p>Just 5.85KB transferred!</p>
@@ -268,7 +273,7 @@
 					<li>
 						<div>
 							<strong><a href="https://twtxt.net/~screem" target="_blank" rel="noindex nofollow ugc">Screem</a></strong>
-							wrote on <small><time datetime="2022-07-13T06:07:58+00:00">13 July 2022, 06:07</time></small>
+							wrote on <small><?php echo get_time_tag("2022-07-13T06:07:58+00:00"); ?></small>
 						</div>
 						<div>
 							<p>Loving the aesthetic of your site! Haven&#39;t seen a guestbook for a very long time either, a very familiar and welcome edition :D</p>
@@ -278,7 +283,7 @@
 					<li>
 						<div>
 							<strong><a href="https://mckinley.cc" target="_blank" rel="noindex nofollow ugc">McKinley</a></strong>
-							wrote on <small><time datetime="2022-07-12T20:38:27+00:00">12 July 2022, 20:38</time></small>
+							wrote on <small><?php echo get_time_tag("2022-07-12T20:38:27+00:00"); ?></small>
 						</div>
 						<div>
 							<p>
@@ -306,7 +311,7 @@
 					<li>
 						<div>
 							<strong><a href="http://altavista.digital.com" target="_blank" rel="noindex nofollow ugc">Nirfse</a></strong>
-							wrote on <small><time datetime="2022-07-12T11:32:52+00:00">12 July 2022, 11:32</time></small>
+							wrote on <small><?php echo get_time_tag("2022-07-12T11:32:52+00:00"); ?></small>
 						</div>
 						<div>
 							<p>Hey, Sergei!</p>

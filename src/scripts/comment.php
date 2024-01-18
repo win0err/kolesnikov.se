@@ -43,7 +43,6 @@ if (!$form['name'] || !$form['message']) {
 $time = time();
 $now = gmdate('Y-m-d H:i:s e', $time);
 $time_rfc3339 = gmdate('c', $time);
-$time_formatted = gmdate('j F Y, H:i', $time);
 
 $website = $form['website'] ?: '-';
 
@@ -69,7 +68,7 @@ HTML Snippet:
 <li>
 	<div>
 		<strong>{$nickname}</strong>
-		wrote on <small><time datetime="{$time_rfc3339}">{$time_formatted}</time></small>
+		wrote on <small><?php echo get_time_tag("{$time_rfc3339}"); ?></small>
 	</div>
 	<div>
 		<!-- Don't forget to format the code below -->

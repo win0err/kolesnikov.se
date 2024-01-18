@@ -1,85 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <?php require __DIR__ . '/../_template/meta.php'; ?>
-        <title>Hello World! — Sergei Kolesnikov's Blog</title>
-    </head>
+	<head>
+		<?php require __DIR__ . '/../_template/meta.php'; ?>
+		<title>Hello World! — Sergei Kolesnikov's Blog</title>
+	</head>
 
-    <body id="top" class="_theme--black">
-        <div class="container">
-            <?php require __DIR__ . '/../_template/header.php'; ?>
+	<body id="top" class="_theme--black">
+		<div class="container">
+			<?php require __DIR__ . '/../_template/header.php'; ?>
 
-            <main>
-                <!--
-                    1. Add a link on /blog.html
-                    2. Title: <h1 />, <title />
-                    3. Check publication dates
-                    4. RSS
-                    5. Update news
-                  -->
+			<main>
+				<!--
+					1. Add a link on /blog.html
+					2. Title: <h1 />, <title />
+					3. Check publication dates
+					4. RSS
+					5. Update news
+				  -->
 
-                <article class="blog-article">
+				<article class="blog-article">
 					<h1 class="blog-article__title">Hello World!</h1>
 
 					<time class="blog-article__time" datetime="2022-07-12T03:09:00+03:00">Tue, 12 July 2022</time>
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas. Nibh sit amet commodo nulla. Gravida arcu ac tortor dignissim convallis aenean et tortor at. Pretium fusce id velit ut tortor pretium viverra. At volutpat diam ut venenatis tellus in metus vulputate. Non arcu risus quis varius quam. Mauris in aliquam sem fringilla. Auctor urna nunc id cursus metus aliquam eleifend mi in. Pellentesque id nibh tortor id aliquet lectus. Integer vitae justo eget magna fermentum iaculis eu non. Condimentum lacinia quis vel eros donec ac odio. Amet facilisis magna etiam tempor orci. Lorem ipsum dolor sit amet consectetur adipiscing elit. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Netus et malesuada fames ac. Urna porttitor rhoncus dolor purus non enim praesent. Mauris ultrices eros in cursus turpis massa tincidunt. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien.
-                    </p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas. Nibh sit amet commodo nulla. Gravida arcu ac tortor dignissim convallis aenean et tortor at. Pretium fusce id velit ut tortor pretium viverra. At volutpat diam ut venenatis tellus in metus vulputate. Non arcu risus quis varius quam. Mauris in aliquam sem fringilla. Auctor urna nunc id cursus metus aliquam eleifend mi in. Pellentesque id nibh tortor id aliquet lectus. Integer vitae justo eget magna fermentum iaculis eu non. Condimentum lacinia quis vel eros donec ac odio. Amet facilisis magna etiam tempor orci. Lorem ipsum dolor sit amet consectetur adipiscing elit. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Netus et malesuada fames ac. Urna porttitor rhoncus dolor purus non enim praesent. Mauris ultrices eros in cursus turpis massa tincidunt. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien.
+					</p>
 
-                    <p>
-                        Lorem <a href="https://google.com">ipsum dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas. Nibh sit amet commodo nulla. Gravida arcu ac tortor dignissim convallis aenean et tortor at. Pretium fusce id velit ut tortor pretium viverra. At volutpat diam ut venenatis tellus in metus vulputate. Non arcu risus quis varius quam. Mauris in aliquam sem fringilla. Auctor urna nunc id cursus metus aliquam eleifend mi in. Pellentesque id nibh tortor id aliquet lectus. Integer vitae justo eget magna fermentum iaculis eu non. Condimentum lacinia quis vel eros donec ac odio. Amet facilisis magna etiam tempor orci. Lorem ipsum dolor sit amet consectetur adipiscing elit. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Netus et malesuada fames ac. Urna porttitor rhoncus dolor purus non enim praesent. Mauris ultrices eros in cursus turpis massa tincidunt. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien.
-                    </p>
+					<p>
+						Lorem <a href="https://google.com">ipsum dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas. Nibh sit amet commodo nulla. Gravida arcu ac tortor dignissim convallis aenean et tortor at. Pretium fusce id velit ut tortor pretium viverra. At volutpat diam ut venenatis tellus in metus vulputate. Non arcu risus quis varius quam. Mauris in aliquam sem fringilla. Auctor urna nunc id cursus metus aliquam eleifend mi in. Pellentesque id nibh tortor id aliquet lectus. Integer vitae justo eget magna fermentum iaculis eu non. Condimentum lacinia quis vel eros donec ac odio. Amet facilisis magna etiam tempor orci. Lorem ipsum dolor sit amet consectetur adipiscing elit. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Netus et malesuada fames ac. Urna porttitor rhoncus dolor purus non enim praesent. Mauris ultrices eros in cursus turpis massa tincidunt. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien.
+					</p>
 
-                    <p>
-                        Turpis egestas sed tempus urna et pharetra pharetra<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">3</a></sup>. Commodo odio aenean sed adipiscing diam donec adipiscing. Duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat. Lectus vestibulum mattis ullamcorper velit sed. At imperdiet dui accumsan sit amet nulla facilisi. Ultrices vitae auctor eu augue ut. Ante metus dictum at tempor commodo ullamcorper a lacus. Ullamcorper sit amet risus nullam. Ornare arcu dui vivamus arcu. Diam vel quam elementum pulvinar. Aenean et tortor at risus viverra adipiscing at in. Amet nisl purus in mollis nunc sed id semper risus. Tempus urna et pharetra pharetra massa massa ultricies mi quis. Tellus elementum sagittis vitae et leo duis ut. In vitae turpis massa sed elementum. Purus in mollis nunc sed.
-                    </p>
+					<p>
+						Turpis egestas sed tempus urna et pharetra pharetra<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">3</a></sup>. Commodo odio aenean sed adipiscing diam donec adipiscing. Duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat. Lectus vestibulum mattis ullamcorper velit sed. At imperdiet dui accumsan sit amet nulla facilisi. Ultrices vitae auctor eu augue ut. Ante metus dictum at tempor commodo ullamcorper a lacus. Ullamcorper sit amet risus nullam. Ornare arcu dui vivamus arcu. Diam vel quam elementum pulvinar. Aenean et tortor at risus viverra adipiscing at in. Amet nisl purus in mollis nunc sed id semper risus. Tempus urna et pharetra pharetra massa massa ultricies mi quis. Tellus elementum sagittis vitae et leo duis ut. In vitae turpis massa sed elementum. Purus in mollis nunc sed.
+					</p>
 
-                    <hr />
+					<hr />
 
-                    <ol>
-                        <li id="fn:1" role="doc-endnote">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">↩︎</a></p>
-                        </li>
-                    </ol>
-                </article>
+					<ol>
+						<li id="fn:1" role="doc-endnote">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">↩︎</a></p>
+						</li>
+					</ol>
+				</article>
 
+				<hr />
 
-                <hr />
+				<?php
+					require_once __DIR__ . '/../_template/tz.php';
+					require_once __DIR__ . '/../_template/utils.php';
+				?>
 
-                <div class="comment-section">
-                    <h2>Comments</h2>
-                    <!-- <h2>Comments <small>(N)</small></h2> -->
+				<div class="comment-section">
+					<h2>Comments</h2>
+					<!-- <h2>Comments <small>(N)</small></h2> -->
 
-                    <p>No comments yet. Be the first!</p>
+					<p>No comments yet. Be the first!</p>
 
-                    <!--
-                        <ol>
-                            <li>
-							    <div>
-								    <strong>nickname</strong>
-								    wrote on <small><time datetime="___">12 January 1970, 17:57</time></small>
-							    </div>
-							    <div>
-								    <p>Some comment</p>
-							    </div>
-						    </li>
-                        </ol>
-                    -->
+					<!--
+						<ol>
+							<li>
+								<div>
+									<strong>nickname</strong>
+									wrote on <small><time datetime="___">12 January 1970, 17:57</time></small>
+								</div>
+								<div>
+									<p>Some comment</p>
+								</div>
+							</li>
+						</ol>
+					-->
 
 					<hr class="dashed" />
 
 					<?php require __DIR__ . '/../_template/comment-form.php'; ?>
 				</div>
 
-                <div class="back-button-holder">
+				<div class="back-button-holder">
 					<a href="/blog.html"><img src="/assets/backanim.gif" alt="Go back" width="50" /></a>
 				</div>
-            </main>
+			</main>
 
-            <hr />
+			<hr />
 
-            <?php require __DIR__ . '/../_template/footer.php'; ?>
-        </div>
-    </body>
+			<?php require __DIR__ . '/../_template/footer.php'; ?>
+		</div>
+	</body>
 </html>

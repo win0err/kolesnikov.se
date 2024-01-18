@@ -56,6 +56,11 @@
 
 				<hr />
 
+				<?php
+					require_once __DIR__ . '/../_template/tz.php';
+					require_once __DIR__ . '/../_template/utils.php';
+				?>
+
 				<div class="comment-section">
 					<h2>Comments <small>(3)</small></h2>
 
@@ -63,7 +68,7 @@
 						<li>
 							<div>
 								<strong>Shinyanskiy, Roman</strong>
-								wrote on <small><time datetime="2022-09-23T15:10:37+00:00">23 September 2022, 15:10</time></small>
+								wrote on <small><?php echo get_time_tag("2022-09-23T15:10:37+00:00"); ?></small>
 							</div>
 							<div>
 								<p>Great work!</p>
@@ -73,7 +78,7 @@
 						<li>
 							<div>
 								<strong><a href="https://maxl.neocities.org" target="_blank" rel="noindex nofollow ugc">KOCATKA</a></strong>
-								wrote on <small><time datetime="2023-01-03T09:15:15+00:00">3 January 2023, 09:15</time></small>
+								wrote on <small><?php echo get_time_tag("2023-01-03T09:15:15+00:00"); ?></small>
 							</div>
 							<div>
 								<p>Very cool!</p>
@@ -83,7 +88,7 @@
 						<li>
 							<div>
 								<strong>Parallax</strong>
-								wrote on <small><time datetime="2023-11-14T22:50:05+00:00">14 November 2023, 22:50</time></small>
+								wrote on <small><?php echo get_time_tag("2023-11-14T22:50:05+00:00"); ?></small>
 							</div>
 							<div>
 								<p>I like it!</p>

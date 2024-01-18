@@ -43,6 +43,11 @@
 
 				<hr />
 
+				<?php
+					require_once __DIR__ . '/../_template/tz.php';
+					require_once __DIR__ . '/../_template/utils.php';
+				?>
+
 				<div class="comment-section">
 					<h2>Comments <small>(1)</small></h2>
 
@@ -52,7 +57,7 @@
 						<li>
 							<div>
 								<strong>Some Guy</strong>
-								wrote on <small><time datetime="2023-08-29T14:39:55+00:00">29 August 2023, 14:39</time></small>
+								wrote on <small><?php echo get_time_tag("2023-08-29T14:39:55+00:00"); ?></small>
 							</div>
 							<div>
 								<p>Wow, that&#39;s very cool.</p>

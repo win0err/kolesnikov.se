@@ -12,3 +12,9 @@ function get_image_html(string $orig_src_path, string $alt_text = ''): string {
 
 	IMG;
 }
+
+function get_time_tag($datetime, $format = 'j F Y, H:i') {
+	$time = strtotime($datetime);
+
+	return '<time datetime="' . date('c', $time) . '">' . date($format, $time) . '</time>';
+}

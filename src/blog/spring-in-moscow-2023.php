@@ -62,6 +62,12 @@
 
 			<hr />
 
+			<?php
+				require_once __DIR__ . '/../_template/tz.php';
+				require_once __DIR__ . '/../_template/utils.php';
+			?>
+
+
 			<div class="comment-section">
 				<h2>Comments</h2>
 
