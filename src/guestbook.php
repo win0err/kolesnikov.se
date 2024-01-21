@@ -64,6 +64,22 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>Юрий</strong>
+							wrote on <small><?php echo get_time_tag("2024-01-21T11:34:34+00:00"); ?></small>
+						</div>
+						<div>
+							<p>Как я сюда попал и что я здесь делаю я не понимаю</p>
+
+							<div class="guestbook-reply">
+								<i>Translated message:</i>
+
+								<p>I don't understand how I got here and what I'm doing here.</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong><a href="https://euaaaio.ru" target="_blank" rel="noindex nofollow ugc">Ed</a></strong>
 							wrote on <small><?php echo get_time_tag("2024-01-18T15:47:18+00:00"); ?></small>
 						</div>
