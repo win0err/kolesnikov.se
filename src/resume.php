@@ -102,7 +102,7 @@
 							<li>Wrote guidelines for frontend developers, onboarded newcomers, and reviewed code.</li>
 						</ul>
 
-						<p><b>Technologies:</b> JavaScript, Vue 2, Vuex; Python, Django, Jinja</p>
+						<p><b>Technologies:</b> JavaScript, React, Vue 2, Vuex; Python, Django, Jinja</p>
 					</div>
 				</li>
 
