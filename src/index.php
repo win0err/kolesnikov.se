@@ -49,7 +49,7 @@
 				<ul>
 					<li>I've posted 19 photos taken in <a href="/blog/summer-and-autumn-2023.html">the summer and autumn 2023</a>.</li>
 					<li>I've published <a href="/blog/spring-in-moscow-2023.html">a new post with photos</a> of spring 2023 in Moscow.</li>
-					<li>Winter is here! This means the website has been <a href="/#themes">decorated</a> for the New Year!</li>
+					<li>Winter is here! This means the website has been <a href="/#themes">decorated</a> for the New Year<br />Update: Removed until December 2024 ;-)</li>
 					<li>
 						I've started a new category on my <a href="/blog.html">blog</a> with photo posts.
 						Entries in this category are marked with a camera icon.<br />

@@ -47,11 +47,12 @@
 		<id>urn:uuid:465182d3-27ab-52ff-ac3a-2dcd7e24d080</id>
 		<title>Website Update #9</title>
 		<published>2023-12-01T03:10:06+03:00</published>
-		<updated>2023-12-01T03:10:06+03:00</updated>
+		<updated>2024-02-01T12:14:00+03:00</updated>
 		<content type="html">
 			<![CDATA[
 					 <p>
-					 Winter is here! This means the website has been <a href="https://kolesnikov.se/#themes">decorated</a> for the New Year!
+					 Winter is here! This means the website has been <a href="https://kolesnikov.se/#themes">decorated</a> for the New Year! <br />
+					 Update: Removed until December 2024 ;-)
 					 </p>
 			]]>
 		</content>
