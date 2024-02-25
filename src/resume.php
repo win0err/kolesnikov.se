@@ -54,8 +54,24 @@
 			<ul>
 				<li class="resume-record">
 					<div class="resume-record__heading">
+						<strong class="resume-record__title">
+							<a href="https://vk.company/en/" target="_blank"
+								rel="noopener noreferrer nofollow">VK.com</a>
+						</strong>
+						<i class="resume-record__dates"><time datetime="2024-03">March 2022</time>&ndash;present</i>
+					</div>
+
+					<div class="resume-record__position">Software Engineer</div>
+
+					<div class="resume-record__description">
+						<p><b>Technologies:</b> JavaScript/TypeScript, React</p>
+					</div>
+				</li>
+
+				<li class="resume-record">
+					<div class="resume-record__heading">
 						<strong class="resume-record__title">AnyCut</strong>
-						<i class="resume-record__dates"><time datetime="2022-10">October 2022</time>&ndash;present</i>
+						<i class="resume-record__dates"><time datetime="2022-10">October 2022</time>&ndash;<time datetime="2024-03">March 2024</time></i>
 					</div>
 
 					<div class="resume-record__position">Sr. Software Engineer</div>
@@ -65,7 +81,7 @@
 
 						<ul>
 							<li>Designed and developed a client SPA, embeddable widget, and UI component library;</li>
-							<li>Participated in system design and code reviews of backend parts.</li>
+							<li>Gathered and analyzed business requirements, participated in system design and code review.</li>
 						</ul>
 
 						<p><b>Technologies:</b> JavaScript/TypeScript, Vue 3, Pinia</p>
@@ -94,7 +110,7 @@
 						<ul>
 							<li>
 								Led the frontend development of notification, branding, and validation services.
-								Introduced a highly customizable email system as a part of the notification service and implemented automatic testing of email templates;
+								Introduced a highly customizable email notification system as a part of the notification service and implemented automatic testing of email templates;
 							</li>
 
 							<li>Implemented core components of the UI library, stabilised and speeded up end-to-end test runs, and contributed to other parts of the product;</li>
@@ -102,7 +118,7 @@
 							<li>Wrote guidelines for frontend developers, onboarded newcomers, and reviewed code.</li>
 						</ul>
 
-						<p><b>Technologies:</b> JavaScript, React, Vue 2, Vuex; Python, Django, Jinja</p>
+						<p><b>Technologies:</b> JavaScript, Vue 2, Vuex; Python, Django</p>
 					</div>
 				</li>
 
@@ -119,8 +135,8 @@
 
 						<ul>
 							<li>Designed and implemented core parts of the CRM system, integrated with email services;</li>
-							<li>Implemented an algorithm to distribute incoming requests between salespeople;</li>
-							<li>Migrated frontend from jQuery to React stack.</li>
+							<li>Designed and implemented an email storage and processing module that significantly improved system performance;</li>
+							<li>Participated in backend and frontend code reviews. Led the development of the CRM frontend.</li>
 						</ul>
 
 						<p><b>Technologies:</b> PHP, Slim, Go, MySQL, PostgreSQL; JavaScript, React, Redux</p>
@@ -188,7 +204,7 @@
 
 						<ul>
 							<li><i>Object-Oriented Programming.</i> Teaching the basics of Java and OOP.</li>
-							<li><i>Software Development Technologies.</i> Teaching collaborative SPA development in JavaScript + React, building applications with Webpack, unit testing, and applying CI/CD practices using GitHub Actions integration as an example (testing and deploying the application to Heroku).</li>
+							<li><i>Software Development Technologies.</i> Teaching collaborative SPA development in JavaScript + React, unit testing, and applying CI/CD practices using GitHub Actions integration as an example (testing and deploying the application to Heroku).</li>
 						</ul>
 					</div>
 				</li>
@@ -246,7 +262,7 @@
 
 			<h2>References</h2>
 
-			<p>Available on request.</p>
+			<p>Available upon request.</p>
 		</main>
 
 		<hr class="styled styled--warp-speed" />

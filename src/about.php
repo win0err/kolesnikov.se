@@ -34,7 +34,7 @@
 
 				<h3>Software Development</h3>
 
-				<p>I'm a software engineer at <a href="https://any-cut.pro/en" target="_blank" rel="noopener noreferrer nofollow">AnyCut</a>; details on my <a href="/resume.html">résumé page</a>.</p>
+				<p>I'm a software engineer at <a href="https://vk.company/en/" target="_blank" rel="noopener noreferrer nofollow">VK.com</a>; details on my <a href="/resume.html">résumé page</a>.</p>
 
 				<h3>Academy</h3>
 
