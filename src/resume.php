@@ -3,7 +3,7 @@
 
 <head>
 	<?php include '_template/meta.php'; ?>
-	<title>Sergei Kolesnikov's Blog</title>
+	<title>Sergei Kolesnikov's résumé</title>
 	<link rel="alternate" hreflang="en" type="application/pdf" href="/resume/sergei-kolesnikov-en.pdf" />
 	<link rel="alternate" hreflang="ru" type="application/pdf" href="/resume/sergei-kolesnikov-ru.pdf" />
 </head>
