@@ -1,0 +1,18 @@
+.now-page ul {
+	image-rendering: pixelated;
+	list-style-image: url('/assets/lists/b_green.gif');
+}
+
+.now-page ul ul {
+	list-style-image: url('/assets/lists/b_green_sq.gif');
+}
+
+.now-page ul ul ul,
+.now-page ul ul ol {
+	list-style-image: none;
+}
+
+.now-page__disclaimer {
+	font-style: italic;
+	margin-bottom: 1.5rem;
+}

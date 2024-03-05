@@ -51,6 +51,12 @@ hr.styled--warp-speed {
 	background-position: 100%;
 }
 
+hr.styled--dynamite {
+	background: url('/assets/rules/dynamite.gif');
+	height: 12px;
+	background-position: 100%;
+}
+
 hr.styled--winter,
 ._theme--winter hr.unstyled {
 	border: none;

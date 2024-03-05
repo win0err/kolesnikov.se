@@ -8,6 +8,7 @@ $pages = [
 	'photography' => 'Photography',
 	'guestbook' => 'Guestbook',
 	'about' => 'About',
+	'now' => 'Now',
 	'contacts' => 'Contacts',
 ];
 

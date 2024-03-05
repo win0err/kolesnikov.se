@@ -13,6 +13,7 @@
 
 			<main>
 				<h1>
+					<img style="vertical-align: text-top;" src="/assets/newspap.gif" alt="" />
 					News & updates
 					<a href="/news.atom"><img alt="RSS (Atom Feed)"
 											  title="RSS (Atom Feed) — Website news and updates"
@@ -23,6 +24,7 @@
 				<h2>2024</h2>
 
 				<ul>
+					<li>Now I have a “<a href="/now.html">now</a>” page!</li>
 					<!--
 						 Hi, I'm glad you decided to take a look at the source code of this page!
 						 <li>I've decided to offer a deal for attentive visitors of my site. More details on the <a href="/about.html">About</a> page.</li>

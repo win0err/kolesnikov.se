@@ -12,8 +12,22 @@
 	</author>
 
 	<!-- Don't forget to update -->
-	<updated>2024-01-04T04:00:00+03:00</updated>
+	<updated>2024-03-06T00:35:00+03:00</updated>
 
+
+	<entry>
+		<id>urn:uuid:01ee3697-0a6f-5a8c-a3eb-32b24e93f840</id>
+		<title>Website Update #12</title>
+		<published>2024-03-06T00:35:00+03:00</published>
+		<updated>2024-03-06T00:35:00+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 Now I have a “<a href="https://kolesnikov.se/now.html">now</a>” page!
+					 </p>
+			]]>
+		</content>
+	</entry>
 
 	<entry>
 		<id>urn:uuid:1cd5a612-768d-5b08-96d7-c3e9523dfd1b</id>

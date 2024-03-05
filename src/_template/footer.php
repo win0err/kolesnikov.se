@@ -19,7 +19,7 @@
 		&amp;
 		<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkolesnikov.se%2Fstyles.css" target="_blank" rel="nofollow">CSS</a>.
 		This website is under construction.
-		Last Update:
+		Last update:
 		<time datetime="<?php echo date(DATE_RFC3339, filemtime(get_included_files()[0])); ?>">
 			<?php echo date("D, j F Y", filemtime(get_included_files()[0])); ?>
 		</time>
