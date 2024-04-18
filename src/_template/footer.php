@@ -27,9 +27,9 @@
 
 	<div class="footer__image">
 		<?php
-		echo IS_WINTER
+			echo IS_WINTER
 			? '<img src="/assets/winter/christmas-tree.gif" alt="Christmas tree" />'
-			: '<img src="/assets/cat.gif" alt="White cat" />';
+			   : '<img src="/assets/cat.gif" alt="White cat" />';
 		?>
 	</div>
 </footer>
@@ -45,26 +45,34 @@
 		JS;
 	?>
 
-	const applyCurrentTheme = () => {
-		const availableThemes = ['black', 'sky', 'space', 'panther']
-		<?php if (IS_WINTER) echo 'availableThemes.push(\'winter\')'; ?>
+	const AVAILABLE_THEMES = ['black', 'sky', 'space', 'panther', 'tonsky']
+	<?php if (IS_WINTER) echo 'AVAILABLE_THEMES.push(\'winter\')'; ?>
 
+	const saveTheme = (newTheme) => {
+		if (!AVAILABLE_THEMES.includes(newTheme)) return
+
+		localStorage.setItem('theme', newTheme)
+	}
+
+	const applyCurrentTheme = () => {
 		const theme = localStorage.getItem('theme')
 
-		if (theme && availableThemes.includes(theme)) {
-			document.body.classList.remove(...availableThemes.map(name => `_theme--${name}`))
+		if (theme && AVAILABLE_THEMES.includes(theme)) {
+			document.body.classList.remove(...AVAILABLE_THEMES.map(name => `_theme--${name}`))
 			document.body.classList.add(`_theme--${theme}`)
 		}
 	}
 
+	const getThemeFromURL = href => new URL(href, 'https://kolesnikov.se').searchParams.get('_theme')
+
 	window.addEventListener('DOMContentLoaded', () => {
 		const themeSwitcherElement = document.querySelector('.theme-switchers')
 		if (themeSwitcherElement) {
-			themeSwitcherElement.style.display = 'inline-block'
+			themeSwitcherElement.classList.remove('theme-switchers--hidden')
 
-			document.querySelectorAll('a[data-theme]').forEach((el) => {
+			themeSwitcherElement.querySelectorAll('a[href*="?_theme="]').forEach((el) => {
 				el.addEventListener('click', (e) => {
-					localStorage.setItem('theme', e.target.dataset.theme)
+					saveTheme(getThemeFromURL(e.target.href))
 					applyCurrentTheme()
 
 					e.preventDefault()
@@ -72,6 +80,9 @@
 				})
 			})
 		}
+
+		const newTheme = getThemeFromURL(window.location)
+		if (newTheme) saveTheme(newTheme)
 
 		applyCurrentTheme()
 	})
@@ -83,6 +94,6 @@
 		if (Math.random() * 100 < targetChance) return
 
 		document.querySelector('#easter-egg')
-			.setAttribute('src', newGifSrc)
+				.setAttribute('src', newGifSrc)
 	})
 </script>

@@ -30,6 +30,12 @@
 	--text-color: #fff;
 }
 
+._theme--tonsky {
+	--background: #fddb29;
+	--link-color: #1a0000;
+	--link-visited-color: #533737;
+}
+
 ._theme--panther {
 	--link-color: #A90FB3;
 	--link-hover-color: #0686E0;
@@ -109,4 +115,12 @@ a.external-link::after{
 	background: url(/assets/wikipedia_external_link.png) no-repeat;
 	image-rendering: pixelated;
 	margin-left: 3px;
+}
+
+.theme-switchers {
+	display: inline-block;
+}
+
+.theme-switchers--hidden {
+	display: none;
 }

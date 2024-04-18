@@ -133,20 +133,21 @@
 					This website is presented in different color schemes.
 					<noscript>You need to have JavaScript enabled to use this feature.</noscript>
 
-					<span class="theme-switchers" style="display: none;">
+					<span class="theme-switchers theme-switchers--hidden">
 						Choose the color scheme that you like:
-						<a href="#" data-theme="black" class="_dotted">Black</a> (default),
+						<a href="/?_theme=black" class="_dotted">Black</a> (default),
 						<?php
 							if (IS_WINTER) {
 								echo<<<HTML
-									<span><a href="#" data-theme="winter" class="_dotted">Winter</a>
+									<span><a href="/?_theme=winter" class="_dotted">Winter</a>
 										<img height=14 src="/assets/attention/new3.gif" alt="New!"></span>,
 								HTML;
 							}
 						?>
-						<a href="#" data-theme="panther" class="_dotted">Panther</a>,
-						<a href="#" data-theme="sky" class="_dotted">Sky</a>, or
-						<a href="#" data-theme="space" class="_dotted">Space</a>.
+						<a href="/?_theme=tonsky" class="_dotted">Tonsky</a>,
+						<a href="/?_theme=panther" class="_dotted">Panther</a>,
+						<a href="/?_theme=sky" class="_dotted">Sky</a>, or
+						<a href="/?_theme=space" class="_dotted">Space</a>.
 					</span>
 				</p>
 
