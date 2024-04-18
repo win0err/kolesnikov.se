@@ -47,7 +47,7 @@
 						I've adjusted the layout of the website, making it responsive,
 						but nevertheless, it's still <i>best viewed on 800×600</i>.
 						<br />
-						Bonus content — Panther color scheme!
+						Bonus content — <a href="/?_theme=panther">Panther</a> color scheme!
 					</li>
 					<li>I've added <a href="/photography.html">a bunch of new photos</a></li>
 				</ul>
