@@ -70,6 +70,12 @@
 						<div>
 							<p>ha-ha, make it yellow</p>
 						</div>
+
+						<div class="guestbook-reply">
+							<strong>Sergei Kolesnikov</strong> replied:
+
+							<p>Done! Feel free to apply the <a href="/?_theme=tonsky>">Tonsky</a> color scheme ;-)</p>
+						</div>
 					</li>
 
 					<li>
