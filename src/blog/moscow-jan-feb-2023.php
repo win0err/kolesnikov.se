@@ -48,7 +48,7 @@
 				?>
 
 				<div class="comment-section">
-					<h2>Comments <small>(1)</small></h2>
+					<h2>Comments <small>(2)</small></h2>
 
 					<ol>
 						<li>
@@ -58,6 +58,16 @@
 							</div>
 							<div>
 								<p>Very beautiful photos, you have a good eye!!</p>
+							</div>
+						</li>
+
+						<li>
+							<div>
+								<strong>Dmitry</strong>
+								wrote on <small><?php echo get_time_tag("2024-04-17T22:29:38+00:00"); ?></small>
+							</div>
+							<div>
+								<p>Nice! Kudos for oldschool vibe)</p>
 							</div>
 						</li>
 					</ol>
