@@ -53,7 +53,7 @@
 					I worked as a teaching assistant at MIREA — Russian Technological University, Department of Software and Standardization of Information Technologies (Courses: Object-Oriented Programming in Java, Software Development Technologies).
 				</p>
 
-				<h3>Software & Hardware I use</h3>
+				<h2 id="uses">Software & Hardware I use</h2>
 
 				<p>
 					I use two laptops for my work.
