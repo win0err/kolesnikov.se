@@ -64,7 +64,7 @@
 				<ol reversed>
 					<li>
 						<div>
-							<strong>Tonsky</strong>
+							<strong><a href="https://tonsky.me" target="_blank" rel="noindex nofollow ugc">Tonsky</a></strong>
 							wrote on <small><?php echo get_time_tag("2024-04-18T13:08:19+00:00"); ?></small>
 						</div>
 						<div>
