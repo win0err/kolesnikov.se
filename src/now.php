@@ -32,7 +32,12 @@
 
 					<li>I received a wonderful postcard and painting from Bodø, Norway. D.S., if you are reading this, thanks a lot!</li>
 
-					<li>I just finished playing <i>GTA: San Andreas</i>, and now I’m playing <i>GTA: Vice City</i> on my <a href="/about.html#uses" title="Uses">19-inch Lacie Electron Blue IV</a> CRT monitor.</li>
+					<li>
+						I just finished playing <i>GTA: San Andreas</i> and <i>GTA: Vice City</i> on my <a href="/about.html#uses" title="Uses">19-inch Lacie Electron Blue IV</a> CRT monitor.
+
+						My next game will be <i>GTA III</i> as I want to complete the original trilogy.
+						After that I'd like to play <i>GTA: Liberty City Stories</i> and <i>GTA: Vice City Stories</i>, but I'll have to get a PlayStation Portable for that.
+					</li>
 
 					<li>
 						I’m finishing the fourth season of <i>The Wire</i> and occasionally the fourth season of <i>Sex and the City</i>.
@@ -44,7 +49,7 @@
 					</li>
 
 					<li>
-						This month I have plans for the release of a new version of <a href="https://github.com/win0err/gnome-runcat/" target="_blank" rel="noopener noreferrer nofollow">GNOME RunCat</a> with a number of new features..
+						This month I have plans for the release of a new version of <a href="https://github.com/win0err/gnome-runcat/" target="_blank" rel="noopener noreferrer nofollow">GNOME RunCat</a> with a number of new features.
 					</li>
 
 					<li>
