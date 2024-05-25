@@ -64,6 +64,16 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>Chud</strong>
+							wrote on <small><?php echo get_time_tag("2024-05-23T00:12:21+00:00"); ?></small>
+						</div>
+						<div>
+							<p>Is Cobson a gem?</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong><a href="https://tonsky.me" target="_blank" rel="noindex nofollow ugc">Tonsky</a></strong>
 							wrote on <small><?php echo get_time_tag("2024-04-18T13:08:19+00:00"); ?></small>
 						</div>
