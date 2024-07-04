@@ -64,6 +64,22 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>Привет</strong>
+							wrote on <small><?php echo get_time_tag("2024-06-06T07:38:00+00:00"); ?></small>
+						</div>
+						<div>
+							<p>Люби котов.</p>
+
+							<div class="guestbook-reply">
+								<i>Translated message:</i>
+
+								<p>Love cats.</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>Chud</strong>
 							wrote on <small><?php echo get_time_tag("2024-05-23T00:12:21+00:00"); ?></small>
 						</div>
