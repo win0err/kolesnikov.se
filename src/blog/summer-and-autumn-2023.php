@@ -62,9 +62,19 @@
 
 
 				<div class="comment-section">
-					<h2>Comments</h2>
+					<h2>Comments <small>(1)</small></h2>
 
-					<p>No comments yet. Be the first!</p>
+					<ol>
+						<li>
+							<div>
+								<strong>ivan</strong>
+								wrote on <small><?php echo get_time_tag("2024-10-22T22:05:06+00:00"); ?></small>
+							</div>
+							<div>
+								<p>beautiful pictures</p>
+							</div>
+						</li>
+					</ol>
 
 					<hr class="dashed" />
 
