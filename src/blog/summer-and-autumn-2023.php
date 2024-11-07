@@ -62,9 +62,19 @@
 
 
 				<div class="comment-section">
-					<h2>Comments <small>(1)</small></h2>
+					<h2>Comments <small>(2)</small></h2>
 
 					<ol>
+						<li>
+							<div>
+								<strong>Jaja</strong>
+								wrote on <small><?php echo get_time_tag("2024-11-07T17:35:02+00:00"); ?></small>
+							</div>
+							<div>
+								<p>Very nice pictures</p>
+							</div>
+						</li>
+
 						<li>
 							<div>
 								<strong>ivan</strong>
