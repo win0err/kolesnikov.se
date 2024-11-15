@@ -63,6 +63,16 @@
 								<p>Wow, that&#39;s very cool.</p>
 							</div>
 						</li>
+
+						<li>
+							<div>
+								<strong><a href="https://ari.lt/" target="_blank" rel="noindex nofollow ugc">ari</a></strong>
+								wrote on <small><?php echo get_time_tag("2024-11-13T20:02:32+00:00"); ?></small>
+							</div>
+							<div>
+								<p>hi ! glad to hear your nice perspective on blogs, glad to see the blog culture still alive somewhat</p>
+							</div>
+						</li>
 					</ol>
 
 					<hr class="dashed" />

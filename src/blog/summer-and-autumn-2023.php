@@ -67,6 +67,16 @@
 					<ol>
 						<li>
 							<div>
+								<strong>ivan</strong>
+								wrote on <small><?php echo get_time_tag("2024-10-22T22:05:06+00:00"); ?></small>
+							</div>
+							<div>
+								<p>beautiful pictures</p>
+							</div>
+						</li>
+
+						<li>
+							<div>
 								<strong>Jaja</strong>
 								wrote on <small><?php echo get_time_tag("2024-11-07T17:35:02+00:00"); ?></small>
 							</div>
@@ -77,11 +87,11 @@
 
 						<li>
 							<div>
-								<strong>ivan</strong>
-								wrote on <small><?php echo get_time_tag("2024-10-22T22:05:06+00:00"); ?></small>
+								<strong><a href="https://ari.lt/" target="_blank" rel="noindex nofollow ugc">ari</a></strong>
+								wrote on <small><?php echo get_time_tag("2024-11-13T20:03:13+00:00"); ?></small>
 							</div>
 							<div>
-								<p>beautiful pictures</p>
+								<p>damn, thats really cool :D really nice pictures . keep it up !</p>
 							</div>
 						</li>
 					</ol>
