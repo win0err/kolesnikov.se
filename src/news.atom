@@ -12,8 +12,26 @@
 	</author>
 
 	<!-- Don't forget to update -->
-	<updated>2024-03-06T00:35:00+03:00</updated>
+	<updated>2024-12-09T21:50:00+03:00</updated>
 
+	<!-- id: UUIDv5(title) -->
+
+	<entry>
+		<id>urn:uuid:bf2f17f3-bedb-5ab9-aad9-538557414a0d</id>
+		<title>Website Update #13</title>
+		<published>2024-12-09T21:50:00+03:00</published>
+		<updated>2024-12-09T21:50:00+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 The website is covered in snow because the winter update is here!
+					 Enjoy the “<a href="https://kolesnikov.se/?_theme=winter-2025">Winter 2025</a>” theme :-)
+					 <br />
+					 Happy upcoming holidays!
+					 </p>
+			]]>
+		</content>
+	</entry>
 
 	<entry>
 		<id>urn:uuid:01ee3697-0a6f-5a8c-a3eb-32b24e93f840</id>

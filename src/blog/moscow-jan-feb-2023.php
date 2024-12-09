@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="_theme--black">
 	<head>
 		<?php require __DIR__ . '/../_template/meta.php'; ?>
 		<title>Moscow in January and February — Sergei Kolesnikov's Blog</title>
 	</head>
 
-	<body id="top" class="_theme--black">
+	<body id="top">
 		<div class="container">
 			<?php require __DIR__ . '/../_template/header.php'; ?>
 			<?php require __DIR__ . '/../_template/utils.php'; ?>

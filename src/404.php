@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="_theme--black">
 	<head>
 		<?php require '_template/meta.php'; ?>
 		<meta name="robots" content="noindex, follow" />
 		<title>404 — Not Found</title>
 	</head>
 
-	<body class="_theme--black">
+	<body>
 		<img class="flying-avatar" src="/assets/avatar.jpg" alt="Sergei Kolesnikov's avatar" draggable="false" />
 		<div class="container">
 			<div class="not-found">

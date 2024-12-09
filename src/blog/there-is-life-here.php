@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="_theme--black">
 	<head>
 		<?php require __DIR__ . '/../_template/meta.php'; ?>
 		<title>There Is Life Here! — Sergei Kolesnikov's Blog</title>
@@ -16,7 +16,7 @@
 		</style>
 	</head>
 
-	<body id="top" class="_theme--black">
+	<body id="top">
 		<div class="container">
 			<?php require __DIR__ . '/../_template/header.php'; ?>
 

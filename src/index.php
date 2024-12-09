@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="_theme--black">
 	<head>
 		<?php require '_template/meta.php'; ?>
 		<?php require '_template/is_winter.php'; ?>
@@ -24,7 +24,7 @@
 			type="application/atom+xml" href="/blog.atom" />
 	</head>
 
-	<body id="top" class="_theme--black">
+	<body id="top">
 		<div class="container">
 			<?php require '_template/header.php'; ?>
 
@@ -47,15 +47,16 @@
 				</h2>
 
 				<ul>
+					<li>
+						The website is covered in snow because the winter update is here!
+						Enjoy the “<a href="/?_theme=winter-2025">Winter 2025</a>” theme :-)
+						<br />
+						Happy upcoming holidays!
+					</li>
 					<li>Now I have a “<a href="/now.html">now</a>” page!</li>
 					<li>I've posted 19 photos taken in <a href="/blog/summer-and-autumn-2023.html">the summer and autumn 2023</a>.</li>
 					<li>I've published <a href="/blog/spring-in-moscow-2023.html">a new post with photos</a> of spring 2023 in Moscow.</li>
 					<li>Winter is here! This means the website has been <a href="/#themes">decorated</a> for the New Year<br />Update: Removed until December 2024 ;-)</li>
-					<li>
-						I've started a new category on my <a href="/blog.html">blog</a> with photo posts.
-						Entries in this category are marked with a camera icon.<br />
-						The first publication is “<a href="/blog/moscow-jan-feb-2023.html">Moscow in January and February</a>”.
-					</li>
 				</ul>
 				<p><a href="/news.html">Older news…</a></p>
 
@@ -133,23 +134,47 @@
 					This website is presented in different color schemes.
 					<noscript>You need to have JavaScript enabled to use this feature.</noscript>
 
+					<br />
+
 					<span class="theme-switchers theme-switchers--hidden">
 						Choose the color scheme that you like:
 						<a href="/?_theme=black" class="_dotted">Black</a> (default),
-						<?php
-							if (IS_WINTER) {
-								echo<<<HTML
-									<span><a href="/?_theme=winter" class="_dotted">Winter</a>
-										<img height=14 src="/assets/attention/new3.gif" alt="New!"></span>,
-								HTML;
-							}
-						?>
 						<a href="/?_theme=tonsky" class="_dotted">Tonsky</a>,
 						<a href="/?_theme=panther" class="_dotted">Panther</a>,
 						<a href="/?_theme=sky" class="_dotted">Sky</a>, or
 						<a href="/?_theme=space" class="_dotted">Space</a>.
 					</span>
 				</p>
+
+				<?php
+					if ($IS_WINTER) {
+						echo <<<HTML
+						<p class="theme-switchers theme-switchers--hidden">
+						<img class="special-themes-attention" src="/assets/attention/newarrow.gif" alt="New!">
+						Special seasonal themes:&nbsp;
+HTML;
+
+						$html = array_map(
+							function ($year) use ($WINTER_CURRENT_YEAR) {
+								$html = "<a href=\"/?_theme=winter-{$year}\" class=\"_dotted\">Winter&nbsp;${year}</a>";
+
+								if ($year === $WINTER_CURRENT_YEAR) {
+									$html = <<<HTML
+									<span>{$html}<img height=14 src="/assets/attention/new3.gif" alt="New!"></span>
+HTML;
+								}
+
+								return $html;
+							},
+							$WINTER_YEARS,
+						);
+
+						$last = array_pop($html);
+
+						echo implode(', ' . PHP_EOL, $html);
+						echo ", and {$last}</p>";
+					}
+				?>
 
 				<h2>Webrings I've joined</h2>
 
@@ -189,7 +214,7 @@
 				</ul>
 			</main>
 
-			<hr class="<?php echo IS_WINTER ? 'styled styled--winter' : 'unstyled' ?>" />
+			<hr class="<?php echo $IS_WINTER ? 'styled styled--winter' : 'unstyled' ?>" />
 
 			<?php require '_template/footer.php'; ?>
 		</div>

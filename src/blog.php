@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="_theme--black">
 	<head>
 		<?php require '_template/meta.php'; ?>
 		<title>Sergei Kolesnikov's Blog</title>
@@ -21,7 +21,7 @@
 		</style>
 	</head>
 
-	<body id="top" class="_theme--black">
+	<body id="top">
 		<div class="container">
 			<?php require '_template/header.php'; ?>
 

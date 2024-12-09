@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="_theme--black">
 	<head>
 		<?php require '_template/meta.php'; ?>
 		<title>Sergei Kolesnikov's website news and updates</title>
@@ -7,7 +7,7 @@
 			  type="application/atom+xml" href="/news.atom" />
 	</head>
 
-	<body id="top" class="_theme--black">
+	<body id="top">
 		<div class="container">
 			<?php require '_template/header.php'; ?>
 
@@ -24,6 +24,12 @@
 				<h2>2024</h2>
 
 				<ul>
+					<li>
+						The website is covered in snow because the winter update is here!
+						Enjoy the “<a href="/?_theme=winter-2025">Winter 2025</a>” theme :-)
+						<br />
+						Happy upcoming holidays!
+					</li>
 					<li>Now I have a “<a href="/now.html">now</a>” page!</li>
 					<!--
 						 Hi, I'm glad you decided to take a look at the source code of this page!

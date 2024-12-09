@@ -45,14 +45,63 @@
 	--text-color: #570466;
 }
 
-._theme--winter {
+
+/* start: winter themes */
+
+._theme--winter-2025 {
+	cursor: url('/assets/cursors/christmas-tree.cur'), default;
+}
+
+._theme--winter-2025 {
+	--background: url('/assets/backgrounds/jwsnow1g.gif'), #7bb6ed;
+	--text-color: #080822;
+
+	--snow-shadow-s: 0px -1px #fff;
+	--snow-shadow-l: 0px -1.5px #fff;
+}
+
+._theme--winter-2025 .header__avatar {
+	box-shadow: var(--snow-shadow-l);
+}
+
+._theme--winter-2025 h1,
+._theme--winter-2025 h2 {
+	text-shadow: var(--snow-shadow-l);
+}
+
+._theme--winter-2025 h3,
+._theme--winter-2025 h4 {
+	text-shadow: var(--snow-shadow-s);
+}
+
+._theme--winter-2025 main h1{
+	text-shadow: none;
+	filter: drop-shadow(var(--snow-shadow-l));
+}
+
+._theme--winter-2025 main h2 {
+	text-shadow: none;
+	filter: drop-shadow(var(--snow-shadow-s));
+}
+
+
+._theme--winter-2024 {
 	--link-color: #fff;
 	--link-visited-color: #cdccf0;
 
 	--background: url('/assets/backgrounds/snowbg.gif');
 	--text-color: #fff;
 }
-body._theme--winter::before {
+
+._theme--winter-2023 {
+	--link-color: #fff;
+	--link-visited-color: #cdccf0;
+
+	--background: url('/assets/winter/christmas-lights-2.gif') repeat-x, url('/assets/backgrounds/winter.gif');
+	--text-color: #fff;
+}
+
+[class*="_theme--winter"] body::before {
 	height: 24px; /* height of /assets/winter/christmas-lights-2.gif*/
 	width: 100vw;
 	background: url('/assets/winter/christmas-lights-2.gif') repeat-x;
@@ -64,19 +113,27 @@ body._theme--winter::before {
 	display: block;
 	image-rendering: pixelated;
 }
-._theme--winter .header {
+
+[class*="_theme--winter"] .header {
 	margin-top: 24px; /* height of /assets/winter/christmas-lights-2.gif*/
 }
-._theme--winter .footer {
+
+[class*="_theme--winter"] .footer {
 	align-items: center;
 	margin-top: -.5rem;
 }
-._theme--winter main h1,
-._theme--winter main h2 {
+
+[class*="_theme--winter"] main h1,
+[class*="_theme--winter"] main h2 {
 	background: url('/assets/winter/nano-tree.gif') left center no-repeat;
+	background-size: contain;
+	height: 1em;
 	image-rendering: pixelated;
 	padding-left: 36px;
 }
+
+/* end: winter themes */
+
 
 a {
 	color: var(--link-color);
@@ -115,10 +172,6 @@ a.external-link::after{
 	background: url(/assets/wikipedia_external_link.png) no-repeat;
 	image-rendering: pixelated;
 	margin-left: 3px;
-}
-
-.theme-switchers {
-	display: inline-block;
 }
 
 .theme-switchers--hidden {
