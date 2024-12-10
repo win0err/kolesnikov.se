@@ -89,7 +89,7 @@
 
 				<p>
 					PGP-signed contacts are available at <a href="/contacts.html">contacts</a> page.
-					If you want to ask something, just <a href="mailto:sergei@kolesnikov.se">drop me an email</a>. I will usually replay in less than a week.
+					If you want to ask something, just <a href="mailto:sergei@kolesnikov.se">drop me an email</a>. I will usually reply in less than a week.
 				</p>
 
 				<p>
