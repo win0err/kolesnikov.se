@@ -64,6 +64,15 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong><a href="https://bano.dev" target="_blank" rel="noindex nofollow ugc">bano</a></strong>
+							wrote on <small><?php echo get_time_tag("2024-12-11T14:39:14+00:00"); ?></small>
+						</div>
+						<div>
+							<p>What a blast from the past!</p>
+						</div>
+					</li>
+					<li>
+						<div>
 							<strong><a href="https://ari.lt/" target="_blank" rel="noindex nofollow ugc">ari</a></strong>
 							wrote on <small><?php echo get_time_tag("2024-12-08T21:11:20+00:00"); ?></small>
 						</div>
