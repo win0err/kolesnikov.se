@@ -64,6 +64,16 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong><a href="https://nyght.neocities.org/" target="_blank" rel="noindex nofollow ugc">Nyght</a></strong>
+							wrote on <small><?php echo get_time_tag("2024-12-17T23:31:09+00:00"); ?></small>
+						</div>
+						<div>
+							<p>what a good job, i really liked the photos. the &#34;morning-in-istra&#34; one gave me some very specific vibes :)</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong><a href="https://iwakura.rip" target="_blank" rel="noindex nofollow ugc">hex</a></strong>
 							wrote on <small><?php echo get_time_tag("2024-12-17T13:32:52+00:00"); ?></small>
 						</div>
