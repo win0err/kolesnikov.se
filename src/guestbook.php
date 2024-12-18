@@ -64,6 +64,16 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong><a href="https://iwakura.rip" target="_blank" rel="noindex nofollow ugc">hex</a></strong>
+							wrote on <small><?php echo get_time_tag("2024-12-17T13:32:52+00:00"); ?></small>
+						</div>
+						<div>
+							<p>i love this. the vibe is amazing</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong><a href="https://bano.dev" target="_blank" rel="noindex nofollow ugc">bano</a></strong>
 							wrote on <small><?php echo get_time_tag("2024-12-11T14:39:14+00:00"); ?></small>
 						</div>
