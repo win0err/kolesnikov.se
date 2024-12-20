@@ -123,13 +123,18 @@
 	margin-top: -.5rem;
 }
 
-[class*="_theme--winter"] main h1,
-[class*="_theme--winter"] main h2 {
+[class*="_theme--winter"] main h1::before,
+[class*="_theme--winter"] main h2::before {
+	content: '';
 	background: url('/assets/winter/nano-tree.gif') left center no-repeat;
 	background-size: contain;
-	height: 1em;
 	image-rendering: pixelated;
-	padding-left: 36px;
+	display: inline-block;
+	vertical-align: middle;
+	height: 1em;
+	width: 1em;
+	margin-right: .1em;
+	margin-bottom: 2px;
 }
 
 /* end: winter themes */

@@ -38,8 +38,7 @@
 					This is my personal corner of the web. I blog here on topics like engineering, photography, and travel.
 				</p>
 
-				<h2>
-					What's new
+				<h2>What's new
 					<a href="/news.atom"><img alt="RSS (Atom Feed)"
 											  title="RSS (Atom Feed) — Website news and updates"
 											  style="vertical-align: middle;margin-bottom: 1px;"
