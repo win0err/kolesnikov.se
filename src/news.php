@@ -28,7 +28,7 @@
 						The website is covered in snow because the winter update is here!
 						Enjoy the “<a href="/?_theme=winter-2025">Winter 2025</a>” theme :-)
 						<br />
-						Happy upcoming holidays!
+						Happy upcoming holidays! Update: Removed until December 2025 ;-)
 					</li>
 					<li>Now I have a “<a href="/now.html">now</a>” page!</li>
 					<!--
