@@ -73,6 +73,16 @@
 								<p>hi ! glad to hear your nice perspective on blogs, glad to see the blog culture still alive somewhat</p>
 							</div>
 						</li>
+
+						<li>
+							<div>
+								<strong>DONOFOX!</strong>
+								wrote on <small><?php echo get_time_tag("2025-04-21T16:03:05+00:00"); ?></small>
+							</div>
+							<div>
+								<p>The old internet, its comming back, while listening to virtual insanity, frizk and snuffles. si, un furro español estuvo aqui. (lmao) typing this on a Nokia 7230 with OperaMini lol</p>
+							</div>
+						</li>
 					</ol>
 
 					<hr class="dashed" />
