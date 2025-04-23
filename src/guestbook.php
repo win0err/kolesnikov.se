@@ -64,6 +64,41 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>Sandy</strong>
+							wrote on <small><?php echo get_time_tag("2025-04-01T11:37:52+00:00"); ?></small>
+						</div>
+						<div>
+							<p>
+								And you dont want me here anymore<br />
+								so i&#39;m just saying <br />
+								i want a chance <br />
+								i dont know if i can do that<br />
+								or if you can just do that<br />
+								i&#39;m just not going anywhere<br />
+								i just dont want <br />
+								you guys going nowhere
+							</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
+							<strong><a href="https://herz.moe/" target="_blank" rel="noindex nofollow ugc">herz</a></strong>
+							wrote on <small><?php echo get_time_tag("2025-01-13T13:05:54+00:00"); ?></small>
+						</div>
+						<div>
+							<p>Привет, спасибо, что заглянул на мой сайт, у тебя тоже классный сайт. Было интересно покликать по всем темам. Твои фотки тоже зашли — я когда-то унаследовал от деда «Зенит E» с логотипом московской олимпиады 1980 года и таскал его по всей Германии и Италии, но потом закрутился и всё забросил. Надо бы снова взяться за это дело!</p>
+
+							<div class="guestbook-reply">
+								<i>Translated message:</i>
+
+								<p>Hi, thanks for visiting my website, you have a great site too. It was interesting to click through all the topics. I also liked your photos — I once inherited a 'Zenit E' from my grandfather with the logo of the 1980 Moscow Olympics and took it all over Germany and Italy, but then I got busy and abandoned it. I should get back to it!</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong><a href="https://nyght.neocities.org/" target="_blank" rel="noindex nofollow ugc">Nyght</a></strong>
 							wrote on <small><?php echo get_time_tag("2024-12-17T23:31:09+00:00"); ?></small>
 						</div>
