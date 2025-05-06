@@ -13,7 +13,11 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 
 $filters = [
 	'name' => FILTER_SANITIZE_SPECIAL_CHARS,
-	'website' => FILTER_SANITIZE_URL | FILTER_VALIDATE_DOMAIN,
+	'website' => FILTER_VALIDATE_DOMAIN | FILTER_SANITIZE_URL,
+	'email' => [
+		'filter' => FILTER_VALIDATE_EMAIL | FILTER_SANITIZE_EMAIL,
+		'options' => FILTER_FLAG_EMAIL_UNICODE,
+	],
 	'message' => FILTER_SANITIZE_SPECIAL_CHARS,
 	'captcha' => [
 		'filter' => FILTER_CALLBACK,
@@ -44,6 +48,7 @@ $now = gmdate('Y-m-d H:i:s e', $time);
 $time_rfc3339 = gmdate('c', $time);
 
 $website = $form['website'] ?: '-';
+$email = $form['email'] ?: '-';
 
 $nickname = $form['website']
 	? "<a href=\"{$website}\" target=\"_blank\" rel=\"noindex nofollow ugc\">{$form['name']}</a>"
@@ -59,6 +64,7 @@ $message_info = <<<INFO
 Time: {$now}
 Name: {$form['name']}
 Website: {$website}
+Email: {$email}
 Message:
 {$form['message']}
 
@@ -83,7 +89,11 @@ mail(
 	'sergei+guestbook@kolesnikov.se',
 	'New Message in Your Guestbook',
 	$message_info,
-	"MIME-Version: 1.0\r\nContent-type: text/plain;charset=UTF-8\r\n",
+	[
+		'MIME-Version' => '1.0',
+		'Content-Type' => 'text/plain;charset=UTF-8',
+		'X-Mailer' => 'PHP/' . phpversion(),
+	],
 );
 
 http_response_code(201);

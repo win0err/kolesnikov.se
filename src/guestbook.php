@@ -30,8 +30,13 @@
 						</div>
 
 						<div>
-							<label for="website">Your website (optional):</label>
+							<label for="website">Your website <small>(optional)</small>:</label>
 							<input maxlength="50" id="website" name="website" size="30" />
+						</div>
+
+						<div>
+							<label for="email">Your email <small>(optional, won't be published)</small>:</label>
+							<input maxlength="100" id="email" name="email" size="30" />
 						</div>
 
 						<div>

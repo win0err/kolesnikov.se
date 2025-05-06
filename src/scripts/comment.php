@@ -85,7 +85,11 @@ mail(
 	'sergei+comments@kolesnikov.se',
 	'Re: ' . $form['article'],
 	$message_info,
-	"MIME-Version: 1.0\r\nContent-type: text/plain;charset=UTF-8\r\n",
+	[
+		'MIME-Version' => '1.0',
+		'Content-Type' => 'text/plain;charset=UTF-8',
+		'X-Mailer' => 'PHP/' . phpversion(),
+	],
 );
 
 http_response_code(201);
