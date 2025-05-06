@@ -64,6 +64,22 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>terr4ance`</strong>
+							wrote on <small><?php echo get_time_tag("2025-05-05T16:08:37+00:00"); ?></small>
+						</div>
+						<div>
+							<p>Awesome website - planning on making my own soon and this is good inspiration! Sending well wishes from the UK.</p>
+						</div>
+
+						<div class="guestbook-reply">
+							<strong>Sergei Kolesnikov</strong> replied:
+
+							<p>Thanks! I'll be happy to take a look at your website when it's ready!</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>Sandy</strong>
 							wrote on <small><?php echo get_time_tag("2025-04-01T11:37:52+00:00"); ?></small>
 						</div>
