@@ -69,6 +69,16 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>Per</strong>
+							wrote on <small><?php echo get_time_tag("2025-06-10T06:23:33+00:00"); ?></small>
+						</div>
+						<div>
+							<p>RunCat is fantastic and so is this page. It&#39;s a breath of fresh air to see and old school vanilla homepage with a guestbook!</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>terr4ance`</strong>
 							wrote on <small><?php echo get_time_tag("2025-05-05T16:08:37+00:00"); ?></small>
 						</div>
