@@ -12,9 +12,25 @@
 	</author>
 
 	<!-- Don't forget to update -->
-	<updated>2025-02-05T10:50:00+03:00</updated>
+	<updated>2025-16-13T17:05:00+03:00</updated>
 
 	<!-- id: UUIDv5(title) -->
+	<!-- $ uuidgen -n@dns --sha1 -N"title" -->
+
+	<entry>
+		<id>urn:uuid:64ccb36a-b510-5791-b77a-784a68e16d10</id>
+		<title>Website Update #14</title>
+		<published>2025-16-13T17:05:00+03:00</published>
+		<updated>2025-16-13T17:05:00+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <p>
+					 I've just updated my “<a href="https://kolesnikov.se/photography.html">Photography</a>” page
+					 with a fresh collection of photos, including stunning portraits!
+					 </p>
+			]]>
+		</content>
+	</entry>
 
 	<entry>
 		<id>urn:uuid:bf2f17f3-bedb-5ab9-aad9-538557414a0d</id>

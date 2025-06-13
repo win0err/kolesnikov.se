@@ -14,7 +14,8 @@
 	<!-- Don't forget to update -->
 	<updated>2024-01-04T04:00:00+03:00</updated>
 
-	<!-- id: UUID5(title + slug), https://uuidonline.com/?version=5 -->
+	<!-- id: UUID5(title + slug) -->
+	<!-- $ uuidgen -n@dns --sha1 -N"title + slug" -->
 
 	<entry>
 		<!-- UUID(Summer and Autumn 2023 + summer-and-autumn-2023) -->

@@ -21,6 +21,15 @@
 											  src="/assets/rss.gif"></a>
 				</h1>
 
+				<h2>2025</h2>
+
+				<ul>
+					<li>
+						I've just updated my “<a href="/photography.html">Photography</a>” page
+						with a fresh collection of photos, including stunning portraits!
+					</li>
+				</ul>
+
 				<h2>2024</h2>
 
 				<ul>

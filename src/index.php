@@ -47,16 +47,36 @@
 
 				<ul>
 					<li>
+						I've just updated my “<a href="/photography.html">Photography</a>” page
+						with a fresh collection of photos, including stunning portraits!
+					</li>
+
+					<li>
 						The website is covered in snow because the winter update is here!
 						Enjoy the “<a href="/?_theme=winter-2025">Winter 2025</a>” theme :-)
 						<br />
 						Happy upcoming holidays! Update: Removed until December 2025 ;-)
 					</li>
+
 					<li>Now I have a “<a href="/now.html">now</a>” page!</li>
-					<li>I've posted 19 photos taken in <a href="/blog/summer-and-autumn-2023.html">the summer and autumn 2023</a>.</li>
-					<li>I've published <a href="/blog/spring-in-moscow-2023.html">a new post with photos</a> of spring 2023 in Moscow.</li>
-					<li>Winter is here! This means the website has been <a href="/#themes">decorated</a> for the New Year<br />Update: Removed until December 2024 ;-)</li>
+
+					<li>
+						I've posted 19 photos taken in
+						<a href="/blog/summer-and-autumn-2023.html">the summer and autumn 2023</a>.
+					</li>
+
+					<li>
+						I've published <a href="/blog/spring-in-moscow-2023.html">a new post with photos</a>
+						of spring 2023 in Moscow.
+					</li>
+
+					<li>
+						Winter is here! This means the website has been <a href="/#themes">decorated</a>
+						for the New Year<br />
+						Update: Removed until December 2024 ;-)
+					</li>
 				</ul>
+
 				<p><a href="/news.html">Older news…</a></p>
 
 
