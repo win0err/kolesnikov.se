@@ -16,9 +16,54 @@
 		]
 	},
 	{
+		"grid-modifier": "b",
+		"images": [
+			{
+				"path": "anya-nude-1.jpg",
+				"alt": ""
+			},
+			{
+				"path": "masha-2-nude.jpg",
+				"alt": ""
+			},
+			{
+				"path": "anya-nude-2.jpg",
+				"alt": ""
+			},
+			{
+				"path": "nastya-nude.jpg",
+				"alt": ""
+			}
+		]
+	},
+	{
+		"images": [
+			{
+				"path": "plane-in-red.jpg",
+				"alt": ""
+			}
+		]
+	},
+	{
 		"images": [
 			{
 				"path": "winter-sun-in-moscow.jpg",
+				"alt": ""
+			}
+		]
+	},
+	{
+		"images": [
+			{
+				"path": "masha-nude-1.jpg",
+				"alt": ""
+			},
+			{
+				"path": "masha-nude-2.jpg",
+				"alt": ""
+			},
+			{
+				"path": "masha-nude-3.jpg",
 				"alt": ""
 			}
 		]
@@ -42,7 +87,47 @@
 	{
 		"images": [
 			{
+				"path": "veronika.jpg",
+				"alt": ""
+			}
+		]
+	},
+	{
+		"images": [
+			{
+				"path": "abkhazia-1.jpg",
+				"alt": ""
+			},
+			{
+				"path": "abkhazia-2.jpg",
+				"alt": ""
+			},
+			{
+				"path": "abkhazia-3.jpg",
+				"alt": ""
+			}
+		]
+	},
+	{
+		"images": [
+			{
+				"path": "sunflowers-and-stars.jpg",
+				"alt": ""
+			},
+			{
 				"path": "botanical-garden.jpg",
+				"alt": ""
+			}
+		]
+	},
+	{
+		"images": [
+			{
+				"path": "v-nude-1.jpg",
+				"alt": ""
+			},
+			{
+				"path": "v-nude-2.jpg",
 				"alt": ""
 			}
 		]
@@ -75,6 +160,22 @@
 		"images": [
 			{
 				"path": "spb-umbrella.jpg",
+				"alt": ""
+			}
+		]
+	},
+	{
+		"images": [
+			{
+				"path": "masha-nude-4.jpg",
+				"alt": ""
+			},
+			{
+				"path": "masha-nude-5.jpg",
+				"alt": ""
+			},
+			{
+				"path": "masha-nude-6.jpg",
 				"alt": ""
 			}
 		]
@@ -147,14 +248,6 @@
 			},
 			{
 				"path": "fish-2.jpg",
-				"alt": ""
-			}
-		]
-	},
-	{
-		"images": [
-			{
-				"path": "plane-in-red.jpg",
 				"alt": ""
 			}
 		]

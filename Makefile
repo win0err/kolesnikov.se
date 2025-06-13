@@ -4,7 +4,7 @@ pgp_user := 26062BDBE8E66DA9AB3E780CBAC68A790D8AD1F2
 zbase32_user := mdekzg4taonbkkeon37s9b5trq1h1u7x  # gpg --with-wkd-hash --list-public-keys
 
 convert_flags := -quality 100
-jpegoptim_flags := --all-progressive --strip-all -m86
+jpegoptim_flags := --all-progressive --strip-all --max=97
 
 
 images_full_dir := dist/images/full/
@@ -60,22 +60,22 @@ $(dist_dirs):
 
 dist/images/full/%.jpg: */%.jpg
 	@mkdir -p "$(@D)"
-	convert -resize '1920x1920>' $(convert_flags) "$<" "$@"
+	magick "$<" -resize '1920x1920>' $(convert_flags) "$@"
 	jpegoptim $(jpegoptim_flags) "$@"
 
 dist/images/thumbs/%.jpg: */%.jpg
 	@mkdir -p "$(@D)"
-	convert -thumbnail '800x>' $(convert_flags) "$<" "$@"
-	convert -thumbnail '1600x>' $(convert_flags) "$<" $(patsubst %.jpg,%@2x.jpg, $@)
+	magick "$<" -thumbnail '800x>' $(convert_flags) "$@"
+	magick "$<" -thumbnail '1600x>' $(convert_flags) $(patsubst %.jpg,%@2x.jpg, $@)
 	jpegoptim $(jpegoptim_flags) "$@" $(patsubst %.jpg,%@2x.jpg, $@)
 
 
 dist/assets/about.jpg: assets/about.jpg
-	convert -thumbnail '800x>' $(convert_flags) "$<" "$@"
+	magick "$<" -thumbnail '800x>' $(convert_flags) "$@"
 	jpegoptim $(jpegoptim_flags) "$@"
 
 dist/assets/about@2x.jpg: assets/about.jpg
-	convert -thumbnail '1600x>' $(convert_flags) "$<" "$@"
+	magick "$<" -thumbnail '1600x>' $(convert_flags) "$@"
 	jpegoptim $(jpegoptim_flags) "$@"
 
 dist/assets/%: assets/%

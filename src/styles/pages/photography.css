@@ -35,6 +35,14 @@
 	grid-template-columns: repeat(2, 1fr);
 }
 
+.gallery--4b {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery--4b :nth-child(1) {
+	grid-column: span 3;
+}
+
 .gallery--5 {
 	grid-template: repeat(3, auto) / repeat(2, 1fr);
 }
