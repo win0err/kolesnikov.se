@@ -22,69 +22,85 @@
 				<h2>Reading Books</h2>
 
 				<p>
-					I am reading too many books in parallel:
+					I am reading a bunch of books in parallel:
 				</p>
 
 				<ul>
-					<li>“One Hundred Years of Solitude” by Gabriel García Márquez,</li>
-					<li>“Bullshit Jobs. A Theory” by David Graeber,</li>
-					<li>“Discipline and Punish: The Birth of the Prison” by Michel Foucault.</li>
+					<li>“One Hundred Years of Solitude” by Gabriel García Márquez <img src="/assets/attention/finished.gif" alt="finished" />,</li>
+					<li>“Points and Lines” by Seichō Matsumoto <img src="/assets/attention/finished.gif" alt="finished" /></li>
+					<li>“The Sound of Waves” by Yukio Mishima.</li>
 				</ul>
-
-				<p>
-					I’ve finally finished reading “Theater of the World: The Maps that Made History” by Thomas Reinertsen Berg.
-					This book tells the history of mapmaking from ancient times to the present. It looks fantastic and is well written, but in my opinion, it lacks many of the maps referenced in the text. Whenever I read about a map, I had to go on the internet to see what it looks like.
-				</p>
-
-				<p>
-					I’ve also finished “The Old Man and the Sea” by Ernest Hemingway. I admire the simplicity and style of Hemingway’s writing.
-				</p>
-
 
 				<h2>Playing Games</h2>
 
 				<h3>PC</h3>
 
+				<p>I wanted to play my 20-year-old games smoothly (LOL), so I upgraded my gaming setup with an <i>NVIDIA GTX 1080 Ti</i> e-GPU.</p>
+
 				<p>
-					From time to time, I play <i>GTA III</i> and <i>NFS: Most Wanted</i> on my <a href="/about.html#uses" title="Uses">19-inch LaCie Electron Blue IV</a> CRT monitor.
+					Since the last update of this page, I have finished  <i>GTA III</i>.
+					From time to time, I play <i>Half-Life</i> and <i>Counter-Strike: Source</i>
+					on my <a href="/about.html#uses" title="Uses">19-inch LaCie Electron Blue IV</a> CRT monitor.
 				</p>
 
 
 				<h3>Consoles</h3>
 
 				<p>
-					I’ve spent 74 hours playing <i>Persona 4 Golden</i> on my <i>PlayStation Vita</i>.
-					Since my Vita has a <i>PlayStation Portable</i> emulator, I also play <i>GTA: Vice City Stories</i> from time to time.
+					I’ve spent 74 hours playing <i>Persona 4 Golden</i> on my <i>PlayStation Vita</i>, but I haven’t played this game in 2025.<br />
+					Sometimes in the evenings, I play <i>TES: Skyrim</i> on my <i>PlayStation 5</i>.
 				</p>
 
 
 				<h2>Watching Movies & TV Series</h2>
 
-				<ul>
-					<li><i>The Wire</i> <img src="/assets/attention/finished.gif" alt="finished" /> — one of the best TV series I have ever seen;</li>
-					<li><i>The Sopranos</i> — I’m currently in the middle of the sixth season;</li>
-					<li><i>Tokyo Vice</i> — I started watching the second season; I really like the visuals of that series;</li>
-					<li><i>Gravity Falls</i> — just started;</li>
-					<li><i>Sex and the City</i> — the sixth season has finally become cringe comedy. Absolutely awful.</li>
-				</ul>
-
-				<p>
-					I plan to catch up on the second season of <i>Twin Peaks</i> later on.
-				</p>
-
+				<p>From time to time, I watch random movies and TV series in the evenings.</p>
 
 				<h2>Taking Photos</h2>
 
 				<p>
-					I bought a Nikon 28Ti film camera!
+					I mainly shoot everyday life with my <i>Nikon 28Ti</i>.
+					To snap some pics of the houseplants my girlfriend grows, I picked up a <i>Nikon 60mm f/2.8G</i> macro lens,
+					along with a <i>Nikon 85mm f/1.8D</i> just to add to my collection of D-series lenses.
 				</p>
+
+				<p>
+					I also had a cool nude photoshoot in February, and you can check out the results
+					on my <a href="/photography.html">photography page</a>!
+				</p>
+
+				<h2>Playing Guitar</h2>
+
+				<p>
+					For my anniversary, I decided to update my guitar gear.
+					I began by purchasing an <i>Epiphone Thunderbird 60s Bass</i> in Tobacco Sunburst, which I absolutely love.
+					Three months later, I added a <i>Fender Player II Stratocaster</i> in 3-Color Sunburst to my collection,
+					complementing my <i>Epiphone Les Paul Special II</i> in Heritage Cherry Sunburst.
+				</p>
+
+				<p>
+					I replaced the strings on my bass with <i>Dunlop Stainless Steel Flatwound Bass Strings (50-110)</i>,
+					which have given it a more vintage sound.
+				</p>
+
+				<p>
+					To complete my setup, I also invested in an <i>Orange Crush Bass 25</i> combo amplifier for my bass guitar,
+					a <i>VOX VT20X</i> for my electric guitars, and a super cute <i>Orange Crush Mini</i>.
+				</p>
+
+				<p>
+					Additionally, I got my first pedals:
+					a <i>VOX WAH V847-A</i>,
+					a germanium <i>Dunlop JDF2 Fuzz Face Distortion</i> (which sounds great with my Strat!),
+					and an <i>Electro-Harmonix Nano Looper 360</i>.
+				</p>
+
+				<p>	With these additions, my gear is now better than ever!</p>
 
 
 				<h2>Programming</h2>
 
-				<p>This month I <del>still</del> have plans for the release of a new version of <a href="https://github.com/win0err/gnome-runcat/" target="_blank" rel="noopener noreferrer nofollow">GNOME RunCat</a> with a number of new features.</p>
-
-				<p>I started developing Quite Simple Image Editor as a demonstration of how linear algebra can be used for image processing.</p>
+				<p>This month, I plan to release a new version of <a href="https://github.com/win0err/gnome-runcat/" target="_blank" rel="noopener noreferrer nofollow">GNOME RunCat</a> with several new features.</p>
 
 				<p>
 					There are some plans for this blog.
