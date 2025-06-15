@@ -28,3 +28,8 @@
 #                       //\/              \/\\                           #
 #                   ___(_)_                _(_)___                       #
 #  ________________///____\\______________//____\\\___________________   #
+
+
+User-agent: *
+Disallow: /images/thumbs/photography/nudes/
+Disallow: /images/full/photography/nudes/

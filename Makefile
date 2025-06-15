@@ -29,7 +29,7 @@ custom_assets := dist/assets/about.jpg dist/assets/about@2x.jpg \
 
 scripts := $(patsubst src/%,dist/%,$(wildcard src/scripts/*.php))
 
-images_src := $(wildcard src/photography/*.jpg src/blog/*/*.jpg)
+images_src := $(wildcard src/photography/*.jpg src/photography/*/*.jpg src/blog/*/*.jpg)
 images_full := $(images_src:src/%=dist/images/full/%)
 images_thumbs := $(images_src:src/%=dist/images/thumbs/%)
 

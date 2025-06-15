@@ -19,19 +19,19 @@
 		"grid-modifier": "b",
 		"images": [
 			{
-				"path": "anya-nude-1.jpg",
+				"path": "nudes/anya-nude-1.jpg",
 				"alt": ""
 			},
 			{
-				"path": "masha-2-nude.jpg",
+				"path": "nudes/masha-2-nude.jpg",
 				"alt": ""
 			},
 			{
-				"path": "anya-nude-2.jpg",
+				"path": "nudes/anya-nude-2.jpg",
 				"alt": ""
 			},
 			{
-				"path": "nastya-nude.jpg",
+				"path": "nudes/nastya-nude.jpg",
 				"alt": ""
 			}
 		]
@@ -55,15 +55,15 @@
 	{
 		"images": [
 			{
-				"path": "masha-nude-1.jpg",
+				"path": "nudes/masha-nude-1.jpg",
 				"alt": ""
 			},
 			{
-				"path": "masha-nude-2.jpg",
+				"path": "nudes/masha-nude-2.jpg",
 				"alt": ""
 			},
 			{
-				"path": "masha-nude-3.jpg",
+				"path": "nudes/masha-nude-3.jpg",
 				"alt": ""
 			}
 		]
@@ -123,11 +123,11 @@
 	{
 		"images": [
 			{
-				"path": "v-nude-1.jpg",
+				"path": "nudes/v-nude-1.jpg",
 				"alt": ""
 			},
 			{
-				"path": "v-nude-2.jpg",
+				"path": "nudes/v-nude-2.jpg",
 				"alt": ""
 			}
 		]
@@ -167,15 +167,15 @@
 	{
 		"images": [
 			{
-				"path": "masha-nude-4.jpg",
+				"path": "nudes/masha-nude-4.jpg",
 				"alt": ""
 			},
 			{
-				"path": "masha-nude-5.jpg",
+				"path": "nudes/masha-nude-5.jpg",
 				"alt": ""
 			},
 			{
-				"path": "masha-nude-6.jpg",
+				"path": "nudes/masha-nude-6.jpg",
 				"alt": ""
 			}
 		]
@@ -232,6 +232,14 @@
 			},
 			{
 				"path": "tree-and-white-wall.jpg",
+				"alt": ""
+			}
+		]
+	},
+	{
+		"images": [
+			{
+				"path": "masha.jpg",
 				"alt": ""
 			}
 		]
