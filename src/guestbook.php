@@ -69,6 +69,16 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>Driswillis156</strong>
+							wrote on <small><?php echo get_time_tag("2025-06-26T10:27:07+00:00"); ?></small>
+						</div>
+						<div>
+							<p>cool guestbook here.<br />i guess i have nothing to type here lol</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>Per</strong>
 							wrote on <small><?php echo get_time_tag("2025-06-10T06:23:33+00:00"); ?></small>
 						</div>
