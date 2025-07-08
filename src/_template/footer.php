@@ -104,3 +104,7 @@
 				.setAttribute('src', newGifSrc)
 	})
 </script>
+
+<script>
+	console.log('Hello, thanks for visiting my website :)')
+</script>
