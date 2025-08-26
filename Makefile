@@ -27,7 +27,7 @@ custom_assets := dist/assets/about.jpg dist/assets/about@2x.jpg \
 				 dist/favicon.ico \
 				 dist/robots.txt dist/humans.txt
 
-scripts := $(patsubst src/%,dist/%,$(wildcard src/scripts/*.php))
+scripts := $(patsubst src/%,dist/%,$(wildcard src/scripts/*.php) src/scripts/blocked_words.txt)
 
 images_src := $(wildcard src/photography/*.jpg src/photography/*/*.jpg src/blog/*/*.jpg)
 images_full := $(images_src:src/%=dist/images/full/%)

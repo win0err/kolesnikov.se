@@ -1,0 +1,3 @@
+/api.whatsapp.com/
+/wa.me/
+/opendata.kp.gov.pk/

@@ -11,6 +11,15 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 	exit('405 Method Not Allowed.');
 }
 
+if (!function_exists('array_any')) {
+	function array_any(array $arr, callable $predicate): bool {
+		foreach ($arr as $k => $v) {
+			if ($predicate($v, $k)) return true;
+		}
+		return false;
+	}
+}
+
 $filters = [
 	'name' => FILTER_SANITIZE_SPECIAL_CHARS,
 	'website' => FILTER_VALIDATE_DOMAIN | FILTER_SANITIZE_URL,
@@ -49,6 +58,15 @@ $time_rfc3339 = gmdate('c', $time);
 
 $website = $form['website'] ?: '-';
 $email = $form['email'] ?: '-';
+
+$content_to_check = implode(' ', [$form['name'], $website, $form['message']]);
+$blocked_words = file('blocked_words.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+if (array_any($blocked_words, fn($word) => str_contains($content_to_check, $word))) {
+	http_response_code(400);
+
+	exit('400 Bad Request. Seems like you\'re a spammer (⩺_⩹)');
+}
 
 $nickname = $form['website']
 	? "<a href=\"{$website}\" target=\"_blank\" rel=\"noindex nofollow ugc\">{$form['name']}</a>"
