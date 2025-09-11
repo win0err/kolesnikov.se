@@ -83,6 +83,16 @@
 								<p>The old internet, its comming back, while listening to virtual insanity, frizk and snuffles. si, un furro español estuvo aqui. (lmao) typing this on a Nokia 7230 with OperaMini lol</p>
 							</div>
 						</li>
+
+						<li>
+							<div>
+								<strong>coolperson</strong>
+								wrote on <small><?php echo get_time_tag("2025-09-08T01:28:32+00:00"); ?></small>
+							</div>
+							<div>
+								<p>i agree with your points!</p>
+							</div>
+						</li>
 					</ol>
 
 					<hr class="dashed" />
