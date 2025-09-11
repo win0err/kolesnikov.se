@@ -62,7 +62,10 @@ $email = $form['email'] ?: '-';
 $content_to_check = implode(' ', [$form['name'], $website, $form['message']]);
 $blocked_words = file('blocked_words.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
-if (array_any($blocked_words, fn($word) => str_contains($content_to_check, $word))) {
+$contains_blocked_words = array_any($blocked_words, fn($word) => str_contains($content_to_check, $word));
+$too_many_links = substr_count($content_to_check, 'https://') > 3;
+
+if ($contains_blocked_words || $too_many_links) {
 	http_response_code(400);
 
 	exit('400 Bad Request. Seems like you\'re a spammer (⩺_⩹)');
