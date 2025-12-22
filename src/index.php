@@ -47,6 +47,10 @@
 
 				<ul>
 					<li>
+						<a href="/?_theme=winter-2026">The Northern Lights</a> are now visible on my website — the New Year holidays are coming!
+					</li>
+
+					<li>
 						I've just updated my “<a href="/photography.html">Photography</a>” page
 						with a fresh collection of photos, including stunning portraits!
 					</li>
@@ -68,12 +72,6 @@
 					<li>
 						I've published <a href="/blog/spring-in-moscow-2023.html">a new post with photos</a>
 						of spring 2023 in Moscow.
-					</li>
-
-					<li>
-						Winter is here! This means the website has been <a href="/#themes">decorated</a>
-						for the New Year<br />
-						Update: Removed until December 2024 ;-)
 					</li>
 				</ul>
 

@@ -48,6 +48,15 @@
 
 /* start: winter themes */
 
+._theme--winter-2026 {
+	--background: url('/assets/backgrounds/aurora.png') no-repeat 50% 0 / 100%, url('/assets/backgrounds/snow/snow02.gif'), #00a0f0;
+	--text-color: #000;
+
+	--snow-shadow-s: 0px -1px #fff;
+	--snow-shadow-l: 0px -1.5px #fff;
+}
+
+._theme--winter-2026,
 ._theme--winter-2025 {
 	cursor: url('/assets/cursors/christmas-tree.cur'), default;
 }
@@ -60,25 +69,28 @@
 	--snow-shadow-l: 0px -1.5px #fff;
 }
 
+._theme--winter-2026 .header__avatar,
 ._theme--winter-2025 .header__avatar {
 	box-shadow: var(--snow-shadow-l);
 }
 
-._theme--winter-2025 h1,
-._theme--winter-2025 h2 {
+._theme--winter-2026 h1, ._theme--winter-2026 h2,
+._theme--winter-2025 h1, ._theme--winter-2025 h2 {
 	text-shadow: var(--snow-shadow-l);
 }
 
-._theme--winter-2025 h3,
-._theme--winter-2025 h4 {
+._theme--winter-2026 h3, ._theme--winter-2026 h4,
+._theme--winter-2025 h3, ._theme--winter-2025 h4 {
 	text-shadow: var(--snow-shadow-s);
 }
 
-._theme--winter-2025 main h1{
+._theme--winter-2026 main h1,
+._theme--winter-2025 main h1 {
 	text-shadow: none;
 	filter: drop-shadow(var(--snow-shadow-l));
 }
 
+._theme--winter-2026 main h2,
 ._theme--winter-2025 main h2 {
 	text-shadow: none;
 	filter: drop-shadow(var(--snow-shadow-s));

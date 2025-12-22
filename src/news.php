@@ -25,6 +25,10 @@
 
 				<ul>
 					<li>
+						<a href="/?_theme=winter-2026">The Northern Lights</a> are now visible on my website — the New Year holidays are coming!
+					</li>
+
+					<li>
 						I've just updated my “<a href="/photography.html">Photography</a>” page
 						with a fresh collection of photos, including stunning portraits!
 					</li>

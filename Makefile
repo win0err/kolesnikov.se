@@ -19,7 +19,7 @@ php_includes := $(wildcard src/_template/*.php)
 
 css := $(wildcard src/styles/*.css src/styles/*/*.css)
 
-assets_src := $(wildcard assets/*.* assets/*/*.*)
+assets_src := $(wildcard assets/*.* assets/*/*.* assets/*/*/*.*)
 skipped_assets := assets/favicon.ico
 assets := $(addprefix dist/, $(filter-out $(skipped_assets),$(assets_src)))
 

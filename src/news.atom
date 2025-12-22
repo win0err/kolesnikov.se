@@ -18,6 +18,18 @@
 	<!-- $ uuidgen -n@dns --sha1 -N"title" -->
 
 	<entry>
+		<id>urn:uuid:3842c6d4-eb65-5502-85d6-ec30d6843f92</id>
+		<title>Website Update #15</title>
+		<published>2025-12-22T19:35:00+03:00</published>
+		<updated>2025-12-22T19:35:00+03:00</updated>
+		<content type="html">
+			<![CDATA[
+					 <a href="https://kolesnikov.se/?_theme=winter-2026">The Northern Lights</a> are now visible on my website — the New Year holidays are coming!
+			]]>
+		</content>
+	</entry>
+
+	<entry>
 		<id>urn:uuid:64ccb36a-b510-5791-b77a-784a68e16d10</id>
 		<title>Website Update #14</title>
 		<published>2025-06-13T17:05:00+03:00</published>
