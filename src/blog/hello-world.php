@@ -93,6 +93,16 @@
 								<p>i agree with your points!</p>
 							</div>
 						</li>
+
+						<li>
+							<div>
+								<strong><a href="https://wojak.cafe" target="_blank" rel="noindex nofollow ugc">guy</a></strong>
+								wrote on <small><?php echo get_time_tag("2025-12-22T16:20:58+00:00"); ?></small>
+							</div>
+							<div>
+								<p>Hello! I like your photographs</p>
+							</div>
+						</li>
 					</ol>
 
 					<hr class="dashed" />
