@@ -1,5 +1,5 @@
 <?php
 
-$IS_WINTER = true;
+$IS_WINTER = false;
 $WINTER_YEARS = [2023, 2024, 2025, 2026];
 $WINTER_CURRENT_YEAR = 2026;

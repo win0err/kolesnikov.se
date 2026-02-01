@@ -26,6 +26,8 @@
 				<ul>
 					<li>
 						<a href="/?_theme=winter-2026">The Northern Lights</a> are now visible on my website — the New Year holidays are coming!
+						<br />
+						Update: Removed until December 2026 ;-)
 					</li>
 
 					<li>

@@ -21,12 +21,16 @@
 		<id>urn:uuid:3842c6d4-eb65-5502-85d6-ec30d6843f92</id>
 		<title>Website Update #15</title>
 		<published>2025-12-22T19:35:00+03:00</published>
-		<updated>2025-12-22T19:35:00+03:00</updated>
+		<updated>2026-02-01T13:00:00+03:00</updated>
 		<content type="html">
 			<![CDATA[
+					 <p>
 					 <a href="https://kolesnikov.se/?_theme=winter-2026">The Northern Lights</a> are now visible on my website — the New Year holidays are coming!
+					 <br />
+					 Update: Removed until December 2026 ;-)
+					 </p>
 			]]>
-		</content>
+	  </content>
 	</entry>
 
 	<entry>
