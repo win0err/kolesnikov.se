@@ -18,6 +18,8 @@
 			</div>
 		</div>
 
+		<?php require_once '_template/script-theme-apply.php'; ?>
+
 		<script>
 			window.addEventListener('DOMContentLoaded', () => {
 				const avatar = document.querySelector('.flying-avatar')
