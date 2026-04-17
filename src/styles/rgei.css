@@ -1,0 +1,4 @@
+.sergei-menu ul li {
+	list-style-image: url('/assets/lists/metalic_purple.gif');
+	image-rendering: crisp-edges;
+}

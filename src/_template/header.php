@@ -31,6 +31,8 @@ if ($file === 'index') {
 		<nav class="header__menu"><ul>{$print_menu($pages)}</ul></nav>
 	</header>
 	HEADER;
+} else if ($file === 'rgei') {
+	echo "<nav class=\"sergei-menu\"><ul>{$print_menu($pages)}</ul></nav>";
 } else {
 	echo <<< HEADER
 	<header class="header header--small">
