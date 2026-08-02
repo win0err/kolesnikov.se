@@ -6,4 +6,5 @@ dist/
 .DS_Store
 
 src/photography/*.jpg
+src/photography/*/*.jpg
 src/blog/**/*.jpg
