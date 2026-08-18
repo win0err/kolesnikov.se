@@ -69,6 +69,16 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong><a href="http://www.k3can.us" target="_blank" rel="noindex nofollow ugc">Adam</a></strong>
+							wrote on <small><?php echo get_time_tag("2026-08-12T21:41:11+00:00"); ?></small>
+						</div>
+						<div>
+							<p>Found your site while stumbling though some webrings. Great photos!</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>X</strong>
 							wrote on <small><?php echo get_time_tag("2026-06-02T22:52:00+00:00"); ?></small>
 						</div>
