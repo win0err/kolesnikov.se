@@ -69,6 +69,23 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>aganov</strong>
+							wrote on <small><?php echo get_time_tag("2026-09-07T22:59:22+00:00"); ?></small>
+						</div>
+						<div>
+							<p>Привет из Молдовы!</p>
+						</div>
+
+
+						<div class="guestbook-reply">
+							<i>Translated message:</i>
+
+							<p>Hello from Moldova!</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong><a href="http://www.k3can.us" target="_blank" rel="noindex nofollow ugc">Adam</a></strong>
 							wrote on <small><?php echo get_time_tag("2026-08-12T21:41:11+00:00"); ?></small>
 						</div>
