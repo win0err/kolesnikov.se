@@ -69,13 +69,28 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>Егор</strong>
+							wrote on <small><?php echo get_time_tag("2026-09-08T01:12:44+00:00"); ?></small>
+						</div>
+						<div>
+							<p>Привет со 2 курса КБ РТУ МИРЭА &#60;3</p>
+						</div>
+
+						<div class="guestbook-reply">
+							<i>Translated message:</i>
+
+							<p>Hey from year 2 of Cybersecurity at RTU MIREA &#60;3</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>aganov</strong>
 							wrote on <small><?php echo get_time_tag("2026-09-07T22:59:22+00:00"); ?></small>
 						</div>
 						<div>
 							<p>Привет из Молдовы!</p>
 						</div>
-
 
 						<div class="guestbook-reply">
 							<i>Translated message:</i>
