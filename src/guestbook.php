@@ -69,6 +69,22 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>Головач Лена</strong>
+							wrote on <small><?php echo get_time_tag("2026-11-07T21:03:40+00:00"); ?></small>
+						</div>
+						<div>
+							<p>Улыбок тебе дед Макар</p>
+						</div>
+
+						<div class="guestbook-reply">
+							<i>Translated message:</i>
+
+							<p>Wishing you smiles, Grandpa Makar</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>Егор</strong>
 							wrote on <small><?php echo get_time_tag("2026-09-08T01:12:44+00:00"); ?></small>
 						</div>
