@@ -69,6 +69,16 @@
 				<ol reversed>
 					<li>
 						<div>
+							<strong>Lux Walton</strong>
+							wrote on <small><?php echo get_time_tag("2026-11-10T19:35:25+00:00"); ?></small>
+						</div>
+						<div>
+							<p>Hello! Great website! I&#39;m typing this out on an iMac G3 from 1999. I am a retro enthusiast who is studying visual effects at a university in London. Greetings from England!</p>
+						</div>
+					</li>
+
+					<li>
+						<div>
 							<strong>Головач Лена</strong>
 							wrote on <small><?php echo get_time_tag("2026-11-07T21:03:40+00:00"); ?></small>
 						</div>
